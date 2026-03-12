@@ -55,12 +55,22 @@ SEARCH_QUERIES = [
 ]
 
 RSS_FEEDS = [
+
+    # Newsletters / analysis
     "https://importai.substack.com/feed",
+    "https://www.understandingai.org/feed",
+    "https://www.noemamag.com/feed/",
+
+    # Research & policy
+    "https://hai.stanford.edu/news/rss.xml",
+    "https://oecd.ai/en/news/rss",
+    "https://www.imf.org/en/Blogs/RSS",
+
+    # Tech journalism
     "https://www.technologyreview.com/feed/",
     "https://feeds.arstechnica.com/arstechnica/technology-lab",
     "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-    "https://www.understandingai.org/feed",
-    "https://www.noemamag.com/feed/",
+
 ]
 
 KEYWORD_WEIGHTS = {
@@ -383,6 +393,15 @@ def classify_lane(text: str) -> str:
         return "Social institutions"
     return "Capabilities & deployment"
 
+def is_analysis_source(article: Article) -> bool:
+    domain = article.domain
+
+    return any(d in domain for d in [
+        "substack.com",
+        "understandingai.org",
+        "noemamag.com",
+    ])
+
 def short_summary(article: Article) -> str:
     desc = clean_text(article.description or article.content_hint or "")
     combined = f"{article.title}. {desc}".strip()
@@ -624,12 +643,36 @@ def generate_digest(articles: List[Article]) -> str:
     lines.append("This is an automated digest ranked for likely relevance to society, work, policy, and the economy.")
     lines.append("")
 
+    # --------------------------------
+    # Analysis / commentary section
+    # --------------------------------
+
+    analysis_articles = [a for a in articles if is_analysis_source(a)]
+
+    if analysis_articles:
+        lines.append("## AI Analysis & Commentary")
+        lines.append("")
+
+        for a in analysis_articles[:3]:
+            pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
+
+            lines.append(f"### {a.title}")
+            lines.append(f"- Source: {a.source} ({a.domain})")
+            lines.append(f"- Published: {pub}")
+            lines.append(f"- Brief: {short_summary(a)}")
+            lines.append(f"- Link: {a.url}")
+            lines.append("")
+
+    # remove them from the rest of the ranking
+    articles = [a for a in articles if not is_analysis_source(a)]
+
     lanes: Dict[str, List[Article]] = {}
     for article in articles:
         lane = classify_lane(f"{article.title} {article.description} {article.content_hint}")
         lanes.setdefault(lane, []).append(article)
 
     preferred_order = [
+	"AI Analysis & Commentary",
         "Work & labor",
         "Economy & business",
         "Policy & law",
