@@ -397,13 +397,11 @@ def classify_lane(text: str) -> str:
     return "Capabilities & deployment"
 
 def is_analysis_source(article: Article) -> bool:
-    domain = article.domain
-
-    return any(d in domain for d in [
-        "substack.com",
+    return article.domain in [
+        "importai.substack.com",
         "understandingai.org",
         "noemamag.com",
-    ])
+    ]
 
 def short_summary(article: Article) -> str:
     desc = clean_text(article.description or article.content_hint or "")
@@ -682,18 +680,15 @@ def generate_digest(articles: List[Article]) -> str:
     analysis_articles = [a for a in articles if is_analysis_source(a)]
 
     if analysis_articles:
-        lines.append("## AI Analysis & Commentary")
-        lines.append("")
+    lines.append("<h2>AI Analysis & Commentary</h2>")
 
-        for a in analysis_articles[:3]:
-            pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
+    for a in analysis_articles[:3]:
+        pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
 
-            lines.append(f"### {a.title}")
-            lines.append(f"- Source: {a.source} ({a.domain})")
-            lines.append(f"- Published: {pub}")
-            lines.append(f"- Brief: {short_summary(a)}")
-            lines.append(f"- Link: {a.url}")
-            lines.append("")
+        lines.append(f"<h3>{a.title}</h3>")
+        lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})</p>")
+        lines.append(f"<p><strong>Published:</strong> {pub}</p>")
+        lines.
 
     # remove them from the rest of the ranking
     articles = [a for a in articles if not is_analysis_source(a)]
@@ -711,33 +706,31 @@ def generate_digest(articles: List[Article]) -> str:
         "Capabilities & deployment",
     ]
 
-    for lane in preferred_order:
-        lane_items = lanes.get(lane, [])
-        if not lane_items:
-            continue
+for lane in preferred_order:
+    lane_items = lanes.get(lane, [])
+    if not lane_items:
+        continue
 
-        lines.append(f"## {lane}")
-        lines.append("")
+    lines.append(f"<h2>{lane}</h2>")
 
-        for a in lane_items[:3]:
-            pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
-            tags = ", ".join(a.tags or [])
+    for a in lane_items[:3]:
+        pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
+        tags = ", ".join(a.tags or [])
 
-            lines.append(f"### {a.title}")
-            lines.append(f"- Source: {a.source} ({a.domain})")
-            lines.append(f"- Published: {pub}")
-            lines.append(f"- Score: {a.total_score:.1f}")
-            if tags:
-                lines.append(f"- Tags: {tags}")
-            lines.append(f"- Brief: {short_summary(a)}")
-            lines.append(f"- Link: {a.url}")
-            lines.append("")
+        lines.append(f"<h3>{a.title}</h3>")
+        lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})</p>")
+        lines.append(f"<p><strong>Published:</strong> {pub}</p>")
+        lines.append(f"<p><strong>Score:</strong> {a.total_score:.1f}</p>")
+        if tags:
+            lines.append(f"<p><strong>Tags:</strong> {tags}</p>")
+        lines.append(f"<p><strong>Brief:</strong> {short_summary(a)}</p>")
+        lines.append(f"<p><strong>Link:</strong> <a href='{a.url}'>{a.url}</a></p>")
 
-    return "\n".join(lines)
+return "\n".join(lines)
 
 def save_digest(markdown: str) -> str:
+    os.makedirs("archive", exist_ok=True)
     filename = f"archive/ai_digest_{now_utc().strftime('%Y%m%d')}.md"
-    
     with open(filename, "w", encoding="utf-8") as f:
         f.write(markdown)
     return filename
@@ -774,7 +767,12 @@ def main() -> None:
     unseen = filter_unseen_articles(deduped, seen_urls)
     print(f"[info] {len(unseen)} items after seen-article filtering")
 
-    final_items = sorted(unseen, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+    analysis_items = [a for a in unseen if is_analysis_source(a)]
+    analysis_items = sorted(analysis_items, key=lambda a: a.total_score, reverse=True)[:3]
+    normal_items = [a for a in unseen if not is_analysis_source(a)]
+    normal_items = sorted(normal_items, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+
+final_items = analysis_items + normal_items
 
     if len(final_items) < 5:
         print("[info] not enough unseen items; allowing fallback items")
