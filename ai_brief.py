@@ -58,22 +58,32 @@ SEARCH_QUERIES = [
 ]
 
 RSS_FEEDS = [
-
     # Newsletters / analysis
     "https://importai.substack.com/feed",
     "https://www.understandingai.org/feed",
     "https://www.noemamag.com/feed/",
+    "https://www.exponentialview.co/feed",        # Added: Azeem Azhar (AI & Economy)
+    "https://www.deeplearning.ai/the-batch/rss", # Added: Andrew Ng (Tech/Social impact)
+    "https://aisnakeoil.substack.com/feed",      # Added: AI Snake Oil (Critical analysis)
 
     # Research & policy
     "https://hai.stanford.edu/news/rss.xml",
     "https://oecd.ai/en/news/rss",
     "https://www.imf.org/en/Blogs/RSS",
+    "https://ainowinstitute.org/category/news/feed", # Added: AI Now (Policy)
 
-    # Tech journalism
+    # Corporate & Academic Research
+    "https://bair.berkeley.edu/blog/feed.xml",       # Added: Berkeley AI Research
+    "https://research.google/blog/rss",              # Added: Google Research
+
+    # Tech & Business journalism
     "https://www.technologyreview.com/feed/",
     "https://feeds.arstechnica.com/arstechnica/technology-lab",
     "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-
+    "https://venturebeat.com/category/ai/feed/",     # Added: VentureBeat AI
+    "https://aibusiness.com/rss.xml",                # Added: AI Business
+    "https://www.wired.com/feed/tag/ai/latest/rss",  # Added: Wired
+    "https://feeds.bloomberg.com/technology/news.rss" # Added: Bloomberg Tech
 ]
 
 KEYWORD_WEIGHTS = {
@@ -163,6 +173,12 @@ HIGH_SIGNAL_DOMAINS = {
     "oecd.org": 5,
     "nber.org": 5,
     "hai.stanford.edu": 5,
+    "exponentialview.co": 5,      # New
+    "ainowinstitute.org": 5,     # New
+    "aisnakeoil.substack.com": 4, # New (Specific high-quality newsletter)
+    "deeplearning.ai": 4,         # New
+    "bair.berkeley.edu": 4,      # New
+    "research.google": 4,         # New
     "stanford.edu": 4,
     "reuters.com": 4,
     "apnews.com": 4,
@@ -170,11 +186,14 @@ HIGH_SIGNAL_DOMAINS = {
     "economist.com": 4,
     "bloomberg.com": 4,
     "wsj.com": 4,
-    "nytimes.com": 3,
+    "venturebeat.com": 3,         # New
+    "aibusiness.com": 3,          # New
     "technologyreview.com": 3,
     "arstechnica.com": 3,
     "understandingai.org": 3,
     "noemamag.com": 3,
+    "nytimes.com": 3,
+    "wired.com": 2,               # New
     "substack.com": 1,
 }
 
@@ -401,6 +420,9 @@ def is_analysis_source(article: Article) -> bool:
         "importai.substack.com",
         "understandingai.org",
         "noemamag.com",
+        "exponentialview.co",        # Added
+        "deeplearning.ai",           # Added
+        "aisnakeoil.substack.com",   # Added
     ]
 
 def short_summary(article: Article) -> str:
