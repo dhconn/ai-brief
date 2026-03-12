@@ -16,6 +16,7 @@ import smtplib
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from email.utils import parsedate_to_datetime
 from typing import Dict, List, Optional, Tuple
 from urllib.parse import urlparse
@@ -797,7 +798,6 @@ final_items = analysis_items + normal_items
 
     digest = generate_digest(final_items)
     outfile = save_digest(digest)
-
     print(f"[done] wrote {outfile}")
 
     seen_urls = update_seen_urls(seen_urls, final_items)
@@ -808,6 +808,37 @@ final_items = analysis_items + normal_items
         subject=f"AI Society & Economy Brief — {now_utc().strftime('%Y-%m-%d')}",
         body=digest,
     )
+
+def send_email(subject: str, body: str) -> None:
+    if not email_is_configured():
+        print("[info] email not configured; skipping email delivery")
+        return
+
+    try:
+        # Create a multipart message container
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = subject
+        msg["From"] = EMAIL_FROM
+        msg["To"] = EMAIL_TO
+
+        # 1. Plain text fallback
+        text_content = "Please view this email in an HTML-compatible client."
+        part1 = MIMEText(text_content, "plain")
+        
+        # 2. The HTML body
+        part2 = MIMEText(body, "html", "utf-8")
+
+        # Attach parts
+        msg.attach(part1)
+        msg.attach(part2)
+
+        with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as server:
+            server.login(SMTP_USER, SMTP_PASSWORD)
+            server.send_message(msg)
+
+        print(f"[done] emailed digest to {EMAIL_TO}")
+    except Exception as exc:
+        print(f"[warn] email delivery failed: {exc}")
 
 if __name__ == "__main__":
     main()
