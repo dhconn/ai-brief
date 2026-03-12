@@ -62,7 +62,7 @@ REQUEST_TIMEOUT = 20
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY", "").strip()
 
 SMTP_HOST = os.getenv("SMTP_HOST", "").strip()
-SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
+SMTP_PORT = int((os.getenv("SMTP_PORT") or "465").strip())
 SMTP_USER = os.getenv("SMTP_USER", "").strip()
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "").strip()
 EMAIL_FROM = os.getenv("EMAIL_FROM", "").strip()
