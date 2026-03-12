@@ -2,8 +2,11 @@ name: Daily AI Brief
 
 on:
   schedule:
-    - cron: '30 11 * * *'
+    - cron: '0 12 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-brief:
@@ -33,3 +36,11 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python ai_brief.py
+
+      - name: Commit updated archive files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen_articles.json ai_digest_*.md
+          git diff --cached --quiet || git commit -m "Update AI brief archive"
+          git push
