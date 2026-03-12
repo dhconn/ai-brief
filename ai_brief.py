@@ -672,28 +672,23 @@ def generate_digest(articles: List[Article]) -> str:
     lines.append(f"<h1>AI Society & Economy Brief — {today}</h1>")
     lines.append("<p>This is an automated digest ranked for likely relevance to society, work, policy, and the economy.</p>")
 
-    # --------------------------------
-    # Analysis / commentary section
-    # --------------------------------
-
+    # 1. Analysis / commentary section
     analysis_articles = [a for a in articles if is_analysis_source(a)]
 
     if analysis_articles:
-    lines.append("<h2>AI Analysis & Commentary</h2>")
+        lines.append("<h2>AI Analysis & Commentary</h2>")
+        for a in analysis_articles[:3]:
+            pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
+            lines.append(f"<h3>{a.title}</h3>")
+            lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})</p>")
+            lines.append(f"<p><strong>Published:</strong> {pub}</p>")
+            lines.append(f"<p><strong>Brief:</strong> {short_summary(a)}</p>")
+            lines.append(f"<p><strong>Link:</strong> <a href='{a.url}'>{a.url}</a></p>")
 
-    for a in analysis_articles[:3]:
-        pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
-
-        lines.append(f"<h3>{a.title}</h3>")
-        lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})</p>")
-        lines.append(f"<p><strong>Published:</strong> {pub}</p>")
-        lines.
-
-    # remove them from the rest of the ranking
-    articles = [a for a in articles if not is_analysis_source(a)]
-
+    # 2. Group the remaining articles by lane
+    other_articles = [a for a in articles if not is_analysis_source(a)]
     lanes: Dict[str, List[Article]] = {}
-    for article in articles:
+    for article in other_articles:
         lane = classify_lane(f"{article.title} {article.description} {article.content_hint}")
         lanes.setdefault(lane, []).append(article)
 
@@ -705,28 +700,26 @@ def generate_digest(articles: List[Article]) -> str:
         "Capabilities & deployment",
     ]
 
-for lane in preferred_order:
-    lane_items = lanes.get(lane, [])
-    if not lane_items:
-        continue
+    for lane in preferred_order:
+        lane_items = lanes.get(lane, [])
+        if not lane_items:
+            continue
 
-    lines.append(f"<h2>{lane}</h2>")
+        lines.append(f"<h2>{lane}</h2>")
+        for a in lane_items[:3]:
+            pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
+            tags = ", ".join(a.tags or [])
+            lines.append(f"<h3>{a.title}</h3>")
+            lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})</p>")
+            lines.append(f"<p><strong>Published:</strong> {pub}</p>")
+            lines.append(f"<p><strong>Score:</strong> {a.total_score:.1f}</p>")
+            if tags:
+                lines.append(f"<p><strong>Tags:</strong> {tags}</p>")
+            lines.append(f"<p><strong>Brief:</strong> {short_summary(a)}</p>")
+            lines.append(f"<p><strong>Link:</strong> <a href='{a.url}'>{a.url}</a></p>")
 
-    for a in lane_items[:3]:
-        pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
-        tags = ", ".join(a.tags or [])
-
-        lines.append(f"<h3>{a.title}</h3>")
-        lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})</p>")
-        lines.append(f"<p><strong>Published:</strong> {pub}</p>")
-        lines.append(f"<p><strong>Score:</strong> {a.total_score:.1f}</p>")
-        if tags:
-            lines.append(f"<p><strong>Tags:</strong> {tags}</p>")
-        lines.append(f"<p><strong>Brief:</strong> {short_summary(a)}</p>")
-        lines.append(f"<p><strong>Link:</strong> <a href='{a.url}'>{a.url}</a></p>")
-
-lines.append("</body></html>")
-return "\n".join(lines)
+    lines.append("</body></html>")
+    return "\n".join(lines)
 
 def save_digest(markdown: str) -> str:
     os.makedirs("archive", exist_ok=True)
