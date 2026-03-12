@@ -1,0 +1,1 @@
+Automated script that pulls interesting and important AI stories from various places around the web, summarizes them and their economic and societal impacts, and sends the resulting file each day to my gmail.
