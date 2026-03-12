@@ -736,7 +736,8 @@ def generate_digest(articles: List[Article]) -> str:
     return "\n".join(lines)
 
 def save_digest(markdown: str) -> str:
-    filename = f"ai_digest_{now_utc().strftime('%Y%m%d')}.md"
+    filename = f"archive/ai_digest_{now_utc().strftime('%Y%m%d')}.md"
+    
     with open(filename, "w", encoding="utf-8") as f:
         f.write(markdown)
     return filename
