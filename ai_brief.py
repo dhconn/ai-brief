@@ -23,6 +23,7 @@ from urllib.parse import urlparse
 import feedparser
 import requests
 from dateutil import parser as date_parser
+import json
 
 
 # -----------------------------
@@ -36,6 +37,8 @@ REQUEST_TIMEOUT = 20
 
 MAX_ARTICLE_AGE_DAYS = 21
 STRONG_RECENCY_DAYS = 7
+SEEN_FILE = "seen_articles.json"
+MAX_SEEN_URLS = 2000
 
 NEWSAPI_KEY = (os.getenv("NEWSAPI_KEY") or "").strip()
 
@@ -455,6 +458,35 @@ def send_email(subject: str, body: str) -> None:
     except Exception as exc:
         print(f"[warn] email delivery failed: {exc}")
 
+def load_seen_urls() -> set[str]:
+    try:
+        with open(SEEN_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        if isinstance(data, list):
+            return set(str(x) for x in data if x)
+        return set()
+    except FileNotFoundError:
+        return set()
+    except Exception as exc:
+        print(f"[warn] could not read {SEEN_FILE}: {exc}")
+        return set()
+
+
+def save_seen_urls(urls: set[str]) -> None:
+    trimmed = sorted(urls)[-MAX_SEEN_URLS:]
+    with open(SEEN_FILE, "w", encoding="utf-8") as f:
+        json.dump(trimmed, f, indent=2)
+
+
+def filter_unseen_articles(articles: List[Article], seen_urls: set[str]) -> List[Article]:
+    return [a for a in articles if a.url not in seen_urls]
+
+
+def update_seen_urls(seen_urls: set[str], articles: List[Article]) -> set[str]:
+    for a in articles:
+        seen_urls.add(a.url)
+    return seen_urls
 
 # -----------------------------
 # Source connectors
@@ -672,7 +704,6 @@ def generate_digest(articles: List[Article]) -> str:
         lanes.setdefault(lane, []).append(article)
 
     preferred_order = [
-	"AI Analysis & Commentary",
         "Work & labor",
         "Economy & business",
         "Policy & law",
@@ -738,18 +769,29 @@ def main() -> None:
     deduped = dedupe_articles(filtered)
     print(f"[info] {len(deduped)} items after dedupe")
 
-    final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+    seen_urls = load_seen_urls()
+    unseen = filter_unseen_articles(deduped, seen_urls)
+    print(f"[info] {len(unseen)} items after seen-article filtering")
+
+    final_items = sorted(unseen, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+
+    if len(final_items) < 5:
+        print("[info] not enough unseen items; allowing fallback items")
+        final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
 
     digest = generate_digest(final_items)
     outfile = save_digest(digest)
 
     print(f"[done] wrote {outfile}")
 
+    seen_urls = update_seen_urls(seen_urls, final_items)
+    save_seen_urls(seen_urls)
+    print(f"[done] updated {SEEN_FILE}")
+
     send_email(
         subject=f"AI Society & Economy Brief — {now_utc().strftime('%Y-%m-%d')}",
         body=digest,
     )
-
 
 if __name__ == "__main__":
     main()
