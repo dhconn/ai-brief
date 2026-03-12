@@ -465,10 +465,14 @@ def send_email(subject: str, body: str) -> None:
         return
 
     try:
+        # We explicitly use 'html' and ensure the charset is utf-8
         msg = MIMEText(body, "html", "utf-8")
         msg["Subject"] = subject
         msg["From"] = EMAIL_FROM
         msg["To"] = EMAIL_TO
+
+        # Added for Gmail: Explicitly set Content-Type header again
+        msg.add_header("Content-Type", "text/html")
 
         with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as server:
             server.login(SMTP_USER, SMTP_PASSWORD)
@@ -690,64 +694,63 @@ def generate_digest(articles: List[Article]) -> str:
     today = now_utc().strftime("%Y-%m-%d")
     lines: List[str] = []
 
-    lines.append("<html><body>")
+    # Start HTML Document
+    lines.append("<html>")
+    lines.append("<head><style>body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; } h1 { color: #2c3e50; } h2 { border-bottom: 2px solid #eee; padding-top: 20px; } h3 { margin-bottom: 5px; color: #2980b9; }</style></head>")
+    lines.append("<body>")
+    
     lines.append(f"<h1>AI Society & Economy Brief — {today}</h1>")
     lines.append("<p>This is an automated digest ranked for likely relevance to society, work, policy, and the economy.</p>")
 
-    # 1. Analysis / commentary section
+    # 1. Analysis / Commentary Section
     analysis_articles = [a for a in articles if is_analysis_source(a)]
-
     if analysis_articles:
         lines.append("<h2>AI Analysis & Commentary</h2>")
         for a in analysis_articles[:3]:
             pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
-            lines.append(f"<h3>{a.title}</h3>")
-            lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})</p>")
-            lines.append(f"<p><strong>Published:</strong> {pub}</p>")
-            lines.append(f"<p><strong>Brief:</strong> {short_summary(a)}</p>")
-            lines.append(f"<p><strong>Link:</strong> <a href='{a.url}'>{a.url}</a></p>")
+            lines.append("<div>")
+            lines.append(f"<h3><a href='{a.url}'>{a.title}</a></h3>")
+            lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})<br>")
+            lines.append(f"<strong>Published:</strong> {pub}</p>")
+            lines.append(f"<p><em>{short_summary(a)}</em></p>")
+            lines.append("</div><hr>")
 
-    # 2. Group the remaining articles by lane
+    # 2. Thematic Lanes
     other_articles = [a for a in articles if not is_analysis_source(a)]
-    lanes: Dict[str, List[Article]] = {}
+    lanes_map: Dict[str, List[Article]] = {}
     for article in other_articles:
-        lane = classify_lane(f"{article.title} {article.description} {article.content_hint}")
-        lanes.setdefault(lane, []).append(article)
+        lane = classify_lane(f"{article.title} {article.description}")
+        lanes_map.setdefault(lane, []).append(article)
 
-    preferred_order = [
-        "Work & labor",
-        "Economy & business",
-        "Policy & law",
-        "Social institutions",
-        "Capabilities & deployment",
-    ]
+    preferred_order = ["Work & labor", "Economy & business", "Policy & law", "Social institutions", "Capabilities & deployment"]
 
     for lane in preferred_order:
-        lane_items = lanes.get(lane, [])
-        if not lane_items:
+        items = lanes_map.get(lane, [])
+        if not items:
             continue
 
         lines.append(f"<h2>{lane}</h2>")
-        for a in lane_items[:3]:
+        for a in items[:3]:
             pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
             tags = ", ".join(a.tags or [])
-            lines.append(f"<h3>{a.title}</h3>")
-            lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})</p>")
-            lines.append(f"<p><strong>Published:</strong> {pub}</p>")
-            lines.append(f"<p><strong>Score:</strong> {a.total_score:.1f}</p>")
+            lines.append("<div>")
+            lines.append(f"<h3><a href='{a.url}'>{a.title}</a></h3>")
+            lines.append(f"<p><strong>Source:</strong> {a.source} | <strong>Score:</strong> {a.total_score:.1f}</p>")
             if tags:
-                lines.append(f"<p><strong>Tags:</strong> {tags}</p>")
-            lines.append(f"<p><strong>Brief:</strong> {short_summary(a)}</p>")
-            lines.append(f"<p><strong>Link:</strong> <a href='{a.url}'>{a.url}</a></p>")
+                lines.append(f"<p><small>Tags: {tags}</small></p>")
+            lines.append(f"<p>{short_summary(a)}</p>")
+            lines.append("</div>")
 
+    # Close HTML Document
     lines.append("</body></html>")
     return "\n".join(lines)
 
-def save_digest(markdown: str) -> str:
+def save_digest(html_content: str) -> str:
     os.makedirs("archive", exist_ok=True)
-    filename = f"archive/ai_digest_{now_utc().strftime('%Y%m%d')}.md"
+    # Changed extension to .html to ensure we aren't confusing the format
+    filename = f"archive/ai_digest_{now_utc().strftime('%Y%m%d')}.html"
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(markdown)
+        f.write(html_content)
     return filename
 
 # -----------------------------
