@@ -668,10 +668,9 @@ def generate_digest(articles: List[Article]) -> str:
     today = now_utc().strftime("%Y-%m-%d")
     lines: List[str] = []
 
-    lines.append(f"# AI Society & Economy Brief — {today}")
-    lines.append("")
-    lines.append("This is an automated digest ranked for likely relevance to society, work, policy, and the economy.")
-    lines.append("")
+    lines.append("<html><body>")
+    lines.append(f"<h1>AI Society & Economy Brief — {today}</h1>")
+    lines.append("<p>This is an automated digest ranked for likely relevance to society, work, policy, and the economy.</p>")
 
     # --------------------------------
     # Analysis / commentary section
@@ -726,6 +725,7 @@ for lane in preferred_order:
         lines.append(f"<p><strong>Brief:</strong> {short_summary(a)}</p>")
         lines.append(f"<p><strong>Link:</strong> <a href='{a.url}'>{a.url}</a></p>")
 
+lines.append("</body></html>")
 return "\n".join(lines)
 
 def save_digest(markdown: str) -> str:
@@ -734,7 +734,6 @@ def save_digest(markdown: str) -> str:
     with open(filename, "w", encoding="utf-8") as f:
         f.write(markdown)
     return filename
-
 
 # -----------------------------
 # Main
