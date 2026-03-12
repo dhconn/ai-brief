@@ -443,7 +443,7 @@ def send_email(subject: str, body: str) -> None:
         return
 
     try:
-        msg = MIMEText(body, "plain", "utf-8")
+        msg = MIMEText(body, "html", "utf-8")
         msg["Subject"] = subject
         msg["From"] = EMAIL_FROM
         msg["To"] = EMAIL_TO
