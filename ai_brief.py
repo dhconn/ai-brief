@@ -703,7 +703,7 @@ def filter_articles(articles: List[Article]) -> List[Article]:
     return filtered
 
 def generate_digest(articles: List[Article]) -> str:
-    today = now_utc().strftime("%Y-%m-%d")
+    today = now_utc().strftime("%B %d, %Y")
     lines: List[str] = []
 
     # Start HTML Document
@@ -814,3 +814,4 @@ def main() -> None:
         subject=f"AI Society & Economy Brief — {now_utc().strftime('%Y-%m-%d')}",
         body=digest,
     )
+
