@@ -36,7 +36,8 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python3 ai_brief.py
-
+      - name: Check if files were updated
+        run: ls -l seen_articles.json
       - name: Commit updated archive files
         run: |
           git config user.name "github-actions[bot]"
