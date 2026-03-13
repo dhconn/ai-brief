@@ -456,8 +456,8 @@ def short_summary(article: Article) -> str:
         why += " It may also matter for infrastructure demand and energy economics."
 
     return (
-        f"<strong>What happened:</strong> {what_happened}<br><br>"
-        f"<strong>Why it matters:</strong> {why}<br><br>"
+        f"<strong>What happened:</strong> {what_happened}<br>"
+        f"<strong>Why it matters:</strong> {why}<br>"
         f"<strong>What to watch:</strong> {watch}"
     )
 
