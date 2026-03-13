@@ -2,7 +2,7 @@ name: Daily AI Brief
 
 on:
   schedule:
-    - cron: '00 11 * * *'
+    - cron: '07 11 * * *'
   workflow_dispatch:
 
 permissions:
@@ -37,7 +37,7 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python3 ai_brief.py
       - name: Check if files were updated
-        run: ls -l seen_articles.json
+        run: ls -l seen_articles.json || echo "File not found yet"
       - name: Commit updated archive files
         run: |
           git config user.name "github-actions[bot]"
