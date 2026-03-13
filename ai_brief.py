@@ -31,12 +31,12 @@ import json
 # Configuration
 # -----------------------------
 
-DAYS_BACK = 5
+DAYS_BACK = 2 # Change this to 7 for switch to weekly
 MAX_ITEMS_PER_SOURCE = 25
 TOP_N_FINAL = 10
 REQUEST_TIMEOUT = 20
 
-MAX_ARTICLE_AGE_DAYS = 21
+MAX_ARTICLE_AGE_DAYS = 21 # Tighten this 14 to ensure articles aren't too stale
 STRONG_RECENCY_DAYS = 7
 SEEN_FILE = "seen_articles.json"
 MAX_SEEN_URLS = 2000
