@@ -455,7 +455,11 @@ def short_summary(article: Article) -> str:
     if any(k in lower for k in ["energy", "power", "electricity", "datacenter", "data center", "infrastructure"]):
         why += " It may also matter for infrastructure demand and energy economics."
 
-    return f"What happened: {what_happened} Why it matters: {why} What to watch: {watch}"
+    return (
+        f"<strong>What happened:</strong> {what_happened}<br><br>"
+        f"<strong>Why it matters:</strong> {why}<br><br>"
+        f"<strong>What to watch:</strong> {watch}"
+    )
 
 def email_is_configured() -> bool:
     return all([SMTP_HOST, SMTP_USER, SMTP_PASSWORD, EMAIL_FROM, EMAIL_TO])
@@ -466,14 +470,21 @@ def send_email(subject: str, body: str) -> None:
         return
 
     try:
-        # We explicitly use 'html' and ensure the charset is utf-8
-        msg = MIMEText(body, "html", "utf-8")
+        # Create a "container" that can hold two versions: plain text and HTML
+        msg = MIMEMultipart("alternative")
         msg["Subject"] = subject
         msg["From"] = EMAIL_FROM
         msg["To"] = EMAIL_TO
 
-        # Added for Gmail: Explicitly set Content-Type header again
-        msg.add_header("Content-Type", "text/html")
+        # 1. Plain text version (for safety)
+        part1 = MIMEText("Please view this email in an HTML-compatible client.", "plain")
+        
+        # 2. HTML version (the beautiful one)
+        part2 = MIMEText(body, "html", "utf-8")
+
+        # Attach both versions to the container
+        msg.attach(part1)
+        msg.attach(part2)
 
         with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as server:
             server.login(SMTP_USER, SMTP_PASSWORD)
@@ -713,7 +724,7 @@ def generate_digest(articles: List[Article]) -> str:
             lines.append(f"<h3><a href='{a.url}'>{a.title}</a></h3>")
             lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})<br>")
             lines.append(f"<strong>Published:</strong> {pub}</p>")
-            lines.append(f"<p><em>{short_summary(a)}</em></p>")
+            lines.append(f"<p>{short_summary(a)}</p>")
             lines.append("</div><hr>")
 
     # 2. Thematic Lanes
@@ -736,7 +747,8 @@ def generate_digest(articles: List[Article]) -> str:
             tags = ", ".join(a.tags or [])
             lines.append("<div>")
             lines.append(f"<h3><a href='{a.url}'>{a.title}</a></h3>")
-            lines.append(f"<p><strong>Source:</strong> {a.source} | <strong>Score:</strong> {a.total_score:.1f}</p>")
+            lines.append(f"<p><strong>Source:</strong> {a.source} | <strong>Published:</strong> {pub} | <strong>Score:</strong> {a.total_score:.1f}</p>")
+            
             if tags:
                 lines.append(f"<p><small>Tags: {tags}</small></p>")
             lines.append(f"<p>{short_summary(a)}</p>")
@@ -762,84 +774,43 @@ def main() -> None:
     print("[info] collecting articles...")
     articles: List[Article] = []
 
+    # 1. Fetch
     for query in SEARCH_QUERIES:
         if NEWSAPI_KEY:
             articles.extend(fetch_newsapi(query))
             time.sleep(1)
-
         articles.extend(fetch_gdelt(query))
         time.sleep(4)
-
     articles.extend(fetch_rss())
 
-    print(f"[info] fetched {len(articles)} raw items")
-
+    # 2. Process
     scored = [score_article(a) for a in articles]
     filtered = filter_articles(scored)
-    print(f"[info] {len(filtered)} items after filtering")
-
     deduped = dedupe_articles(filtered)
-    print(f"[info] {len(deduped)} items after dedupe")
-
     seen_urls = load_seen_urls()
     unseen = filter_unseen_articles(deduped, seen_urls)
-    print(f"[info] {len(unseen)} items after seen-article filtering")
 
-    analysis_items = [a for a in unseen if is_analysis_source(a)]
-    analysis_items = sorted(analysis_items, key=lambda a: a.total_score, reverse=True)[:3]
-    normal_items = [a for a in unseen if not is_analysis_source(a)]
-    normal_items = sorted(normal_items, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
-
+    # 3. Select
+    analysis_items = sorted([a for a in unseen if is_analysis_source(a)], key=lambda a: a.total_score, reverse=True)[:3]
+    normal_items = sorted([a for a in unseen if not is_analysis_source(a)], key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+    
     final_items = analysis_items + normal_items
-
     if len(final_items) < 5:
         print("[info] not enough unseen items; allowing fallback items")
         final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
 
+    # 4. Generate & Save
     digest = generate_digest(final_items)
     outfile = save_digest(digest)
     print(f"[done] wrote {outfile}")
 
+    # 5. Update state
     seen_urls = update_seen_urls(seen_urls, final_items)
     save_seen_urls(seen_urls)
     print(f"[done] updated {SEEN_FILE}")
 
+    # 6. Send
     send_email(
         subject=f"AI Society & Economy Brief — {now_utc().strftime('%Y-%m-%d')}",
         body=digest,
     )
-
-def send_email(subject: str, body: str) -> None:
-    if not email_is_configured():
-        print("[info] email not configured; skipping email delivery")
-        return
-
-    try:
-        # Create a multipart message container
-        msg = MIMEMultipart("alternative")
-        msg["Subject"] = subject
-        msg["From"] = EMAIL_FROM
-        msg["To"] = EMAIL_TO
-
-        # 1. Plain text fallback
-        text_content = "Please view this email in an HTML-compatible client."
-        part1 = MIMEText(text_content, "plain")
-        
-        # 2. The HTML body
-        part2 = MIMEText(body, "html", "utf-8")
-
-        # Attach parts
-        msg.attach(part1)
-        msg.attach(part2)
-
-        with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as server:
-            server.login(SMTP_USER, SMTP_PASSWORD)
-            server.send_message(msg)
-
-        print(f"[done] emailed digest to {EMAIL_TO}")
-    except Exception as exc:
-        print(f"[warn] email delivery failed: {exc}")
-
-if __name__ == "__main__":
-    main()
-
