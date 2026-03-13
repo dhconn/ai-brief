@@ -815,3 +815,5 @@ def main() -> None:
         body=digest,
     )
 
+if __name__ == "__main__":
+    main()
