@@ -790,7 +790,7 @@ def main() -> None:
     normal_items = [a for a in unseen if not is_analysis_source(a)]
     normal_items = sorted(normal_items, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
 
-final_items = analysis_items + normal_items
+    final_items = analysis_items + normal_items
 
     if len(final_items) < 5:
         print("[info] not enough unseen items; allowing fallback items")
@@ -842,3 +842,4 @@ def send_email(subject: str, body: str) -> None:
 
 if __name__ == "__main__":
     main()
+
