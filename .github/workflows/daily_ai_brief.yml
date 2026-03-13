@@ -2,7 +2,7 @@ name: Daily AI Brief
 
 on:
   schedule:
-    - cron: '47 10 * * *'
+    - cron: '47 10 * * *' # Change the 3rd * to 6 or 7 for Sat. or Sun. only runs
   workflow_dispatch:
 
 # Triggering scheduler refresh
