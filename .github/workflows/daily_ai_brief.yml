@@ -9,8 +9,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
-  workflow: write
 
 jobs:
   run-brief:
