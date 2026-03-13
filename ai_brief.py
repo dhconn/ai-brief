@@ -809,11 +809,31 @@ def main() -> None:
     save_seen_urls(seen_urls)
     print(f"[done] updated {SEEN_FILE}")
 
-    # 6. Send
+# 6. Send
     send_email(
         subject=f"AI Society & Economy Brief — {now_utc().strftime('%Y-%m-%d')}",
-        body=digest,
+        body=digest
     )
+    
+    # 7. Update Archive Index
+    update_index()
+    print("[done] updated index.html")
+
+def update_index():
+    # Get all html files in archive, sorted by name (descending)
+    files = sorted([f for f in os.listdir("archive") if f.endswith(".html")], reverse=True)
+    
+    lines = ["<html><body><h1>AI Brief Archive</h1><ul>"]
+    for f in files:
+        # Create a display date from the filename (e.g., 20260313 -> 2026-03-13)
+        date_str = f.replace("ai_digest_", "").replace(".html", "")
+        formatted_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:]}"
+        lines.append(f"<li><a href='archive/{f}'>{formatted_date}</a></li>")
+    
+    lines.append("</ul></body></html>")
+    
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
 
 if __name__ == "__main__":
     main()
