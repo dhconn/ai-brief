@@ -351,30 +351,36 @@ def short_summary(article: Article) -> str:
     desc = clean_text(article.description or article.content_hint or "")
     lower = f"{article.title} {desc}".lower()
 
-    impact_lines = []
-    # Using <strong> and <br> for HTML rendering
+    # 1. Lead sentence (The "What happened" summary)
+    summary = desc.split(". ")[0].strip()
+    if not summary or len(summary) < 10:
+        summary = "This item covers a significant development in the AI landscape."
+    if not summary.endswith("."):
+        summary += "."
+
+    # 2. Categorized "Why it matters"
+    # This picks the best contextual fit, or a default one
+    why = "This represents a shift in how AI capabilities are influencing broader societal and economic trends."
     if any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce"]):
-        impact_lines.append("<strong>What happened:</strong> Likely labor-market or workplace implications.")
-    if any(k in lower for k in ["productivity", "business", "enterprise", "industry", "economy", "market"]):
-        impact_lines.append("<strong>Why it matters:</strong> Potential business or macroeconomic relevance.")
-    if any(k in lower for k in ["regulation", "policy", "governance", "court", "lawsuit", "antitrust", "compliance"]):
-        impact_lines.append("<strong>Policy Impact:</strong> Relevant to regulation, courts, or governance.")
-    if any(k in lower for k in ["education", "healthcare", "misinformation", "fraud", "privacy", "copyright", "surveillance"]):
-        impact_lines.append("<strong>Social Impact:</strong> Possible downstream institutional or social effects.")
-    if any(k in lower for k in ["energy", "power", "electricity", "datacenter", "data center", "infrastructure"]):
-        impact_lines.append("<strong>Infrastructure:</strong> Matters for energy demand or deployment economics.")
+        why = "This indicates a shift in labor-market dynamics and future workplace roles."
+    elif any(k in lower for k in ["productivity", "business", "enterprise", "market"]):
+        why = "This suggests a significant impact on enterprise strategy and competitive positioning."
+    elif any(k in lower for k in ["regulation", "policy", "court", "lawsuit", "antitrust"]):
+        why = "This is a key development in the legal and regulatory frameworks governing AI."
+    elif any(k in lower for k in ["energy", "power", "datacenter", "infrastructure"]):
+        why = "This underscores the growing industrial and energy infrastructure requirements of scaling AI."
 
-    if not impact_lines:
-        impact_lines.append("<strong>Context:</strong> Primarily a capability story; broader effects may emerge later.")
+    # 3. Static "What to watch"
+    watch = "Watch for follow-on moves by major competitors and potential shifts in sector-specific policy."
 
-    first_sentence = desc.split(". ")[0].strip()
-    if first_sentence and not first_sentence.endswith("."):
-        first_sentence += "."
-    if not first_sentence:
-        first_sentence = "This item appears relevant based on headline and source metadata."
+    # 4. Return the rigid format
+    return (
+        f"{summary}<br><br>"
+        f"<strong>What happened:</strong> This article details {article.title}.<br>"
+        f"<strong>Why it matters:</strong> {why}<br>"
+        f"<strong>What to watch:</strong> {watch}"
+    ).strip()
 
-    # Joining with <br> for hard returns in the email
-    return f"{first_sentence}<br><br>{'<br>'.join(impact_lines[:2])}".strip()
 
 def email_is_configured() -> bool:
     return all([SMTP_HOST, SMTP_USER, SMTP_PASSWORD, EMAIL_FROM, EMAIL_TO])
@@ -700,7 +706,7 @@ def main() -> None:
 
     # 5. Update the "seen" list so we don't repeat these tomorrow
     new_urls = {a.url for a in final_items}
-    # save_seen_urls(seen_urls.union(new_urls))
+    save_seen_urls(seen_urls.union(new_urls))
     print(f"[done] updated {SEEN_FILE}")
 
 if __name__ == "__main__":
