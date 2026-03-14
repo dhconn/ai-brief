@@ -38,6 +38,7 @@ import re
 import time
 import hashlib
 import smtplib
+import json
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
@@ -351,20 +352,20 @@ def short_summary(article: Article) -> str:
     lower = f"{article.title} {desc}".lower()
 
     impact_lines = []
-
+    # Using <strong> and <br> for HTML rendering
     if any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce"]):
-        impact_lines.append("Likely labor-market or workplace implications.")
+        impact_lines.append("<strong>What happened:</strong> Likely labor-market or workplace implications.")
     if any(k in lower for k in ["productivity", "business", "enterprise", "industry", "economy", "market"]):
-        impact_lines.append("Potential business or macroeconomic relevance.")
+        impact_lines.append("<strong>Why it matters:</strong> Potential business or macroeconomic relevance.")
     if any(k in lower for k in ["regulation", "policy", "governance", "court", "lawsuit", "antitrust", "compliance"]):
-        impact_lines.append("Relevant to regulation, courts, or governance.")
+        impact_lines.append("<strong>Policy Impact:</strong> Relevant to regulation, courts, or governance.")
     if any(k in lower for k in ["education", "healthcare", "misinformation", "fraud", "privacy", "copyright", "surveillance"]):
-        impact_lines.append("Possible downstream institutional or social effects.")
+        impact_lines.append("<strong>Social Impact:</strong> Possible downstream institutional or social effects.")
     if any(k in lower for k in ["energy", "power", "electricity", "datacenter", "data center", "infrastructure"]):
-        impact_lines.append("Could matter for infrastructure, energy demand, or deployment economics.")
+        impact_lines.append("<strong>Infrastructure:</strong> Matters for energy demand or deployment economics.")
 
     if not impact_lines:
-        impact_lines.append("Primarily a capability or deployment story; broader effects may emerge later.")
+        impact_lines.append("<strong>Context:</strong> Primarily a capability story; broader effects may emerge later.")
 
     first_sentence = desc.split(". ")[0].strip()
     if first_sentence and not first_sentence.endswith("."):
@@ -372,7 +373,8 @@ def short_summary(article: Article) -> str:
     if not first_sentence:
         first_sentence = "This item appears relevant based on headline and source metadata."
 
-    return f"{first_sentence} {' '.join(impact_lines[:2])}".strip()
+    # Joining with <br> for hard returns in the email
+    return f"{first_sentence}<br><br>{'<br>'.join(impact_lines[:2])}".strip()
 
 def email_is_configured() -> bool:
     return all([SMTP_HOST, SMTP_USER, SMTP_PASSWORD, EMAIL_FROM, EMAIL_TO])
@@ -382,7 +384,7 @@ def send_email(subject: str, body: str) -> None:
         print("[info] email not configured; skipping email delivery")
         return
 
-    msg = MIMEText(body, "plain", "utf-8")
+    msg = MIMEText(body, "html", "utf-8")
     msg["Subject"] = subject
     msg["From"] = EMAIL_FROM
     msg["To"] = EMAIL_TO
@@ -536,7 +538,7 @@ def score_article(article: Article) -> Article:
         article.title or "",
         article.description or "",
         article.content_hint or "",
-        article.domain or "",•
+        article.domain or "",
     ])
 
     raw_score, tags = keyword_score(combined)
@@ -579,74 +581,53 @@ def pick_top_story(articles: List[Article]) -> Optional[Article]:
     return ranked[0]
 
 def generate_digest(articles: List[Article]) -> str:
-    today = now_utc().strftime("%Y-%m-%d")
+    # 1. Update the date format as we discussed
+    today = now_utc().strftime("%B %d, %Y")
     lines: List[str] = []
 
-    lines.append(f"# AI Society & Economy Brief — {today}")
-    lines.append("")
-    lines.append("This is an automated first-pass digest ranked for likely relevance to society, work, policy, and the economy.")
-    lines.append("")
+    # Use HTML tags instead of Markdown symbols
+    lines.append(f"<h1>AI Society & Economy Brief — {today}</h1>")
+    lines.append("<p>This is an automated first-pass digest ranked for likely relevance to society, work, policy, and the economy.</p>")
 
     top_story = pick_top_story(articles)
 
-if top_story:
-    pub = top_story.published_at.strftime("%Y-%m-%d %H:%M UTC") if top_story.published_at else "date unknown"
-
-    lines.append("## Biggest Story of the Day")
-    lines.append("")
-
-    lines.append(f"### {top_story.title}")
-    lines.append(f"- Source: {top_story.source} ({top_story.domain})")
-    lines.append(f"- Published: {pub}")
-    lines.append(f"- Score: {top_story.total_score:.1f}")
-
-    what_happened = clean_text(top_story.description) or clean_text(top_story.content_hint) or "No summary available."
-    lines.append(f"- What happened: {what_happened}")
-
-    lines.append(f"- Why it matters: {short_summary(top_story)}")
-
-    lines.append("- What to watch: Watch for replication, real-world incidents, and institutional responses.")
-
-    lines.append(f"- Link: {top_story.url}")
-    lines.append("")
-
     if top_story:
+        pub = top_story.published_at.strftime("%Y-%m-%d %H:%M UTC") if top_story.published_at else "date unknown"
+        lines.append("<h2>Biggest Story of the Day</h2>")
+        lines.append("<div>")
+        lines.append(f"<h3><a href='{top_story.url}'>{top_story.title}</a></h3>")
+        # Metadata line
+        lines.append(f"<p><strong>Source:</strong> {top_story.source} ({top_story.domain}) | <strong>Published:</strong> {pub} | <strong>Score:</strong> {top_story.total_score:.1f}</p>")
+        
+        # Summary body
+        lines.append(f"<p>{short_summary(top_story)}</p>")
+        lines.append("</div><hr>")
+
         articles = [a for a in articles if a.url != top_story.url]
 
+    # ... Thematic Lanes logic ...
     lanes: Dict[str, List[Article]] = {}
     for article in articles:
         lane = group_lane(article)
         lanes.setdefault(lane, []).append(article)
 
-    preferred_order = [
-        "Work & labor",
-        "Economy & business",
-        "Policy & law",
-        "Social institutions",
-        "Capabilities & deployment",
-    ]
+    preferred_order = ["Work & labor", "Economy & business", "Policy & law", "Social institutions", "Capabilities & deployment"]
 
     for lane in preferred_order:
         lane_items = lanes.get(lane, [])
-        if not lane_items:
-            continue
+        if not lane_items: continue
 
-        lines.append(f"## {lane}")
-        lines.append("")
-
+        lines.append(f"<h2>{lane}</h2>")
         for a in lane_items[:4]:
             pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
             tags = ", ".join(a.tags or [])
-
-            lines.append(f"### {a.title}")
-            lines.append(f"- Source: {a.source} ({a.domain})")
-            lines.append(f"- Published: {pub}")
-            lines.append(f"- Score: {a.total_score:.1f}")
+            lines.append("<div>")
+            lines.append(f"<h3><a href='{a.url}'>{a.title}</a></h3>")
+            lines.append(f"<p><strong>Source:</strong> {a.source} | <strong>Published:</strong> {pub} | <strong>Score:</strong> {a.total_score:.1f}</p>")
             if tags:
-                lines.append(f"- Tags: {tags}")
-            lines.append(f"- Why it may matter: {short_summary(a)}")
-            lines.append(f"- Link: {a.url}")
-            lines.append("")
+                lines.append(f"<p><small>Tags: {tags}</small></p>")
+            lines.append(f"<p>{short_summary(a)}</p>")
+            lines.append("</div>")
 
     return "\n".join(lines)
 
@@ -656,6 +637,24 @@ def save_digest(markdown: str) -> str:
         f.write(markdown)
     return filename
 
+SEEN_FILE = "seen_articles.json"
+
+def load_seen_urls() -> set:
+    if not os.path.exists(SEEN_FILE):
+        return set()
+    try:
+        with open(SEEN_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return set(data)
+    except Exception:
+        return set()
+
+def save_seen_urls(urls: set):
+    try:
+        with open(SEEN_FILE, "w", encoding="utf-8") as f:
+            json.dump(sorted(list(urls)), f, indent=2)
+    except Exception as e:
+        print(f"[warn] failed to save seen urls: {e}")
 
 # -----------------------------
 # Main
@@ -665,38 +664,44 @@ def main() -> None:
     print("[info] collecting articles...")
     articles: List[Article] = []
 
+    # 1. Fetch
     for query in SEARCH_QUERIES:
         if NEWSAPI_KEY:
             articles.extend(fetch_newsapi(query))
             time.sleep(1)
-
         articles.extend(fetch_gdelt(query))
         time.sleep(4)
-
     articles.extend(fetch_rss())
 
-    print(f"[info] fetched {len(articles)} raw items")
+    # 2. Filter out already seen articles
+    seen_urls = load_seen_urls()
+    unseen = [a for a in articles if a.url not in seen_urls]
+    print(f"[info] {len(unseen)} of {len(articles)} items are new")
 
-    scored = [score_article(a) for a in articles]
+    # 3. Score and Filter
+    scored = [score_article(a) for a in unseen]
     scored = [a for a in scored if a.total_score >= 6]
-
-    print(f"[info] {len(scored)} items after relevance filtering")
-
+    
     deduped = dedupe_articles(scored)
-    print(f"[info] {len(deduped)} items after dedupe")
-
     final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
 
+    if not final_items:
+        print("[info] no new high-scoring items today.")
+        return
+
+    # 4. Generate, Save, and Send
     digest = generate_digest(final_items)
-    outfile = save_digest(digest)
-
-    print(f"[done] wrote {outfile}")
-
+    save_digest(digest)
+    
     send_email(
         subject=f"AI Society & Economy Brief — {now_utc().strftime('%Y-%m-%d')}",
         body=digest,
     )
 
+    # 5. Update the "seen" list so we don't repeat these tomorrow
+    new_urls = {a.url for a in final_items}
+    # save_seen_urls(seen_urls.union(new_urls))
+    print(f"[done] updated {SEEN_FILE}")
 
 if __name__ == "__main__":
-•    main()
+    main()
