@@ -1,49 +1,150 @@
 [
-  "https://aibusiness.com/agentic-ai/ai-customer-support-startup-valued-at-2-billion",
-  "https://aibusiness.com/agentic-ai/openclaw-forces-enterprise-strategy-questions",
-  "https://aibusiness.com/ai-ethics/class-action-lawsuit-filed-over-meta-ai-glasses",
-  "https://aibusiness.com/data-centers/nscale-valued-at-14-6b-after-raising-2b",
-  "https://aibusiness.com/data-centers/underwater-data-center-project-aboard-offshore-wind-turbine",
-  "https://aibusiness.com/generative-ai/ai-legal-platform-now-valued-at-5-5-billion",
-  "https://aibusiness.com/generative-ai/anthropic-report-says-early-for-ai-to-affect-jobs",
-  "https://aibusiness.com/generative-ai/contextual-data-is-important-for-enterprise-ai",
-  "https://aibusiness.com/generative-ai/dealing-with-ai-s-effect-on-jobs-and-opportunities-in-data",
-  "https://aibusiness.com/generative-ai/nvidia-takes-on-telco-industry-with-new-model",
-  "https://aibusiness.com/intelligent-automation/ibm-watsonx-deepgram-partnership",
-  "https://aibusiness.com/metaverse/euro-regulators-question-meta-over-ai-glasses-privacy-fears",
-  "https://ainowinstitute.org/news/12263",
-  "https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/",
-  "https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/",
-  "https://arstechnica.com/tech-policy/2026/03/leading-ai-datacenter-companies-sign-pledge-to-buy-their-own-power/",
-  "https://research.google/blog/teaching-llms-to-reason-like-bayesians/",
-  "https://www.bloomberg.com/news/articles/2026-03-13/elon-musk-s-ketamine-use-can-t-be-probed-in-openai-fraud-trial",
-  "https://www.bloomberg.com/news/articles/2026-03-14/us-withdraws-draft-rule-that-called-for-global-ai-chip-permits",
-  "https://www.bloomberg.com/news/videos/2026-03-11/circle-ceo-on-why-stablecoins-are-replacing-banks-video",
-  "https://www.bloomberg.com/news/videos/2026-03-12/david-rubenstein-show-jeremy-allaire-video",
-  "https://www.bloomberg.com/news/videos/2026-03-13/how-goodwill-trains-workers-for-better-jobs-video",
-  "https://www.bloomberg.com/news/videos/2026-03-13/open-interest-3-13-2026-video",
-  "https://www.bloomberg.com/news/videos/2026-03-13/sweden-s-secret-sauce-bloomberg-tech-europe-video",
-  "https://www.bloomberg.com/news/videos/2026-03-13/the-opening-trade-3-13-2026-video",
-  "https://www.exponentialview.co/p/data-to-start-your-week-26-03-02",
-  "https://www.exponentialview.co/p/ev-563",
-  "https://www.exponentialview.co/p/ev-564",
-  "https://www.exponentialview.co/p/solar-supercycle",
-  "https://www.exponentialview.co/p/the-ai-race-that-apple-is-winning",
-  "https://www.exponentialview.co/p/the-lantern-and-the-flame",
-  "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world",
-  "https://www.nytimes.com/2026/03/09/technology/anthropic-defense-artificial-intelligence-lawsuit.html",
-  "https://www.nytimes.com/2026/03/10/technology/ai-social-media-child-safety-parents.html",
-  "https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html",
-  "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html",
-  "https://www.nytimes.com/2026/03/12/technology/personaltech/microsoft-copilot-health-ai-chatbots.html",
-  "https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/",
-  "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-  "https://www.understandingai.org/p/17-predictions-for-ai-in-2026",
-  "https://www.understandingai.org/p/an-ai-tsunami-is-coming-for-hollywood",
-  "https://www.understandingai.org/p/google-and-anthropic-approach-llms",
-  "https://www.understandingai.org/p/sorry-skeptics-ai-really-is-changing",
-  "https://www.understandingai.org/p/the-pentagon-is-making-a-mistake",
-  "https://www.wired.com/story/gamers-ai-nightmares-are-coming-true/",
-  "https://www.wired.com/story/meta-unveils-four-new-chips-to-power-its-ai-and-recommendation-systems/",
-  "https://www.wired.com/story/uncanny-valley-podcast-anthropic-department-defense-lawsuit-iran-war-memes-artificial-intelligence-venture-capital/"
+  {
+    "url": "https://aibusiness.com/agentic-ai/ai-customer-support-startup-valued-at-2-billion",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/agentic-ai/openclaw-forces-enterprise-strategy-questions",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/ai-ethics/class-action-lawsuit-filed-over-meta-ai-glasses",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/data-centers/nscale-valued-at-14-6b-after-raising-2b",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/data-centers/underwater-data-center-project-aboard-offshore-wind-turbine",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/generative-ai/ai-legal-platform-now-valued-at-5-5-billion",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/generative-ai/anthropic-report-says-early-for-ai-to-affect-jobs",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/generative-ai/contextual-data-is-important-for-enterprise-ai",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/generative-ai/dealing-with-ai-s-effect-on-jobs-and-opportunities-in-data",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/generative-ai/nvidia-takes-on-telco-industry-with-new-model",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/intelligent-automation/ibm-watsonx-deepgram-partnership",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://aibusiness.com/metaverse/euro-regulators-question-meta-over-ai-glasses-privacy-fears",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://ainowinstitute.org/news/12263",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://arstechnica.com/tech-policy/2026/03/leading-ai-datacenter-companies-sign-pledge-to-buy-their-own-power/",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://research.google/blog/teaching-llms-to-reason-like-bayesians/",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-03-13/elon-musk-s-ketamine-use-can-t-be-probed-in-openai-fraud-trial",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-03-14/us-withdraws-draft-rule-that-called-for-global-ai-chip-permits",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-03-11/circle-ceo-on-why-stablecoins-are-replacing-banks-video",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-03-12/david-rubenstein-show-jeremy-allaire-video",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-03-13/how-goodwill-trains-workers-for-better-jobs-video",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-03-13/open-interest-3-13-2026-video",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-03-13/sweden-s-secret-sauce-bloomberg-tech-europe-video",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/videos/2026-03-13/the-opening-trade-3-13-2026-video",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.exponentialview.co/p/data-to-start-your-week-26-03-02",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.exponentialview.co/p/ev-563",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.exponentialview.co/p/ev-564",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.exponentialview.co/p/solar-supercycle",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.exponentialview.co/p/the-ai-race-that-apple-is-winning",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.exponentialview.co/p/the-lantern-and-the-flame",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.nytimes.com/2026/03/09/technology/anthropic-defense-artificial-intelligence-lawsuit.html",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.understandingai.org/p/the-pentagon-is-making-a-mistake",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.wired.com/story/gamers-ai-nightmares-are-coming-true/",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.wired.com/story/meta-unveils-four-new-chips-to-power-its-ai-and-recommendation-systems/",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  },
+  {
+    "url": "https://www.wired.com/story/uncanny-valley-podcast-anthropic-department-defense-lawsuit-iran-war-memes-artificial-intelligence-venture-capital/",
+    "seen_at": "2026-03-14T18:44:42.890399"
+  }
 ]
