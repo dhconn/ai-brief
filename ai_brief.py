@@ -583,8 +583,13 @@ def pick_top_story(articles: List[Article]) -> Optional[Article]:
     if not articles:
         return None
 
-    ranked = sorted(articles, key=lambda a: a.total_score, reverse=True)
-    return ranked[0]
+    # 1. Look for items from the last 48 hours
+    cutoff = now_utc() - timedelta(hours=48)
+    recent = [a for a in articles if a.published_at and a.published_at > cutoff]
+
+    # 2. If we have recent items, pick the best one; otherwise, take the best of all
+    candidates = recent if recent else articles
+    return sorted(candidates, key=lambda a: a.total_score, reverse=True)[0]
 
 def generate_digest(articles: List[Article]) -> str:
     # 1. Update the date format as we discussed
