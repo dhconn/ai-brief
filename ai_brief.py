@@ -87,6 +87,7 @@ RSS_FEEDS = [
     "https://www.noemamag.com/feed/",
     "https://www.newyorker.com/feed/news",
     "https://www.newyorker.com/feed/magazine/rss",
+    "https://www.theatlantic.com/feed/all/",
 ]
 
 KEYWORD_WEIGHTS = {
