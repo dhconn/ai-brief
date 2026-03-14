@@ -536,7 +536,7 @@ def score_article(article: Article) -> Article:
         article.title or "",
         article.description or "",
         article.content_hint or "",
-        article.domain or "",
+        article.domain or "",•
     ])
 
     raw_score, tags = keyword_score(combined)
@@ -571,6 +571,13 @@ def group_lane(article: Article) -> str:
         return "Social institutions"
     return "Capabilities & deployment"
 
+def pick_top_story(articles: List[Article]) -> Optional[Article]:
+    if not articles:
+        return None
+
+    ranked = sorted(articles, key=lambda a: a.total_score, reverse=True)
+    return ranked[0]
+
 def generate_digest(articles: List[Article]) -> str:
     today = now_utc().strftime("%Y-%m-%d")
     lines: List[str] = []
@@ -579,6 +586,24 @@ def generate_digest(articles: List[Article]) -> str:
     lines.append("")
     lines.append("This is an automated first-pass digest ranked for likely relevance to society, work, policy, and the economy.")
     lines.append("")
+
+    top_story = pick_top_story(articles)
+
+    if top_story:
+        pub = top_story.published_at.strftime("%Y-%m-%d %H:%M UTC") if top_story.published_at else "date unknown"
+
+        lines.append("## Biggest Story of the Day")
+        lines.append("")
+        lines.append(f"### {top_story.title}")
+        lines.append(f"- Source: {top_story.source} ({top_story.domain})")
+        lines.append(f"- Published: {pub}")
+        lines.append(f"- Score: {top_story.total_score:.1f}")
+        lines.append(f"- Why it may matter: {short_summary(top_story)}")
+        lines.append(f"- Link: {top_story.url}")
+        lines.append("")
+
+    if top_story:
+        articles = [a for a in articles if a.url != top_story.url]
 
     lanes: Dict[str, List[Article]] = {}
     for article in articles:
@@ -666,4 +691,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+•    main()
