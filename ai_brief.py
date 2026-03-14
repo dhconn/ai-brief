@@ -3,6 +3,31 @@
 ai_brief.py
 
 AI Society & Economy Brief generator.
+
+What it does:
+- Pulls AI-related items from:
+  1) NewsAPI (optional, requires NEWSAPI_KEY)
+  2) GDELT DOC 2.0 (no key required, but may rate-limit)
+  3) RSS feeds, including Substack/newsletters
+- Scores items for likely relevance to society/economy impacts
+- Deduplicates similar items
+- Writes a markdown digest
+- Optionally emails the digest
+
+Install:
+    py -m pip install requests feedparser python-dateutil
+
+Run:
+    py ai_brief.py
+
+Optional environment variables:
+    NEWSAPI_KEY=your_newsapi_key
+    SMTP_HOST=smtp.gmail.com
+    SMTP_PORT=465
+    SMTP_USER=you@example.com
+    SMTP_PASSWORD=your_app_password
+    EMAIL_FROM=you@example.com
+    EMAIL_TO=you@example.com
 """
 
 from __future__ import annotations
@@ -16,7 +41,6 @@ import smtplib
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 from email.utils import parsedate_to_datetime
 from typing import Dict, List, Optional, Tuple
 from urllib.parse import urlparse
@@ -24,71 +48,49 @@ from urllib.parse import urlparse
 import feedparser
 import requests
 from dateutil import parser as date_parser
-import json
 
 
 # -----------------------------
 # Configuration
 # -----------------------------
 
-DAYS_BACK = 2 # Change this to 7 for switch to weekly
+DAYS_BACK = 5
 MAX_ITEMS_PER_SOURCE = 25
-TOP_N_FINAL = 10
+TOP_N_FINAL = 12
 REQUEST_TIMEOUT = 20
 
-MAX_ARTICLE_AGE_DAYS = 21 # Tighten this 14 to ensure articles aren't too stale
-STRONG_RECENCY_DAYS = 7
-SEEN_FILE = "seen_articles.json"
-MAX_SEEN_URLS = 2000
+NEWSAPI_KEY = os.getenv("NEWSAPI_KEY", "").strip()
 
-NEWSAPI_KEY = (os.getenv("NEWSAPI_KEY") or "").strip()
-
-SMTP_HOST = (os.getenv("SMTP_HOST") or "").strip()
+SMTP_HOST = os.getenv("SMTP_HOST", "").strip()
 SMTP_PORT = int((os.getenv("SMTP_PORT") or "465").strip())
-SMTP_USER = (os.getenv("SMTP_USER") or "").strip()
-SMTP_PASSWORD = (os.getenv("SMTP_PASSWORD") or "").strip()
-EMAIL_FROM = (os.getenv("EMAIL_FROM") or "").strip()
-EMAIL_TO = (os.getenv("EMAIL_TO") or "").strip()
+SMTP_USER = os.getenv("SMTP_USER", "").strip()
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "").strip()
+EMAIL_FROM = os.getenv("EMAIL_FROM", "").strip()
+EMAIL_TO = os.getenv("EMAIL_TO", "").strip()
 
+# Search queries
 SEARCH_QUERIES = [
     '"artificial intelligence" OR "generative AI" OR "large language model" OR chatbot',
     '"AI" AND (jobs OR labor OR employment OR wages OR productivity OR economy OR business)',
-    '"AI regulation" OR "AI policy" OR "AI safety" OR "AI governance" OR antitrust',
-    '"AI" AND (education OR schools OR universities OR healthcare OR media OR fraud OR privacy OR copyright)',
+    '"AI regulation" OR "AI policy" OR "AI safety" OR "AI governance"',
+    '"AI" AND (education OR schools OR universities OR healthcare OR media OR fraud OR privacy)',
     '"AI" AND (energy OR power OR datacenter OR infrastructure)',
 ]
 
+# RSS feeds, including newsletters / Substacks
 RSS_FEEDS = [
-    # Newsletters / analysis
     "https://importai.substack.com/feed",
-    "https://www.understandingai.org/feed",
-    "https://www.noemamag.com/feed/",
-    "https://www.exponentialview.co/feed",        # Added: Azeem Azhar (AI & Economy)
-    "https://www.deeplearning.ai/the-batch/rss", # Added: Andrew Ng (Tech/Social impact)
-    "https://aisnakeoil.substack.com/feed",      # Added: AI Snake Oil (Critical analysis)
-
-    # Research & policy
-    "https://hai.stanford.edu/news/rss.xml",
-    "https://oecd.ai/en/news/rss",
-    "https://www.imf.org/en/Blogs/RSS",
-    "https://ainowinstitute.org/category/news/feed", # Added: AI Now (Policy)
-
-    # Corporate & Academic Research
-    "https://bair.berkeley.edu/blog/feed.xml",       # Added: Berkeley AI Research
-    "https://research.google/blog/rss",              # Added: Google Research
-
-    # Tech & Business journalism
     "https://www.technologyreview.com/feed/",
     "https://feeds.arstechnica.com/arstechnica/technology-lab",
     "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-    "https://venturebeat.com/category/ai/feed/",     # Added: VentureBeat AI
-    "https://aibusiness.com/rss.xml",                # Added: AI Business
-    "https://www.wired.com/feed/tag/ai/latest/rss",  # Added: Wired
-    "https://feeds.bloomberg.com/technology/news.rss" # Added: Bloomberg Tech
+    "https://www.understandingai.org/feed",
+    "https://www.noemamag.com/feed/",
+    "https://www.newyorker.com/feed/news",
+    "https://www.newyorker.com/feed/magazine/rss",
 ]
 
 KEYWORD_WEIGHTS = {
-    # AI basics
+    # direct AI relevance
     "artificial intelligence": 6,
     "generative ai": 6,
     "large language model": 6,
@@ -97,117 +99,97 @@ KEYWORD_WEIGHTS = {
     "llms": 5,
     "foundation model": 5,
     "foundation models": 5,
-    "agent": 2,
-    "agents": 2,
-    "agentic": 3,
-    "chatbot": 2,
-    "chatbots": 2,
-    "inference": 2,
+    "chatbot": 4,
+    "chatbots": 4,
+    "agent": 3,
+    "agents": 3,
+    "agentic": 4,
+    "inference": 3,
+    "model": 1,
 
-    # economy, work, productivity
-    "jobs": 7,
-    "job": 7,
-    "labor": 7,
-    "employment": 7,
-    "workforce": 7,
-    "wages": 7,
-    "productivity": 8,
-    "economy": 8,
-    "economic": 7,
-    "business": 5,
+    # economy / work / business
+    "jobs": 5,
+    "job": 5,
+    "labor": 5,
+    "employment": 5,
+    "workforce": 5,
+    "wages": 5,
+    "productivity": 6,
+    "economy": 6,
+    "economic": 5,
+    "business": 4,
     "enterprise": 4,
-    "industry": 4,
-    "industries": 4,
-    "market": 4,
-    "markets": 4,
-    "competition": 4,
-    "capital spending": 5,
+    "industry": 3,
+    "industries": 3,
+    "market": 3,
+    "markets": 3,
+    "competition": 3,
+    "capital spending": 4,
 
     # law / policy / governance
-    "regulation": 7,
-    "policy": 6,
-    "governance": 6,
-    "antitrust": 6,
-    "lawsuit": 5,
-    "lawsuits": 5,
-    "court": 5,
-    "courts": 5,
-    "congress": 4,
-    "commission": 4,
-    "compliance": 4,
+    "regulation": 5,
+    "policy": 4,
+    "governance": 4,
+    "antitrust": 4,
+    "lawsuit": 4,
+    "lawsuits": 4,
+    "court": 4,
+    "courts": 4,
+    "congress": 3,
+    "commission": 3,
+    "compliance": 3,
 
     # institutions / society
-    "education": 6,
-    "school": 4,
-    "schools": 4,
-    "university": 4,
-    "universities": 4,
-    "healthcare": 6,
-    "hospital": 4,
-    "hospitals": 4,
-    "misinformation": 6,
-    "fraud": 6,
-    "bias": 5,
-    "copyright": 6,
-    "privacy": 6,
-    "surveillance": 6,
-    "election": 4,
+    "education": 4,
+    "school": 3,
+    "schools": 3,
+    "university": 3,
+    "universities": 3,
+    "healthcare": 4,
+    "hospital": 3,
+    "hospitals": 3,
+    "misinformation": 4,
+    "fraud": 4,
+    "bias": 4,
+    "copyright": 4,
+    "privacy": 4,
+    "surveillance": 4,
+    "energy": 3,
+    "power": 3,
+    "electricity": 3,
+    "datacenter": 3,
+    "data center": 3,
+    "election": 3,
 
-    # infrastructure / deployment economics
-    "energy": 5,
-    "power": 5,
-    "electricity": 5,
-    "datacenter": 5,
-    "data center": 5,
-    "infrastructure": 4,
-
-    # downweight generic launch chatter
-    "launch": 0,
-    "launched": 0,
-    "announced": 0,
-    "release": 0,
+    # lower-signal generic launch language
+    "launch": 1,
+    "launched": 1,
+    "announced": 1,
+    "release": 1,
 }
 
 HIGH_SIGNAL_DOMAINS = {
-    "imf.org": 5,
-    "oecd.ai": 5,
-    "oecd.org": 5,
-    "nber.org": 5,
-    "hai.stanford.edu": 5,
-    "exponentialview.co": 5,      # New
-    "ainowinstitute.org": 5,     # New
-    "aisnakeoil.substack.com": 4, # New (Specific high-quality newsletter)
-    "deeplearning.ai": 4,         # New
-    "bair.berkeley.edu": 4,      # New
-    "research.google": 4,         # New
-    "stanford.edu": 4,
-    "reuters.com": 4,
-    "apnews.com": 4,
-    "ft.com": 4,
-    "economist.com": 4,
-    "bloomberg.com": 4,
-    "wsj.com": 4,
-    "venturebeat.com": 3,         # New
-    "aibusiness.com": 3,          # New
-    "technologyreview.com": 3,
-    "arstechnica.com": 3,
-    "understandingai.org": 3,
-    "noemamag.com": 3,
-    "nytimes.com": 3,
-    "wired.com": 2,               # New
+    "imf.org": 4,
+    "oecd.ai": 4,
+    "oecd.org": 4,
+    "nber.org": 4,
+    "hai.stanford.edu": 4,
+    "stanford.edu": 3,
+    "reuters.com": 3,
+    "apnews.com": 3,
+    "ft.com": 3,
+    "economist.com": 3,
+    "bloomberg.com": 3,
+    "wsj.com": 3,
+    "nytimes.com": 2,
+    "technologyreview.com": 2,
+    "arstechnica.com": 2,
+    "understandingai.org": 2,
+    "noemamag.com": 2,
     "substack.com": 1,
 }
 
-LOW_SIGNAL_PATTERNS = [
-    "funding round",
-    "raises",
-    "seed round",
-    "series a",
-    "series b",
-    "product launch",
-]
-
-USER_AGENT = "AIBriefBot/0.3"
+USER_AGENT = "AIBriefBot/0.2"
 
 
 # -----------------------------
@@ -227,8 +209,6 @@ class Article:
     raw_score: float = 0.0
     age_score: float = 0.0
     source_score: float = 0.0
-    impact_score: float = 0.0
-    penalty_score: float = 0.0
     total_score: float = 0.0
     tags: Optional[List[str]] = None
 
@@ -274,26 +254,11 @@ def parse_dt(value: Optional[str]) -> Optional[datetime]:
         except Exception:
             return None
 
-def article_age_days(published_at: Optional[datetime]) -> Optional[float]:
-    if not published_at:
-        return None
-    return max((now_utc() - published_at.astimezone(timezone.utc)).total_seconds() / 86400.0, 0.0)
-
 def recency_score(published_at: Optional[datetime]) -> float:
-    age_days = article_age_days(published_at)
-    if age_days is None:
-        return 0.0
-    if age_days <= 1:
-        return 6.0
-    if age_days <= 3:
-        return 5.0
-    if age_days <= STRONG_RECENCY_DAYS:
-        return 3.5
-    if age_days <= 14:
-        return 1.5
-    if age_days <= MAX_ARTICLE_AGE_DAYS:
+    if not published_at:
         return 0.5
-    return -10.0
+    age_hours = max((now_utc() - published_at.astimezone(timezone.utc)).total_seconds() / 3600.0, 0.0)
+    return max(0.0, 3.5 - math.log1p(age_hours))
 
 def keyword_score(text: str) -> Tuple[float, List[str]]:
     score = 0.0
@@ -305,47 +270,24 @@ def keyword_score(text: str) -> Tuple[float, List[str]]:
             score += weight
             tags.append(kw)
 
+    impact_groups = 0
+    if any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce"]):
+        impact_groups += 1
+    if any(k in lower for k in ["economy", "economic", "productivity", "business", "market", "enterprise"]):
+        impact_groups += 1
+    if any(k in lower for k in ["regulation", "policy", "governance", "court", "lawsuit", "antitrust", "compliance"]):
+        impact_groups += 1
+    if any(k in lower for k in ["education", "healthcare", "fraud", "misinformation", "privacy", "copyright", "surveillance"]):
+        impact_groups += 1
+    if any(k in lower for k in ["energy", "power", "electricity", "datacenter", "data center", "infrastructure"]):
+        impact_groups += 1
+
+    if impact_groups >= 2:
+        score += 4
+    if impact_groups >= 3:
+        score += 3
+
     return score, sorted(set(tags))
-
-def impact_lane_score(text: str) -> float:
-    lower = text.lower()
-
-    work = any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce"])
-    econ = any(k in lower for k in ["economy", "economic", "productivity", "business", "market", "enterprise", "industry"])
-    policy = any(k in lower for k in ["regulation", "policy", "governance", "court", "lawsuit", "antitrust", "compliance"])
-    society = any(k in lower for k in ["education", "healthcare", "fraud", "misinformation", "privacy", "copyright", "surveillance"])
-    infra = any(k in lower for k in ["energy", "power", "electricity", "datacenter", "data center", "infrastructure"])
-
-    lanes = sum([work, econ, policy, society, infra])
-
-    if lanes >= 4:
-        return 8.0
-    if lanes == 3:
-        return 6.0
-    if lanes == 2:
-        return 4.0
-    if lanes == 1:
-        return 1.0
-    return 0.0
-
-def generic_story_penalty(text: str) -> float:
-    lower = text.lower()
-    penalty = 0.0
-
-    generic_capability = any(k in lower for k in ["agent", "agents", "chatbot", "chatbots", "llm", "llms"])
-    real_world = any(k in lower for k in [
-        "jobs", "labor", "employment", "wages", "productivity", "economy", "policy", "regulation",
-        "education", "healthcare", "privacy", "fraud", "energy", "power", "copyright"
-    ])
-
-    if generic_capability and not real_world:
-        penalty += 3.0
-
-    for pattern in LOW_SIGNAL_PATTERNS:
-        if pattern in lower:
-            penalty += 2.0
-
-    return penalty
 
 def source_signal_score(domain: str) -> float:
     for candidate, weight in HIGH_SIGNAL_DOMAINS.items():
@@ -403,63 +345,33 @@ def is_probable_duplicate(a: Article, b: Article) -> bool:
     overlap = len(wa & wb) / max(1, min(len(wa), len(wb)))
     return overlap >= 0.8
 
-def classify_lane(text: str) -> str:
-    lower = text.lower()
-
-    if any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce"]):
-        return "Work & labor"
-    if any(k in lower for k in ["economy", "productivity", "market", "business", "enterprise", "industry"]):
-        return "Economy & business"
-    if any(k in lower for k in ["regulation", "policy", "court", "lawsuit", "governance", "antitrust", "compliance"]):
-        return "Policy & law"
-    if any(k in lower for k in ["education", "healthcare", "privacy", "fraud", "misinformation", "copyright", "surveillance"]):
-        return "Social institutions"
-    return "Capabilities & deployment"
-
-def is_analysis_source(article: Article) -> bool:
-    return article.domain in [
-        "importai.substack.com",
-        "understandingai.org",
-        "noemamag.com",
-        "exponentialview.co",        # Added
-        "deeplearning.ai",           # Added
-        "aisnakeoil.substack.com",   # Added
-    ]
-
 def short_summary(article: Article) -> str:
     desc = clean_text(article.description or article.content_hint or "")
-    combined = f"{article.title}. {desc}".strip()
-    lane = classify_lane(combined)
-    lower = combined.lower()
+    lower = f"{article.title} {desc}".lower()
 
-    what_happened = desc.split(". ")[0].strip() if desc else article.title.strip()
-    if what_happened and not what_happened.endswith("."):
-        what_happened += "."
+    impact_lines = []
 
-    if lane == "Work & labor":
-        why = "This could affect hiring, task design, wages, or how human work is allocated."
-        watch = "Watch for evidence of adoption at scale, measurable productivity gains, or workforce displacement."
-    elif lane == "Economy & business":
-        why = "This matters if it changes enterprise adoption, competitive dynamics, capital spending, or productivity."
-        watch = "Watch for follow-on moves by large firms, spending commitments, and proof of business value."
-    elif lane == "Policy & law":
-        why = "This matters because legal and regulatory decisions will shape how quickly AI deploys and under what constraints."
-        watch = "Watch for agency action, court rulings, and whether this becomes a broader precedent."
-    elif lane == "Social institutions":
-        why = "This matters because AI effects often show up first in trust-sensitive institutions such as schools, media, healthcare, and privacy."
-        watch = "Watch for replication, real-world incidents, and institutional responses."
-    else:
-        why = "This is mainly a capability or deployment development, but it could become more important if it changes costs or reliability."
-        watch = "Watch for signs that it moves from demo or product news into measurable real-world impact."
-
+    if any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce"]):
+        impact_lines.append("Likely labor-market or workplace implications.")
+    if any(k in lower for k in ["productivity", "business", "enterprise", "industry", "economy", "market"]):
+        impact_lines.append("Potential business or macroeconomic relevance.")
+    if any(k in lower for k in ["regulation", "policy", "governance", "court", "lawsuit", "antitrust", "compliance"]):
+        impact_lines.append("Relevant to regulation, courts, or governance.")
+    if any(k in lower for k in ["education", "healthcare", "misinformation", "fraud", "privacy", "copyright", "surveillance"]):
+        impact_lines.append("Possible downstream institutional or social effects.")
     if any(k in lower for k in ["energy", "power", "electricity", "datacenter", "data center", "infrastructure"]):
-        why += " It may also matter for infrastructure demand and energy economics."
+        impact_lines.append("Could matter for infrastructure, energy demand, or deployment economics.")
 
-    return (
-        f"<strong>What happened:</strong> {what_happened}<br>"
-        f"<strong>Why it matters:</strong> {why}<br>"
-        f"<strong>What to watch:</strong> {watch}"
-    )
+    if not impact_lines:
+        impact_lines.append("Primarily a capability or deployment story; broader effects may emerge later.")
+
+    first_sentence = desc.split(". ")[0].strip()
+    if first_sentence and not first_sentence.endswith("."):
+        first_sentence += "."
+    if not first_sentence:
+        first_sentence = "This item appears relevant based on headline and source metadata."
+
+    return f"{first_sentence} {' '.join(impact_lines[:2])}".strip()
 
 def email_is_configured() -> bool:
     return all([SMTP_HOST, SMTP_USER, SMTP_PASSWORD, EMAIL_FROM, EMAIL_TO])
@@ -469,60 +381,17 @@ def send_email(subject: str, body: str) -> None:
         print("[info] email not configured; skipping email delivery")
         return
 
-    try:
-        # Create a "container" that can hold two versions: plain text and HTML
-        msg = MIMEMultipart("alternative")
-        msg["Subject"] = subject
-        msg["From"] = EMAIL_FROM
-        msg["To"] = EMAIL_TO
+    msg = MIMEText(body, "plain", "utf-8")
+    msg["Subject"] = subject
+    msg["From"] = EMAIL_FROM
+    msg["To"] = EMAIL_TO
 
-        # 1. Plain text version (for safety)
-        part1 = MIMEText("Please view this email in an HTML-compatible client.", "plain")
-        
-        # 2. HTML version (the beautiful one)
-        part2 = MIMEText(body, "html", "utf-8")
+    with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as server:
+        server.login(SMTP_USER, SMTP_PASSWORD)
+        server.send_message(msg)
 
-        # Attach both versions to the container
-        msg.attach(part1)
-        msg.attach(part2)
+    print(f"[done] emailed digest to {EMAIL_TO}")
 
-        with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as server:
-            server.login(SMTP_USER, SMTP_PASSWORD)
-            server.send_message(msg)
-
-        print(f"[done] emailed digest to {EMAIL_TO}")
-    except Exception as exc:
-        print(f"[warn] email delivery failed: {exc}")
-
-def load_seen_urls() -> set[str]:
-    try:
-        with open(SEEN_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        if isinstance(data, list):
-            return set(str(x) for x in data if x)
-        return set()
-    except FileNotFoundError:
-        return set()
-    except Exception as exc:
-        print(f"[warn] could not read {SEEN_FILE}: {exc}")
-        return set()
-
-
-def save_seen_urls(urls: set[str]) -> None:
-    trimmed = sorted(urls)[-MAX_SEEN_URLS:]
-    with open(SEEN_FILE, "w", encoding="utf-8") as f:
-        json.dump(trimmed, f, indent=2)
-
-
-def filter_unseen_articles(articles: List[Article], seen_urls: set[str]) -> List[Article]:
-    return [a for a in articles if a.url not in seen_urls]
-
-
-def update_seen_urls(seen_urls: set[str], articles: List[Article]) -> set[str]:
-    for a in articles:
-        seen_urls.add(a.url)
-    return seen_urls
 
 # -----------------------------
 # Source connectors
@@ -611,6 +480,7 @@ def fetch_gdelt(query: str) -> List[Article]:
                 query=query,
             )
         )
+
     return items
 
 def fetch_rss() -> List[Article]:
@@ -671,15 +541,11 @@ def score_article(article: Article) -> Article:
     raw_score, tags = keyword_score(combined)
     age = recency_score(article.published_at)
     source = source_signal_score(article.domain)
-    impact = impact_lane_score(combined)
-    penalty = generic_story_penalty(combined)
 
     article.raw_score = raw_score
     article.age_score = age
     article.source_score = source
-    article.impact_score = impact
-    article.penalty_score = penalty
-    article.total_score = raw_score + age + source + impact - penalty
+    article.total_score = raw_score + age + source
     article.tags = tags[:8]
     return article
 
@@ -691,80 +557,71 @@ def dedupe_articles(articles: List[Article]) -> List[Article]:
         kept.append(article)
     return kept
 
-def filter_articles(articles: List[Article]) -> List[Article]:
-    filtered = []
-    for a in articles:
-        age_days = article_age_days(a.published_at)
-        if age_days is not None and age_days > MAX_ARTICLE_AGE_DAYS:
-            continue
-        if a.total_score < 9:
-            continue
-        filtered.append(a)
-    return filtered
+def group_lane(article: Article) -> str:
+    lower = f"{article.title} {article.description} {article.content_hint}".lower()
+
+    if any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce"]):
+        return "Work & labor"
+    if any(k in lower for k in ["economy", "productivity", "market", "business", "enterprise", "industry"]):
+        return "Economy & business"
+    if any(k in lower for k in ["regulation", "policy", "court", "lawsuit", "governance", "antitrust", "compliance"]):
+        return "Policy & law"
+    if any(k in lower for k in ["education", "healthcare", "privacy", "fraud", "misinformation", "copyright", "surveillance"]):
+        return "Social institutions"
+    return "Capabilities & deployment"
 
 def generate_digest(articles: List[Article]) -> str:
-    today = now_utc().strftime("%B %d, %Y")
+    today = now_utc().strftime("%Y-%m-%d")
     lines: List[str] = []
 
-    # Start HTML Document
-    lines.append("<html>")
-    lines.append("<head><style>body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; } h1 { color: #2c3e50; } h2 { border-bottom: 2px solid #eee; padding-top: 20px; } h3 { margin-bottom: 5px; color: #2980b9; }</style></head>")
-    lines.append("<body>")
-    
-    lines.append(f"<h1>AI Society & Economy Brief — {today}</h1>")
-    lines.append("<p>This is an automated digest ranked for likely relevance to society, work, policy, and the economy.</p>")
+    lines.append(f"# AI Society & Economy Brief — {today}")
+    lines.append("")
+    lines.append("This is an automated first-pass digest ranked for likely relevance to society, work, policy, and the economy.")
+    lines.append("")
 
-    # 1. Analysis / Commentary Section
-    analysis_articles = [a for a in articles if is_analysis_source(a)]
-    if analysis_articles:
-        lines.append("<h2>AI Analysis & Commentary</h2>")
-        for a in analysis_articles[:3]:
-            pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
-            lines.append("<div>")
-            lines.append(f"<h3><a href='{a.url}'>{a.title}</a></h3>")
-            lines.append(f"<p><strong>Source:</strong> {a.source} ({a.domain})<br>")
-            lines.append(f"<strong>Published:</strong> {pub}</p>")
-            lines.append(f"<p>{short_summary(a)}</p>")
-            lines.append("</div><hr>")
+    lanes: Dict[str, List[Article]] = {}
+    for article in articles:
+        lane = group_lane(article)
+        lanes.setdefault(lane, []).append(article)
 
-    # 2. Thematic Lanes
-    other_articles = [a for a in articles if not is_analysis_source(a)]
-    lanes_map: Dict[str, List[Article]] = {}
-    for article in other_articles:
-        lane = classify_lane(f"{article.title} {article.description}")
-        lanes_map.setdefault(lane, []).append(article)
-
-    preferred_order = ["Work & labor", "Economy & business", "Policy & law", "Social institutions", "Capabilities & deployment"]
+    preferred_order = [
+        "Work & labor",
+        "Economy & business",
+        "Policy & law",
+        "Social institutions",
+        "Capabilities & deployment",
+    ]
 
     for lane in preferred_order:
-        items = lanes_map.get(lane, [])
-        if not items:
+        lane_items = lanes.get(lane, [])
+        if not lane_items:
             continue
 
-        lines.append(f"<h2>{lane}</h2>")
-        for a in items[:3]:
+        lines.append(f"## {lane}")
+        lines.append("")
+
+        for a in lane_items[:4]:
             pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
             tags = ", ".join(a.tags or [])
-            lines.append("<div>")
-            lines.append(f"<h3><a href='{a.url}'>{a.title}</a></h3>")
-            lines.append(f"<p><strong>Source:</strong> {a.source} | <strong>Published:</strong> {pub} | <strong>Score:</strong> {a.total_score:.1f}</p>")
-            
-            if tags:
-                lines.append(f"<p><small>Tags: {tags}</small></p>")
-            lines.append(f"<p>{short_summary(a)}</p>")
-            lines.append("</div>")
 
-    # Close HTML Document
-    lines.append("</body></html>")
+            lines.append(f"### {a.title}")
+            lines.append(f"- Source: {a.source} ({a.domain})")
+            lines.append(f"- Published: {pub}")
+            lines.append(f"- Score: {a.total_score:.1f}")
+            if tags:
+                lines.append(f"- Tags: {tags}")
+            lines.append(f"- Why it may matter: {short_summary(a)}")
+            lines.append(f"- Link: {a.url}")
+            lines.append("")
+
     return "\n".join(lines)
 
-def save_digest(html_content: str) -> str:
-    os.makedirs("archive", exist_ok=True)
-    # Changed extension to .html to ensure we aren't confusing the format
-    filename = f"archive/ai_digest_{now_utc().strftime('%Y%m%d')}.html"
+def save_digest(markdown: str) -> str:
+    filename = f"ai_digest_{now_utc().strftime('%Y%m%d')}.md"
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(html_content)
+        f.write(markdown)
     return filename
+
 
 # -----------------------------
 # Main
@@ -774,66 +631,38 @@ def main() -> None:
     print("[info] collecting articles...")
     articles: List[Article] = []
 
-    # 1. Fetch
     for query in SEARCH_QUERIES:
         if NEWSAPI_KEY:
             articles.extend(fetch_newsapi(query))
             time.sleep(1)
+
         articles.extend(fetch_gdelt(query))
         time.sleep(4)
+
     articles.extend(fetch_rss())
 
-    # 2. Process
+    print(f"[info] fetched {len(articles)} raw items")
+
     scored = [score_article(a) for a in articles]
-    filtered = filter_articles(scored)
-    deduped = dedupe_articles(filtered)
-    seen_urls = load_seen_urls()
-    unseen = filter_unseen_articles(deduped, seen_urls)
+    scored = [a for a in scored if a.total_score >= 6]
 
-    # 3. Select
-    analysis_items = sorted([a for a in unseen if is_analysis_source(a)], key=lambda a: a.total_score, reverse=True)[:3]
-    normal_items = sorted([a for a in unseen if not is_analysis_source(a)], key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
-    
-    final_items = analysis_items + normal_items
-    if len(final_items) < 5:
-        print("[info] not enough unseen items; allowing fallback items")
-        final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+    print(f"[info] {len(scored)} items after relevance filtering")
 
-    # 4. Generate & Save
+    deduped = dedupe_articles(scored)
+    print(f"[info] {len(deduped)} items after dedupe")
+
+    final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+
     digest = generate_digest(final_items)
     outfile = save_digest(digest)
+
     print(f"[done] wrote {outfile}")
 
-    # 5. Update state
-    seen_urls = update_seen_urls(seen_urls, final_items)
-    save_seen_urls(seen_urls)
-    print(f"[done] updated {SEEN_FILE}")
-
-# 6. Send
     send_email(
         subject=f"AI Society & Economy Brief — {now_utc().strftime('%Y-%m-%d')}",
-        body=digest
+        body=digest,
     )
-    
-    # 7. Update Archive Index
-    update_index()
-    print("[done] updated index.html")
 
-def update_index():
-    # Get all html files in archive, sorted by name (descending)
-    files = sorted([f for f in os.listdir("archive") if f.endswith(".html")], reverse=True)
-    
-    lines = ["<html><body><h1>AI Brief Archive</h1><ul>"]
-    for f in files:
-        # Create a display date from the filename (e.g., 20260313 -> 2026-03-13)
-        date_str = f.replace("ai_digest_", "").replace(".html", "")
-        formatted_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:]}"
-        lines.append(f"<li><a href='archive/{f}'>{formatted_date}</a></li>")
-    
-    lines.append("</ul></body></html>")
-    
-    with open("index.html", "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
 
 if __name__ == "__main__":
     main()
