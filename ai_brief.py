@@ -651,19 +651,37 @@ def save_digest(markdown: str) -> str:
 SEEN_FILE = "seen_articles.json"
 
 def load_seen_urls() -> set:
+    """Loads URLs from the archive to check if we've seen them."""
     if not os.path.exists(SEEN_FILE):
         return set()
     try:
         with open(SEEN_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-            return set(data)
+            # data is now a list of dicts: [{"url": "...", "seen_at": "..."}, ...]
+            return {item["url"] for item in data}
     except Exception:
         return set()
 
-def save_seen_urls(urls: set):
+def save_seen_urls(new_urls: set):
+    """Appends new URLs to the chronological archive."""
+    # 1. Load existing archive
+    archive = []
+    if os.path.exists(SEEN_FILE):
+        try:
+            with open(SEEN_FILE, "r", encoding="utf-8") as f:
+                archive = json.load(f)
+        except Exception:
+            archive = []
+
+    # 2. Add only the new URLs to the archive with a timestamp
+    timestamp = now_utc().isoformat()
+    for url in new_urls:
+        archive.append({"url": url, "seen_at": timestamp})
+
+    # 3. Save back (preserves order of appending)
     try:
         with open(SEEN_FILE, "w", encoding="utf-8") as f:
-            json.dump(sorted(list(urls)), f, indent=2)
+            json.dump(archive, f, indent=2)
     except Exception as e:
         print(f"[warn] failed to save seen urls: {e}")
 
