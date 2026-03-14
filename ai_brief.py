@@ -589,18 +589,26 @@ def generate_digest(articles: List[Article]) -> str:
 
     top_story = pick_top_story(articles)
 
-    if top_story:
-        pub = top_story.published_at.strftime("%Y-%m-%d %H:%M UTC") if top_story.published_at else "date unknown"
+if top_story:
+    pub = top_story.published_at.strftime("%Y-%m-%d %H:%M UTC") if top_story.published_at else "date unknown"
 
-        lines.append("## Biggest Story of the Day")
-        lines.append("")
-        lines.append(f"### {top_story.title}")
-        lines.append(f"- Source: {top_story.source} ({top_story.domain})")
-        lines.append(f"- Published: {pub}")
-        lines.append(f"- Score: {top_story.total_score:.1f}")
-        lines.append(f"- Why it may matter: {short_summary(top_story)}")
-        lines.append(f"- Link: {top_story.url}")
-        lines.append("")
+    lines.append("## Biggest Story of the Day")
+    lines.append("")
+
+    lines.append(f"### {top_story.title}")
+    lines.append(f"- Source: {top_story.source} ({top_story.domain})")
+    lines.append(f"- Published: {pub}")
+    lines.append(f"- Score: {top_story.total_score:.1f}")
+
+    what_happened = clean_text(top_story.description) or clean_text(top_story.content_hint) or "No summary available."
+    lines.append(f"- What happened: {what_happened}")
+
+    lines.append(f"- Why it matters: {short_summary(top_story)}")
+
+    lines.append("- What to watch: Watch for replication, real-world incidents, and institutional responses.")
+
+    lines.append(f"- Link: {top_story.url}")
+    lines.append("")
 
     if top_story:
         articles = [a for a in articles if a.url != top_story.url]
