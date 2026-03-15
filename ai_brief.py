@@ -647,13 +647,14 @@ def generate_digest(articles: List[Article]) -> str:
     return "\n".join(lines)
 
 def save_digest(html_content: str) -> str:
-    # 1. Ensure the directory exists
+    # 1. Create the folder if it doesn't exist
     if not os.path.exists("archive"):
         os.makedirs("archive")
         
-    # 2. Save as .html inside the archive folder
+    # 2. Define the path and filename (must be .html)
     filename = f"archive/ai_digest_{now_utc().strftime('%Y%m%d')}.html"
     
+    # 3. Save the file
     with open(filename, "w", encoding="utf-8") as f:
         f.write(html_content)
         
