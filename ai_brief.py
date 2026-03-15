@@ -604,7 +604,6 @@ def generate_digest(articles: List[Article]) -> str:
     archive_link = "<p><a href='https://dhconn.github.io/ai-brief/'>View the Full Brief Archive</a></p>"
     lines.append(archive_link)
 
-    
     top_story = pick_top_story(articles)
 
     if top_story:
@@ -647,10 +646,18 @@ def generate_digest(articles: List[Article]) -> str:
 
     return "\n".join(lines)
 
-def save_digest(markdown: str) -> str:
-    filename = f"ai_digest_{now_utc().strftime('%Y%m%d')}.md"
+def save_digest(html_content: str) -> str:
+    # 1. Ensure the directory exists
+    if not os.path.exists("archive"):
+        os.makedirs("archive")
+        
+    # 2. Save as .html inside the archive folder
+    filename = f"archive/ai_digest_{now_utc().strftime('%Y%m%d')}.html"
+    
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(markdown)
+        f.write(html_content)
+        
+    print(f"[info] digest saved to {filename}")
     return filename
 
 SEEN_FILE = "seen_articles.json"
