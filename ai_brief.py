@@ -33,6 +33,7 @@ Optional environment variables:
 from __future__ import annotations
 
 import math
+import glob
 import os
 import re
 import time
@@ -600,6 +601,8 @@ def generate_digest(articles: List[Article]) -> str:
     lines.append(f"<h1>AI Society & Economy Brief — {today}</h1>")
     lines.append("<p>This is an automated first-pass digest ranked for likely relevance to society, work, policy, and the economy.</p>")
 
+    archive_link = "<p><a href='https://dhconn.github.io/ai-brief/'>View the Full Brief Archive</a></p>"
+    
     top_story = pick_top_story(articles)
 
     if top_story:
@@ -685,6 +688,36 @@ def save_seen_urls(new_urls: set):
     except Exception as e:
         print(f"[warn] failed to save seen urls: {e}")
 
+def update_html_index():
+    # 1. Find all HTML digest files in the archive folder
+    # Adjust "archive/*.html" if your path is different
+    digest_files = glob.glob("archive/ai_digest_*.html")
+    
+    # 2. Sort them so the newest date is at the top
+    digest_files.sort(reverse=True)
+    
+    # 3. Build the HTML content
+    html_start = "<html><body><h1>AI Brief Archive</h1><ul>\n"
+    html_end = "</ul></body></html>"
+    list_items = []
+    
+    for file_path in digest_files:
+        # Extract filename from path (e.g., ai_digest_20260315.html)
+        file_name = os.path.basename(file_path)
+        # Extract date for the link text (e.g., 2026-03-15)
+        date_part = file_name.replace("ai_digest_", "").replace(".html", "")
+        formatted_date = f"{date_part[:4]}-{date_part[4:6]}-{date_part[6:]}"
+        
+        list_items.append(f"<li><a href='archive/{file_name}'>{formatted_date}</a></li>")
+    
+    # 4. Combine and overwrite the index.html
+    full_html = html_start + "\n".join(list_items) + html_end
+    
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(full_html)
+    
+    print("[info] index.html updated with latest links.")
+
 # -----------------------------
 # Main
 # -----------------------------
@@ -729,8 +762,14 @@ def main() -> None:
 
     # 5. Update the "seen" list so we don't repeat these tomorrow
     new_urls = {a.url for a in final_items}
-    save_seen_urls(seen_urls.union(new_urls))
+    save_seen_urls(new_urls)
     print(f"[done] updated {SEEN_FILE}")
+
+    # 6. Update the story archive (the Markdown table of every URL)
+    update_archive_markdown()
+    
+    # 7. Update the website home page (the list of daily links)
+    update_html_index()
 
 if __name__ == "__main__":
     main()
