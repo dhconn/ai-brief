@@ -602,6 +602,8 @@ def generate_digest(articles: List[Article]) -> str:
     lines.append("<p>This is an automated first-pass digest ranked for likely relevance to society, work, policy, and the economy.</p>")
 
     archive_link = "<p><a href='https://dhconn.github.io/ai-brief/'>View the Full Brief Archive</a></p>"
+    lines.append(archive_link)
+
     
     top_story = pick_top_story(articles)
 
