@@ -718,6 +718,32 @@ def update_html_index():
     
     print("[info] index.html updated with latest links.")
 
+def update_archive_markdown():
+    try:
+        with open('seen_articles.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        data.sort(key=lambda x: x['seen_at'], reverse=True)
+        
+        lines = [
+            "# Archive of Stories",
+            "",
+            "| Date Added | Story URL |",
+            "|:---|:---|"
+        ]
+        
+        for item in data:
+            date = item['seen_at'][:10]
+            url = item['url']
+            lines.append(f"| {date} | [{url}]({url}) |")
+            
+        with open("archive.md", "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+            
+        print("[info] archive.md successfully updated.")
+    except Exception as e:
+        print(f"[warn] failed to update archive.md: {e}")
+
 # -----------------------------
 # Main
 # -----------------------------
