@@ -88,7 +88,8 @@ RSS_FEEDS = [
     "https://www.understandingai.org/feed",
     "https://www.noemamag.com/feed/",
     "https://www.newyorker.com/feed/news",
-    "https://www.newyorker.com/feed/magazine/rss",
+    "https://aibreakfast.beehiiv.com/",
+    "https://www.exponentialview.co/",
     "https://www.theatlantic.com/feed/all/",
 ]
 
@@ -189,8 +190,10 @@ HIGH_SIGNAL_DOMAINS = {
     "arstechnica.com": 2,
     "understandingai.org": 2,
     "noemamag.com": 2,
+    "aibreakfast.beehiiv.com": 3,
+    "exponentialview.co": 3,
     "substack.com": 1,
-}
+    }
 
 USER_AGENT = "AIBriefBot/0.2"
 
@@ -292,6 +295,36 @@ def keyword_score(text: str) -> Tuple[float, List[str]]:
 
     return score, sorted(set(tags))
 
+# Create a tracker for sources
+source_counts = {}
+final_selections = []
+
+# Sort articles by total_score descending
+scored_articles.sort(key=lambda x: x['total_score'], reverse=True)
+
+for article in scored_articles:
+    source = article.get('source_domain', 'unknown')
+    
+    # Initialize count
+    count = source_counts.get(source, 0)
+    
+    # Apply the "Source Penalty"
+    adjusted_score = article['total_score']
+    
+    if count == 1:
+        adjusted_score -= 3.5  # Heavy penalty for the second story
+    elif count >= 2:
+        adjusted_score -= 10.0 # Effectively blocks a third story
+        
+    # Check against your threshold (e.g., 6.0)
+    if adjusted_score >= 6.0:
+        final_selections.append(article)
+        source_counts[source] = count + 1
+        
+    # Stop when you have your 12 stories
+    if len(final_selections) >= 12:
+        break
+      
 def source_signal_score(domain: str) -> float:
     for candidate, weight in HIGH_SIGNAL_DOMAINS.items():
         if domain == candidate or domain.endswith("." + candidate):
@@ -776,18 +809,41 @@ def main() -> None:
     unseen = [a for a in articles if a.url not in seen_urls]
     print(f"[info] {len(unseen)} of {len(articles)} items are new")
 
-    # 3. Score and Filter
+    # --- 3. Score, Filter, and Dedup ---
     scored = [score_article(a) for a in unseen]
     scored = [a for a in scored if a.total_score >= 6]
-    
     deduped = dedupe_articles(scored)
-    final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+
+    # --- 4. Apply Diversity Penalty & Final Selection ---
+    source_counts = {}
+    final_items = [] 
+
+    # Sort by total_score first so the best ones get the "first slot"
+    deduped.sort(key=lambda x: x.total_score, reverse=True)
+
+    for article in deduped:
+        source = article.domain if article.domain else "unknown"
+        count = source_counts.get(source, 0)
+        
+        adjusted_score = article.total_score
+        
+        if count == 1:
+            adjusted_score -= 3.5  
+        elif count >= 2:
+            adjusted_score -= 10.0 
+            
+        if adjusted_score >= 6.0:
+            final_items.append(article)
+            source_counts[source] = count + 1
+            
+        if len(final_items) >= TOP_N_FINAL:
+            break
 
     if not final_items:
         print("[info] no new high-scoring items today.")
         return
 
-    # 4. Generate, Save, and Send
+    # 5. Generate, Save, and Send
     digest = generate_digest(final_items)
     save_digest(digest)
     
@@ -796,15 +852,15 @@ def main() -> None:
         body=digest,
     )
 
-    # 5. Update the "seen" list so we don't repeat these tomorrow
+    # 6. Update the "seen" list so we don't repeat these tomorrow
     new_urls = {a.url for a in final_items}
     save_seen_urls(new_urls)
     print(f"[done] updated {SEEN_FILE}")
 
-    # 6. Update the story archive (the Markdown table of every URL)
+    # 7. Update the story archive (the Markdown table of every URL)
     update_archive_markdown()
     
-    # 7. Update the website home page (the list of daily links)
+    # 8. Update the website home page (the list of daily links)
     update_html_index()
 
 if __name__ == "__main__":
