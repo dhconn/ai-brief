@@ -299,9 +299,6 @@ def keyword_score(text: str) -> Tuple[float, List[str]]:
 source_counts = {}
 final_selections = []
 
-# Sort articles by total_score descending
-scored_articles.sort(key=lambda x: x['total_score'], reverse=True)
-
 for article in scored_articles:
     source = article.get('source_domain', 'unknown')
     
@@ -817,9 +814,6 @@ def main() -> None:
     # --- 4. Apply Diversity Penalty & Final Selection ---
     source_counts = {}
     final_items = [] 
-
-    # Sort by total_score first so the best ones get the "first slot"
-    deduped.sort(key=lambda x: x.total_score, reverse=True)
 
     for article in deduped:
         source = article.domain if article.domain else "unknown"
