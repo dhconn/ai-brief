@@ -2,6 +2,18 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-03-16 | [https://www.nytimes.com/2026/03/07/technology/openai-anthropic-pentagon-rivalry.html](https://www.nytimes.com/2026/03/07/technology/openai-anthropic-pentagon-rivalry.html) |
+| 2026-03-16 | [https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html) |
+| 2026-03-16 | [https://www.nytimes.com/2026/03/10/technology/ai-daily-life-callout.html](https://www.nytimes.com/2026/03/10/technology/ai-daily-life-callout.html) |
+| 2026-03-16 | [https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/](https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/) |
+| 2026-03-16 | [https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/](https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/) |
+| 2026-03-16 | [https://www.newyorker.com/magazine/2026/03/23/lisa-kudrow-profile](https://www.newyorker.com/magazine/2026/03/23/lisa-kudrow-profile) |
+| 2026-03-16 | [https://www.understandingai.org/p/17-predictions-for-ai-in-2026](https://www.understandingai.org/p/17-predictions-for-ai-in-2026) |
+| 2026-03-16 | [https://www.newyorker.com/magazine/2026/03/23/rolling-out-our-new-ai-tools](https://www.newyorker.com/magazine/2026/03/23/rolling-out-our-new-ai-tools) |
+| 2026-03-16 | [https://www.understandingai.org/p/sorry-skeptics-ai-really-is-changing](https://www.understandingai.org/p/sorry-skeptics-ai-really-is-changing) |
+| 2026-03-16 | [https://www.newyorker.com/magazine/2026/03/23/the-life-you-want-adam-phillips-book-review](https://www.newyorker.com/magazine/2026/03/23/the-life-you-want-adam-phillips-book-review) |
+| 2026-03-16 | [https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world](https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world) |
+| 2026-03-16 | [https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/](https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/) |
 | 2026-03-15 | [https://www.bloomberg.com/news/articles/2026-03-14/us-withdraws-draft-rule-that-called-for-global-ai-chip-permits](https://www.bloomberg.com/news/articles/2026-03-14/us-withdraws-draft-rule-that-called-for-global-ai-chip-permits) |
 | 2026-03-15 | [https://aibusiness.com/generative-ai/dealing-with-ai-s-effect-on-jobs-and-opportunities-in-data](https://aibusiness.com/generative-ai/dealing-with-ai-s-effect-on-jobs-and-opportunities-in-data) |
 | 2026-03-15 | [https://www.understandingai.org/p/google-and-anthropic-approach-llms](https://www.understandingai.org/p/google-and-anthropic-approach-llms) |
