@@ -295,33 +295,6 @@ def keyword_score(text: str) -> Tuple[float, List[str]]:
 
     return score, sorted(set(tags))
 
-# Create a tracker for sources
-source_counts = {}
-final_selections = []
-
-for article in scored_articles:
-    source = article.get('source_domain', 'unknown')
-    
-    # Initialize count
-    count = source_counts.get(source, 0)
-    
-    # Apply the "Source Penalty"
-    adjusted_score = article['total_score']
-    
-    if count == 1:
-        adjusted_score -= 3.5  # Heavy penalty for the second story
-    elif count >= 2:
-        adjusted_score -= 10.0 # Effectively blocks a third story
-        
-    # Check against your threshold (e.g., 6.0)
-    if adjusted_score >= 6.0:
-        final_selections.append(article)
-        source_counts[source] = count + 1
-        
-    # Stop when you have your 12 stories
-    if len(final_selections) >= 12:
-        break
-      
 def source_signal_score(domain: str) -> float:
     for candidate, weight in HIGH_SIGNAL_DOMAINS.items():
         if domain == candidate or domain.endswith("." + candidate):
