@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-03-17 | [https://www.theatlantic.com/magazine/2026/04/college-working-class-union-labor/686059/?utm_source=feed](https://www.theatlantic.com/magazine/2026/04/college-working-class-union-labor/686059/?utm_source=feed) |
+| 2026-03-17 | [https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/](https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/) |
+| 2026-03-17 | [https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/](https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/) |
+| 2026-03-17 | [https://www.understandingai.org/p/an-ai-tsunami-is-coming-for-hollywood](https://www.understandingai.org/p/an-ai-tsunami-is-coming-for-hollywood) |
+| 2026-03-17 | [https://www.noemamag.com/where-there-is-connectivity-there-is-surveillance](https://www.noemamag.com/where-there-is-connectivity-there-is-surveillance) |
+| 2026-03-17 | [https://www.nytimes.com/2026/03/16/technology/nvidia-gtc-ai-chips-huang.html](https://www.nytimes.com/2026/03/16/technology/nvidia-gtc-ai-chips-huang.html) |
 | 2026-03-16 | [https://www.nytimes.com/2026/03/07/technology/openai-anthropic-pentagon-rivalry.html](https://www.nytimes.com/2026/03/07/technology/openai-anthropic-pentagon-rivalry.html) |
 | 2026-03-16 | [https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html) |
 | 2026-03-16 | [https://www.nytimes.com/2026/03/10/technology/ai-daily-life-callout.html](https://www.nytimes.com/2026/03/10/technology/ai-daily-life-callout.html) |
