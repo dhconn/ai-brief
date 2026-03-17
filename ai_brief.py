@@ -820,9 +820,13 @@ def main() -> None:
     # 3. Score and Filter
     scored = [score_article(a) for a in unseen]
     scored = [a for a in scored if a.total_score >= 6]
+    print(f"[info] {len(scored)} items after relevance filtering")
     
+    print(f"[info] {len(scored)} items after relevance filtering")
     deduped = dedupe_articles(scored)
+    print(f"[info] {len(deduped)} items after dedupe")
     final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+    print(f"[info] {len(final_items)} final items selected")
 
     if not final_items:
         print("[info] no new high-scoring items today.")
@@ -839,7 +843,7 @@ def main() -> None:
 
     # 6. Update the "seen" list so we don't repeat these tomorrow
     new_urls = {a.url for a in final_items}
-    save_seen_urls(new_urls)
+    # save_seen_urls(new_urls)
     print(f"[done] updated {SEEN_FILE}")
 
     # 7. Update the story archive (the Markdown table of every URL)
