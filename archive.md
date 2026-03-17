@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-03-17 | [https://www.nytimes.com/2026/03/16/technology/ai-florida-republicans.html](https://www.nytimes.com/2026/03/16/technology/ai-florida-republicans.html) |
+| 2026-03-17 | [https://www.nytimes.com/2026/03/11/technology/thomson-reuters-ice-minnesota.html](https://www.nytimes.com/2026/03/11/technology/thomson-reuters-ice-minnesota.html) |
+| 2026-03-17 | [https://www.theatlantic.com/economy/2026/03/small-businesses-trade-war/686406/?utm_source=feed](https://www.theatlantic.com/economy/2026/03/small-businesses-trade-war/686406/?utm_source=feed) |
+| 2026-03-17 | [https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/](https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/) |
+| 2026-03-17 | [https://www.technologyreview.com/2026/03/17/1134322/the-download-openi-us-military-deal-grok-xai-csam-lawsuit/](https://www.technologyreview.com/2026/03/17/1134322/the-download-openi-us-military-deal-grok-xai-csam-lawsuit/) |
 | 2026-03-17 | [https://www.theatlantic.com/magazine/2026/04/college-working-class-union-labor/686059/?utm_source=feed](https://www.theatlantic.com/magazine/2026/04/college-working-class-union-labor/686059/?utm_source=feed) |
 | 2026-03-17 | [https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/](https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/) |
 | 2026-03-17 | [https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/](https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/) |
