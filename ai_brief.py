@@ -360,7 +360,7 @@ def short_summary(article: Article) -> str:
         summary += "."
 
     # 2. Slightly fuller 'What happened' line
-    what = ". ".join(desc.split(". ")[:2]).strip()
+    what = desc.strip()
     if not what or len(what) < 20:
         what = summary
     if not what.endswith("."):
