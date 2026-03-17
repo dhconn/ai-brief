@@ -88,8 +88,7 @@ RSS_FEEDS = [
     "https://www.understandingai.org/feed",
     "https://www.noemamag.com/feed/",
     "https://www.newyorker.com/feed/news",
-    "https://aibreakfast.beehiiv.com/",
-    "https://www.exponentialview.co/",
+    "https://www.newyorker.com/feed/magazine/rss",
     "https://www.theatlantic.com/feed/all/",
 ]
 
@@ -190,10 +189,8 @@ HIGH_SIGNAL_DOMAINS = {
     "arstechnica.com": 2,
     "understandingai.org": 2,
     "noemamag.com": 2,
-    "aibreakfast.beehiiv.com": 3,
-    "exponentialview.co": 3,
     "substack.com": 1,
-    }
+}
 
 USER_AGENT = "AIBriefBot/0.2"
 
@@ -375,16 +372,49 @@ def short_summary(article: Article) -> str:
         why = "This underscores the growing industrial and energy infrastructure requirements of scaling AI."
 
     # 3. Static "What to watch"
-    watch = "Watch for follow-on moves by major competitors and potential shifts in sector-specific policy."
+    watch = what_to_watch(article)
 
     # 4. Return the rigid format
     return (
         f"{summary}<br><br>"
-        f"<strong>What happened:</strong> This article details {article.title}.<br>"
+        f"<strong>What happened:</strong> {summary}<br>"
         f"<strong>Why it matters:</strong> {why}<br>"
         f"<strong>What to watch:</strong> {watch}"
     ).strip()
 
+def what_to_watch(article: Article) -> str:
+    lower = f"{article.title} {article.description} {article.content_hint}".lower()
+
+    # Order matters: specific → general
+
+    if any(k in lower for k in ["security", "cyber", "attack", "breach", "encryption", "vulnerability", "wifi", "wi-fi"]):
+        return "Watch for vendor advisories, patches, exploit replication, and guidance from security researchers or enterprise IT teams."
+
+    if any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce", "union"]):
+        return "Watch for hiring changes, wage effects, union responses, and whether political or employer strategies shift."
+
+    if any(k in lower for k in ["regulation", "policy", "governance", "court", "lawsuit", "antitrust", "compliance"]):
+        return "Watch for agency action, litigation milestones, draft rules, and whether other jurisdictions copy the approach."
+
+    if any(k in lower for k in ["education", "healthcare", "privacy", "fraud", "misinformation", "copyright", "surveillance"]):
+        return "Watch for institutional rule changes, public backlash, concrete incidents, and whether safeguards prove workable in practice."
+
+    if any(k in lower for k in ["chip", "chips", "gpu", "semiconductor", "nvidia", "gtc"]):
+        return "Watch for customer commitments, rival product responses, supply constraints, and whether announced capabilities translate into real deployment."
+
+    if any(k in lower for k in ["media", "artist", "artists", "hollywood", "creator", "creators", "studio"]):
+        return "Watch for contract changes, creator backlash, legal disputes, and whether major studios or platforms change their production workflows."
+
+    if any(k in lower for k in ["agent", "agents", "agentic"]):
+        return "Watch for evidence that these systems can perform reliably outside demos, along with costs, error rates, and enterprise adoption."
+
+    if any(k in lower for k in ["economy", "economic", "productivity", "business", "market", "enterprise", "industry"]):
+        return "Watch for measurable adoption, management responses, earnings commentary, and evidence of broader spillovers across firms or sectors."
+
+    if any(k in lower for k in ["energy", "power", "electricity", "datacenter", "data center", "infrastructure"]):
+        return "Watch for power demand estimates, infrastructure bottlenecks, financing announcements, and utility or regulatory reactions."
+
+    return "Watch for real-world uptake, signs of replication, and whether institutions respond with new rules, spending, or operating changes."
 
 def email_is_configured() -> bool:
     return all([SMTP_HOST, SMTP_USER, SMTP_PASSWORD, EMAIL_FROM, EMAIL_TO])
@@ -596,11 +626,9 @@ def pick_top_story(articles: List[Article]) -> Optional[Article]:
     return sorted(candidates, key=lambda a: a.total_score, reverse=True)[0]
 
 def generate_digest(articles: List[Article]) -> str:
-    # 1. Update the date format as we discussed
     today = now_utc().strftime("%B %d, %Y")
     lines: List[str] = []
 
-    # Use HTML tags instead of Markdown symbols
     lines.append(f"<h1>AI Society & Economy Brief — {today}</h1>")
     lines.append("<p>This is an automated first-pass digest ranked for likely relevance to society, work, policy, and the economy.</p>")
 
@@ -614,31 +642,35 @@ def generate_digest(articles: List[Article]) -> str:
         lines.append("<h2>Biggest Story of the Day</h2>")
         lines.append("<div>")
         lines.append(f"<h3><a href='{top_story.url}'>{top_story.title}</a></h3>")
-        # Metadata line
         lines.append(f"<p><strong>Source:</strong> {top_story.source} ({top_story.domain}) | <strong>Published:</strong> {pub} | <strong>Score:</strong> {top_story.total_score:.1f}</p>")
-        
-        # Summary body
         lines.append(f"<p>{short_summary(top_story)}</p>")
         lines.append("</div><hr>")
 
         articles = [a for a in articles if a.url != top_story.url]
 
-    # ... Thematic Lanes logic ...
     lanes: Dict[str, List[Article]] = {}
     for article in articles:
         lane = group_lane(article)
         lanes.setdefault(lane, []).append(article)
 
-    preferred_order = ["Work & labor", "Economy & business", "Policy & law", "Social institutions", "Capabilities & deployment"]
+    preferred_order = [
+        "Work & labor",
+        "Economy & business",
+        "Policy & law",
+        "Social institutions",
+        "Capabilities & deployment"
+    ]
 
     for lane in preferred_order:
         lane_items = lanes.get(lane, [])
-        if not lane_items: continue
+        if not lane_items:
+            continue
 
         lines.append(f"<h2>{lane}</h2>")
         for a in lane_items[:4]:
             pub = a.published_at.strftime("%Y-%m-%d %H:%M UTC") if a.published_at else "date unknown"
             tags = ", ".join(a.tags or [])
+
             lines.append("<div>")
             lines.append(f"<h3><a href='{a.url}'>{a.title}</a></h3>")
             lines.append(f"<p><strong>Source:</strong> {a.source} | <strong>Published:</strong> {pub} | <strong>Score:</strong> {a.total_score:.1f}</p>")
@@ -779,32 +811,12 @@ def main() -> None:
     unseen = [a for a in articles if a.url not in seen_urls]
     print(f"[info] {len(unseen)} of {len(articles)} items are new")
 
-    # --- 3. Score, Filter, and Dedup ---
+    # 3. Score and Filter
     scored = [score_article(a) for a in unseen]
     scored = [a for a in scored if a.total_score >= 6]
+    
     deduped = dedupe_articles(scored)
-
-    # --- 4. Apply Diversity Penalty & Final Selection ---
-    source_counts = {}
-    final_items = [] 
-
-    for article in deduped:
-        source = article.domain if article.domain else "unknown"
-        count = source_counts.get(source, 0)
-        
-        adjusted_score = article.total_score
-        
-        if count == 1:
-            adjusted_score -= 3.5  
-        elif count >= 2:
-            adjusted_score -= 10.0 
-            
-        if adjusted_score >= 6.0:
-            final_items.append(article)
-            source_counts[source] = count + 1
-            
-        if len(final_items) >= TOP_N_FINAL:
-            break
+    final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
 
     if not final_items:
         print("[info] no new high-scoring items today.")
@@ -821,7 +833,7 @@ def main() -> None:
 
     # 6. Update the "seen" list so we don't repeat these tomorrow
     new_urls = {a.url for a in final_items}
-    save_seen_urls(new_urls)
+    # save_seen_urls(new_urls)
     print(f"[done] updated {SEEN_FILE}")
 
     # 7. Update the story archive (the Markdown table of every URL)
