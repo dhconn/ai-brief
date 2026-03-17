@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-03-17 | [https://www.understandingai.org/p/the-feds-are-probing-waymos-behavior](https://www.understandingai.org/p/the-feds-are-probing-waymos-behavior) |
+| 2026-03-17 | [https://www.understandingai.org/p/the-pentagons-bombshell-deal-with](https://www.understandingai.org/p/the-pentagons-bombshell-deal-with) |
+| 2026-03-17 | [https://www.newyorker.com/news/q-and-a/why-david-boies-thinks-we-should-support-trumps-iran-war](https://www.newyorker.com/news/q-and-a/why-david-boies-thinks-we-should-support-trumps-iran-war) |
+| 2026-03-17 | [https://www.noemamag.com/the-climate-wont-bend-to-trumps-will-to-power](https://www.noemamag.com/the-climate-wont-bend-to-trumps-will-to-power) |
+| 2026-03-17 | [https://www.understandingai.org/p/how-shifting-risk-to-users-makes](https://www.understandingai.org/p/how-shifting-risk-to-users-makes) |
+| 2026-03-17 | [https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/](https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/) |
 | 2026-03-17 | [https://www.nytimes.com/2026/03/16/technology/ai-florida-republicans.html](https://www.nytimes.com/2026/03/16/technology/ai-florida-republicans.html) |
 | 2026-03-17 | [https://www.nytimes.com/2026/03/11/technology/thomson-reuters-ice-minnesota.html](https://www.nytimes.com/2026/03/11/technology/thomson-reuters-ice-minnesota.html) |
 | 2026-03-17 | [https://www.theatlantic.com/economy/2026/03/small-businesses-trade-war/686406/?utm_source=feed](https://www.theatlantic.com/economy/2026/03/small-businesses-trade-war/686406/?utm_source=feed) |
