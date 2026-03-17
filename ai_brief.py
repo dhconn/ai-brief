@@ -352,21 +352,21 @@ def short_summary(article: Article) -> str:
     desc = clean_text(article.description or article.content_hint or "")
     lower = f"{article.title} {desc}".lower()
 
-    # 1. Lead sentence (The "What happened" summary)
+    # 1. Brief summary line
     summary = desc.split(". ")[0].strip()
     if not summary or len(summary) < 10:
         summary = "This item covers a significant development in the AI landscape."
     if not summary.endswith("."):
         summary += "."
 
+    # 2. Slightly fuller 'What happened' line
     what = ". ".join(desc.split(". ")[:2]).strip()
     if not what or len(what) < 20:
         what = summary
     if not what.endswith("."):
         what += "."
 
-    # 2. Categorized "Why it matters"
-    # This picks the best contextual fit, or a default one
+    # 3. Categorized 'Why it matters'
     why = "This represents a shift in how AI capabilities are influencing broader societal and economic trends."
     if any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce"]):
         why = "This indicates a shift in labor-market dynamics and future workplace roles."
@@ -377,13 +377,13 @@ def short_summary(article: Article) -> str:
     elif any(k in lower for k in ["energy", "power", "datacenter", "infrastructure"]):
         why = "This underscores the growing industrial and energy infrastructure requirements of scaling AI."
 
-    # 3. Static "What to watch"
+    # 4. Article-specific 'What to watch'
     watch = what_to_watch(article)
 
-    # 4. Return the rigid format
+    # 5. Return formatted block
     return (
         f"{summary}<br><br>"
-        f"<strong>What happened:</strong> {summary}<br>"
+        f"<strong>What happened:</strong> {what}<br>"
         f"<strong>Why it matters:</strong> {why}<br>"
         f"<strong>What to watch:</strong> {watch}"
     ).strip()
