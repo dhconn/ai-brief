@@ -359,6 +359,12 @@ def short_summary(article: Article) -> str:
     if not summary.endswith("."):
         summary += "."
 
+    what = ". ".join(desc.split(". ")[:2]).strip()
+    if not what or len(what) < 20:
+        what = summary
+    if not what.endswith("."):
+        what += "."
+
     # 2. Categorized "Why it matters"
     # This picks the best contextual fit, or a default one
     why = "This represents a shift in how AI capabilities are influencing broader societal and economic trends."
@@ -833,7 +839,7 @@ def main() -> None:
 
     # 6. Update the "seen" list so we don't repeat these tomorrow
     new_urls = {a.url for a in final_items}
-    # save_seen_urls(new_urls)
+    save_seen_urls(new_urls)
     print(f"[done] updated {SEEN_FILE}")
 
     # 7. Update the story archive (the Markdown table of every URL)
