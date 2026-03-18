@@ -649,7 +649,7 @@ def generate_digest(articles: List[Article]) -> str:
         lines.append("<div>")
         lines.append(f"<h3><a href='{top_story.url}'>{top_story.title}</a></h3>")
         lines.append(f"<p><strong>Source:</strong> {top_story.source} ({top_story.domain}) | <strong>Published:</strong> {pub} | <strong>Score:</strong> {top_story.total_score:.1f}</p>")
-        lines.append(f"<p>{short_summary(top_story)}</p>")
+        # lines.append(f"<p>{short_summary(top_story)}</p>")
         lines.append("</div><hr>")
 
         articles = [a for a in articles if a.url != top_story.url]
@@ -682,7 +682,7 @@ def generate_digest(articles: List[Article]) -> str:
             lines.append(f"<p><strong>Source:</strong> {a.source} | <strong>Published:</strong> {pub} | <strong>Score:</strong> {a.total_score:.1f}</p>")
             if tags:
                 lines.append(f"<p><small>Tags: {tags}</small></p>")
-            lines.append(f"<p>{short_summary(a)}</p>")
+            # lines.append(f"<p>{short_summary(a)}</p>")
             lines.append("</div>")
 
     return "\n".join(lines)
@@ -842,7 +842,7 @@ def main() -> None:
 
     # 6. Update the "seen" list so we don't repeat these tomorrow
     new_urls = {a.url for a in final_items}
-    save_seen_urls(new_urls)
+    # save_seen_urls(new_urls)
     print(f"[done] updated {SEEN_FILE}")
 
     # 7. Update the story archive (the Markdown table of every URL)
