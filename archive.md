@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-03-18 | [https://www.theatlantic.com/ideas/2026/03/openai-economy-competition-anthropic/686420/?utm_source=feed](https://www.theatlantic.com/ideas/2026/03/openai-economy-competition-anthropic/686420/?utm_source=feed) |
+| 2026-03-18 | [https://www.nytimes.com/2026/03/17/technology/netanyahu-ai-video-iran-israel.html](https://www.nytimes.com/2026/03/17/technology/netanyahu-ai-video-iran-israel.html) |
+| 2026-03-18 | [https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html](https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html) |
+| 2026-03-18 | [https://www.newyorker.com/news/the-lede/the-iran-war-is-another-reason-to-quit-oil](https://www.newyorker.com/news/the-lede/the-iran-war-is-another-reason-to-quit-oil) |
+| 2026-03-18 | [https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/](https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/) |
+| 2026-03-18 | [https://www.theatlantic.com/ideas/2026/03/democrats-slopulism-economic-policy/686419/?utm_source=feed](https://www.theatlantic.com/ideas/2026/03/democrats-slopulism-economic-policy/686419/?utm_source=feed) |
 | 2026-03-17 | [https://www.understandingai.org/p/the-feds-are-probing-waymos-behavior](https://www.understandingai.org/p/the-feds-are-probing-waymos-behavior) |
 | 2026-03-17 | [https://www.understandingai.org/p/the-pentagons-bombshell-deal-with](https://www.understandingai.org/p/the-pentagons-bombshell-deal-with) |
 | 2026-03-17 | [https://www.newyorker.com/news/q-and-a/why-david-boies-thinks-we-should-support-trumps-iran-war](https://www.newyorker.com/news/q-and-a/why-david-boies-thinks-we-should-support-trumps-iran-war) |
