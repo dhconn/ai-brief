@@ -352,21 +352,14 @@ def short_summary(article: Article) -> str:
     desc = clean_text(article.description or article.content_hint or "")
     lower = f"{article.title} {desc}".lower()
 
-    # 1. Brief summary line
-    summary = desc.split(". ")[0].strip()
-    if not summary or len(summary) < 10:
-        summary = "This item covers a significant development in the AI landscape."
-    if not summary.endswith("."):
-        summary += "."
-
-    # 2. Slightly fuller 'What happened' line
+    # 1. 'What happened' line
     what = desc.strip()
     if not what or len(what) < 20:
-        what = summary
+        what = article.title
     if not what.endswith("."):
         what += "."
 
-    # 3. Categorized 'Why it matters'
+    # 2. Categorized 'Why it matters'
     why = "This represents a shift in how AI capabilities are influencing broader societal and economic trends."
     if any(k in lower for k in ["jobs", "labor", "employment", "wages", "workforce"]):
         why = "This indicates a shift in labor-market dynamics and future workplace roles."
@@ -377,12 +370,11 @@ def short_summary(article: Article) -> str:
     elif any(k in lower for k in ["energy", "power", "datacenter", "infrastructure"]):
         why = "This underscores the growing industrial and energy infrastructure requirements of scaling AI."
 
-    # 4. Article-specific 'What to watch'
+    # 3. Article-specific 'What to watch'
     watch = what_to_watch(article)
 
-    # 5. Return formatted block
+    # 4. Return the three categorized lines
     return (
-        f"{summary}<br><br>"
         f"<strong>What happened:</strong> {what}<br>"
         f"<strong>Why it matters:</strong> {why}<br>"
         f"<strong>What to watch:</strong> {watch}"
@@ -649,7 +641,7 @@ def generate_digest(articles: List[Article]) -> str:
         lines.append("<div>")
         lines.append(f"<h3><a href='{top_story.url}'>{top_story.title}</a></h3>")
         lines.append(f"<p><strong>Source:</strong> {top_story.source} ({top_story.domain}) | <strong>Published:</strong> {pub} | <strong>Score:</strong> {top_story.total_score:.1f}</p>")
-        # lines.append(f"<p>{short_summary(top_story)}</p>")
+        lines.append(f"<p>{short_summary(top_story)}</p>")
         lines.append("</div><hr>")
 
         articles = [a for a in articles if a.url != top_story.url]
@@ -682,7 +674,7 @@ def generate_digest(articles: List[Article]) -> str:
             lines.append(f"<p><strong>Source:</strong> {a.source} | <strong>Published:</strong> {pub} | <strong>Score:</strong> {a.total_score:.1f}</p>")
             if tags:
                 lines.append(f"<p><small>Tags: {tags}</small></p>")
-            # lines.append(f"<p>{short_summary(a)}</p>")
+            lines.append(f"<p>{short_summary(a)}</p>")
             lines.append("</div>")
 
     return "\n".join(lines)
