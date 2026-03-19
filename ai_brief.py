@@ -185,7 +185,7 @@ HIGH_SIGNAL_DOMAINS = {
     "bloomberg.com": 3,
     "wsj.com": 3,
     "nytimes.com": 2,
-    "technologyreview.com": 2,
+    "technologyreview.com": -3,
     "arstechnica.com": 2,
     "understandingai.org": 2,
     "noemamag.com": 2,
