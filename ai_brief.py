@@ -189,6 +189,7 @@ HIGH_SIGNAL_DOMAINS = {
     "arstechnica.com": 2,
     "understandingai.org": 2,
     "noemamag.com": 2,
+    "mindstream.news": 2,
     "substack.com": 1,
 }
 
