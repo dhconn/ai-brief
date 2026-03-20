@@ -2,6 +2,14 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-03-20 | [https://www.theatlantic.com/family/2026/03/ai-friendship-chatbot/686345/?utm_source=feed](https://www.theatlantic.com/family/2026/03/ai-friendship-chatbot/686345/?utm_source=feed) |
+| 2026-03-20 | [https://www.nytimes.com/2026/03/20/podcasts/hardfork-ai-washing-tokenmaxxing.html](https://www.nytimes.com/2026/03/20/podcasts/hardfork-ai-washing-tokenmaxxing.html) |
+| 2026-03-20 | [https://www.nytimes.com/2026/03/19/technology/have-you-turned-to-ai-for-advice-on-a-romantic-relationship.html](https://www.nytimes.com/2026/03/19/technology/have-you-turned-to-ai-for-advice-on-a-romantic-relationship.html) |
+| 2026-03-20 | [https://www.nytimes.com/2026/03/18/movies/val-kilmer-ai-movie.html](https://www.nytimes.com/2026/03/18/movies/val-kilmer-ai-movie.html) |
+| 2026-03-20 | [https://www.theatlantic.com/podcasts/2026/03/trump-is-kicking-the-economy-while-its-down/686446/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/03/trump-is-kicking-the-economy-while-its-down/686446/?utm_source=feed) |
+| 2026-03-20 | [https://www.theatlantic.com/politics/2026/03/save-america-act-gop-senate-elections/686463/?utm_source=feed](https://www.theatlantic.com/politics/2026/03/save-america-act-gop-senate-elections/686463/?utm_source=feed) |
+| 2026-03-20 | [https://www.nytimes.com/2026/03/19/business/ai-agents-anxiety-openclaw.html](https://www.nytimes.com/2026/03/19/business/ai-agents-anxiety-openclaw.html) |
+| 2026-03-20 | [https://arstechnica.com/information-technology/2026/03/cloud-service-providers-ask-eu-regulator-to-reinstate-vmware-partner-program/](https://arstechnica.com/information-technology/2026/03/cloud-service-providers-ask-eu-regulator-to-reinstate-vmware-partner-program/) |
 | 2026-03-18 | [https://www.theatlantic.com/ideas/2026/03/openai-economy-competition-anthropic/686420/?utm_source=feed](https://www.theatlantic.com/ideas/2026/03/openai-economy-competition-anthropic/686420/?utm_source=feed) |
 | 2026-03-18 | [https://www.nytimes.com/2026/03/17/technology/netanyahu-ai-video-iran-israel.html](https://www.nytimes.com/2026/03/17/technology/netanyahu-ai-video-iran-israel.html) |
 | 2026-03-18 | [https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html](https://www.nytimes.com/2026/03/17/technology/arizona-criminal-charges-kalshi.html) |
