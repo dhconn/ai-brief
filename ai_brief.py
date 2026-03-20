@@ -47,6 +47,21 @@ from email.utils import parsedate_to_datetime
 from typing import Dict, List, Optional, Tuple
 from urllib.parse import urlparse
 
+def bucket_and_shuffle(articles: List["Article"], limit: int = 2) -> List["Article"]:
+    buckets = {}
+    for a in articles:
+        domain = urlparse(a.url).netloc.replace('www.', '')
+        if domain not in buckets:
+            buckets[domain] = []
+        if len(buckets[domain]) < limit:
+            buckets[domain].append(a)
+    
+    # Flatten and return
+    import random
+    result = [item for sublist in buckets.values() for item in sublist]
+    random.shuffle(result)
+    return result
+
 import feedparser
 import requests
 from dateutil import parser as date_parser
@@ -817,7 +832,11 @@ def main() -> None:
     
     deduped = dedupe_articles(scored)
     print(f"[info] {len(deduped)} items after dedupe")
-    final_items = sorted(deduped, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
+    diverse_pool = bucket_and_shuffle(deduped, limit=2)
+    print(f"[info] {len(diverse_pool)} items after source diversity filter")
+
+    # 4. Final Selection (Now pulling from the diverse_pool)
+    final_items = sorted(diverse_pool, key=lambda a: a.total_score, reverse=True)[:TOP_N_FINAL]
     print(f"[info] {len(final_items)} final items selected")
 
     if not final_items:
@@ -835,7 +854,7 @@ def main() -> None:
 
     # 6. Update the "seen" list so we don't repeat these tomorrow
     new_urls = {a.url for a in final_items}
-    save_seen_urls(new_urls)
+    # save_seen_urls(new_urls)
     print(f"[done] updated {SEEN_FILE}")
 
     # 7. Update the story archive (the Markdown table of every URL)
