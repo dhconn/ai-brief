@@ -822,7 +822,12 @@ def main() -> None:
 
     # 2. Filter out already seen articles
     seen_urls = load_seen_urls()
-    unseen = [a for a in articles if a.url not in seen_urls]
+    seen_titles = {title_fingerprint(u) for u in seen_urls}
+unseen = [
+    a for a in articles
+    if a.url not in seen_urls
+    and title_fingerprint(a.title) not in seen_titles
+]
     print(f"[info] {len(unseen)} of {len(articles)} items are new")
 
     # 3. Score and Filter
@@ -854,7 +859,7 @@ def main() -> None:
 
     # 6. Update the "seen" list so we don't repeat these tomorrow
     new_urls = {a.url for a in final_items}
-    # save_seen_urls(new_urls)
+    save_seen_urls(new_urls)
     print(f"[done] updated {SEEN_FILE}")
 
     # 7. Update the story archive (the Markdown table of every URL)
