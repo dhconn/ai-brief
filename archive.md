@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-03-31 | [https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/](https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/) |
+| 2026-03-31 | [https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html](https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html) |
+| 2026-03-31 | [https://www.nytimes.com/2026/03/27/podcasts/hardfork-ezra-jack-clark.html](https://www.nytimes.com/2026/03/27/podcasts/hardfork-ezra-jack-clark.html) |
+| 2026-03-31 | [https://www.technologyreview.com/2026/03/31/1134934/the-download-testing-ai-health-tools-pentagon-anthropic-culture-war-backfires/](https://www.technologyreview.com/2026/03/31/1134934/the-download-testing-ai-health-tools-pentagon-anthropic-culture-war-backfires/) |
 | 2026-03-20 | [https://www.theatlantic.com/family/2026/03/ai-friendship-chatbot/686345/?utm_source=feed](https://www.theatlantic.com/family/2026/03/ai-friendship-chatbot/686345/?utm_source=feed) |
 | 2026-03-20 | [https://www.nytimes.com/2026/03/20/podcasts/hardfork-ai-washing-tokenmaxxing.html](https://www.nytimes.com/2026/03/20/podcasts/hardfork-ai-washing-tokenmaxxing.html) |
 | 2026-03-20 | [https://www.nytimes.com/2026/03/19/technology/have-you-turned-to-ai-for-advice-on-a-romantic-relationship.html](https://www.nytimes.com/2026/03/19/technology/have-you-turned-to-ai-for-advice-on-a-romantic-relationship.html) |
