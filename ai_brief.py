@@ -449,6 +449,22 @@ def send_email(subject: str, body: str) -> None:
 
     print(f"[done] emailed digest to {EMAIL_TO}")
 
+def is_ai_core(article: Article) -> bool:
+    text = f"{article.title} {article.description}".lower()
+
+    return any(k in text for k in [
+        "artificial intelligence",
+        "ai ",
+        " ai",
+        "generative ai",
+        "llm",
+        "large language model",
+        "chatgpt",
+        "openai",
+        "anthropic",
+        "google ai",
+        "machine learning"
+    ])
 
 # -----------------------------
 # Source connectors
@@ -712,21 +728,8 @@ def save_digest(html_content: str) -> str:
 
 SEEN_FILE = "seen_articles.json"
 
-def load_seen_urls() -> set:
-    """Loads URLs from the archive to check if we've seen them."""
-    if not os.path.exists(SEEN_FILE):
-        return set()
-    try:
-        with open(SEEN_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            # data is now a list of dicts: [{"url": "...", "seen_at": "..."}, ...]
-            return {item["url"] for item in data}
-    except Exception:
-        return set()
-
-def save_seen_urls(new_urls: set):
-    """Appends new URLs to the chronological archive."""
-    # 1. Load existing archive
+def save_seen_articles(articles: List[Article]):
+    """Store both URL and title for future dedupe."""
     archive = []
     if os.path.exists(SEEN_FILE):
         try:
@@ -735,17 +738,19 @@ def save_seen_urls(new_urls: set):
         except Exception:
             archive = []
 
-    # 2. Add only the new URLs to the archive with a timestamp
     timestamp = now_utc().isoformat()
-    for url in new_urls:
-        archive.append({"url": url, "seen_at": timestamp})
+    for a in articles:
+        archive.append({
+            "url": a.url,
+            "title": a.title,
+            "seen_at": timestamp
+        })
 
-    # 3. Save back (preserves order of appending)
     try:
         with open(SEEN_FILE, "w", encoding="utf-8") as f:
             json.dump(archive, f, indent=2)
     except Exception as e:
-        print(f"[warn] failed to save seen urls: {e}")
+        print(f"[warn] failed to save seen articles: {e}")
 
 def update_html_index():
     # 1. Find all HTML digest files in the archive folder
@@ -821,18 +826,33 @@ def main() -> None:
     articles.extend(fetch_rss())
 
     # 2. Filter out already seen articles
-    seen_urls = load_seen_urls()
-    seen_titles = {title_fingerprint(u) for u in seen_urls}
-unseen = [
-    a for a in articles
-    if a.url not in seen_urls
-    and title_fingerprint(a.title) not in seen_titles
-]
+    seen_archive = []
+    if os.path.exists(SEEN_FILE):
+        try:
+            with open(SEEN_FILE, "r", encoding="utf-8") as f:
+                seen_archive = json.load(f)
+        except Exception:
+            seen_archive = []
+
+    seen_urls = {item["url"] for item in seen_archive if "url" in item}
+    seen_titles = {
+        title_fingerprint(item["title"])
+        for item in seen_archive
+        if item.get("title")
+    }
+
+    unseen = [
+        a for a in articles
+        if a.url not in seen_urls
+        and title_fingerprint(a.title) not in seen_titles
+    ]
     print(f"[info] {len(unseen)} of {len(articles)} items are new")
 
     # 3. Score and Filter
-    scored = [score_article(a) for a in unseen]
-    scored = [a for a in scored if a.total_score >= 5]
+    filtered = [a for a in unseen if is_ai_core(a)]
+
+    scored = [score_article(a) for a in filtered]
+    scored = [a for a in scored if a.total_score >= 6]
     print(f"[info] {len(scored)} items after relevance filtering")
     
     deduped = dedupe_articles(scored)
@@ -858,8 +878,7 @@ unseen = [
     )
 
     # 6. Update the "seen" list so we don't repeat these tomorrow
-    new_urls = {a.url for a in final_items}
-    save_seen_urls(new_urls)
+    save_seen_articles(final_items)    
     print(f"[done] updated {SEEN_FILE}")
 
     # 7. Update the story archive (the Markdown table of every URL)
