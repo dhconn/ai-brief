@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-02 | [https://www.theatlantic.com/economy/2026/04/job-market-artificial-intelligence/686659/?utm_source=feed](https://www.theatlantic.com/economy/2026/04/job-market-artificial-intelligence/686659/?utm_source=feed) |
+| 2026-04-02 | [https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html](https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html) |
+| 2026-04-02 | [https://www.nytimes.com/2026/04/01/technology/ai-companies-fund-raising-records.html](https://www.nytimes.com/2026/04/01/technology/ai-companies-fund-raising-records.html) |
 | 2026-04-01 | [https://www.nytimes.com/2026/03/30/technology/california-ai-executive-order.html](https://www.nytimes.com/2026/03/30/technology/california-ai-executive-order.html) |
 | 2026-04-01 | [https://www.nytimes.com/2026/03/26/technology/anthropic-pentagon-risk-injunction.html](https://www.nytimes.com/2026/03/26/technology/anthropic-pentagon-risk-injunction.html) |
 | 2026-03-31 | [https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/](https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/) |
