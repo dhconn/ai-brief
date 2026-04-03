@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-03 | [https://www.nytimes.com/2026/04/01/science/ai-experiments-replication.html](https://www.nytimes.com/2026/04/01/science/ai-experiments-replication.html) |
 | 2026-04-02 | [https://www.theatlantic.com/economy/2026/04/job-market-artificial-intelligence/686659/?utm_source=feed](https://www.theatlantic.com/economy/2026/04/job-market-artificial-intelligence/686659/?utm_source=feed) |
 | 2026-04-02 | [https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html](https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html) |
 | 2026-04-02 | [https://www.nytimes.com/2026/04/01/technology/ai-companies-fund-raising-records.html](https://www.nytimes.com/2026/04/01/technology/ai-companies-fund-raising-records.html) |
