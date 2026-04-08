@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-08 | [https://www.technologyreview.com/2026/04/07/1135208/the-download-ai-impact-jobs-data-centres-space/](https://www.technologyreview.com/2026/04/07/1135208/the-download-ai-impact-jobs-data-centres-space/) |
 | 2026-04-07 | [https://www.theatlantic.com/technology/2026/04/chatgpt-health-anxiety/686603/?utm_source=feed](https://www.theatlantic.com/technology/2026/04/chatgpt-health-anxiety/686603/?utm_source=feed) |
 | 2026-04-07 | [https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/](https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/) |
 | 2026-04-04 | [https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/](https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/) |
