@@ -849,10 +849,10 @@ def main() -> None:
     print(f"[info] {len(unseen)} of {len(articles)} items are new")
 
     # 3. Score and Filter
-    filtered = [a for a in unseen if is_ai_core(a)]
-
-    scored = [score_article(a) for a in filtered]
+    scored = [score_article(a) for a in unseen]
+    scored = [a for a in scored if is_ai_core(a) or a.raw_score >= 4]
     scored = [a for a in scored if a.total_score >= 6]
+
     print(f"[info] {len(scored)} items after relevance filtering")
     
     deduped = dedupe_articles(scored)
@@ -878,7 +878,7 @@ def main() -> None:
     )
 
     # 6. Update the "seen" list so we don't repeat these tomorrow
-    save_seen_articles(final_items)    
+    # save_seen_articles(final_items)    
     print(f"[done] updated {SEEN_FILE}")
 
     # 7. Update the story archive (the Markdown table of every URL)
