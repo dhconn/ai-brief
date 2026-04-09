@@ -484,7 +484,10 @@ def is_ai_adjacent(article: Article) -> bool:
         "economy", "economic", "productivity", "business", "market", "enterprise",
         "regulation", "policy", "governance", "court", "lawsuit", "antitrust",
         "education", "healthcare", "privacy", "fraud", "copyright",
-        "energy", "power", "electricity", "infrastructure"
+        "energy", "power", "electricity", "infrastructure", "company", "companies", "firm", 
+        "firms", "startup", "startups", "investment", "investors", "funding", 
+        "revenue", "earnings", "customer", "customers", "product", "products", 
+        "deployment", "adoption", "software", "hardware", "cloud", "compute", "capacity"
     ]
 
     return any(t in text for t in ai_terms) and any(t in text for t in impact_terms)
