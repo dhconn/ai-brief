@@ -896,8 +896,8 @@ def main() -> None:
     relevance_items = [a for a in scored_all if is_ai_core(a) or is_ai_adjacent(a)]
     print(f"[debug] {len(relevance_items)} items pass core/adjacent gate")
 
-    scored = [a for a in relevance_items if a.total_score >= 4.5]
-    print(f"[info] {len(scored)} items after relevance filtering")
+    scored = [a for a in relevance_items if a.total_score >= 4.0]
+    print(f"[info] {len(scored)} items after relevance filterin1g")
 
     for a in sorted(relevance_items, key=lambda x: x.total_score, reverse=True)[:15]:
         print(
