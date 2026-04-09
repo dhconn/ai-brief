@@ -907,7 +907,7 @@ def main() -> None:
 
     deduped = dedupe_articles(scored)
     print(f"[info] {len(deduped)} items after dedupe")
-    diverse_pool = bucket_and_shuffle(deduped, limit=2)
+    diverse_pool = bucket_and_shuffle(deduped, limit=3)
     print(f"[info] {len(diverse_pool)} items after source diversity filter")
 
     # 4. Final Selection (Now pulling from the diverse_pool)
@@ -928,7 +928,7 @@ def main() -> None:
     )
 
     # 6. Update the "seen" list so we don't repeat these tomorrow
-    # save_seen_articles(final_items)    
+    save_seen_articles(final_items)    
     print(f"[done] updated {SEEN_FILE}")
 
     # 7. Update the story archive (the Markdown table of every URL)
