@@ -450,7 +450,7 @@ def send_email(subject: str, body: str) -> None:
     print(f"[done] emailed digest to {EMAIL_TO}")
 
 def is_ai_core(article: Article) -> bool:
-    text = f"{article.title} {article.description}".lower()
+    text = f"{article.title} {article.description} {article.content_hint}".lower()
 
     return any(k in text for k in [
         "artificial intelligence",
@@ -465,6 +465,31 @@ def is_ai_core(article: Article) -> bool:
         "google ai",
         "machine learning"
     ])
+
+
+def is_ai_adjacent(article: Article) -> bool:
+    text = f"{article.title} {article.description} {article.content_hint}".lower()
+
+    ai_terms = [
+        "artificial intelligence", " ai ", "generative ai", "genai",
+        "llm", "llms", "large language model", "large language models",
+        "machine learning", "openai", "anthropic", "chatgpt", "google ai",
+        "model", "models", "chip", "chips", "gpu", "gpus",
+        "semiconductor", "semiconductors",
+        "datacenter", "data center",
+        "inference", "training"
+    ]
+
+    impact_terms = [
+        "jobs", "job", "labor", "employment", "wages", "workforce",
+        "economy", "economic", "productivity", "business", "market", "enterprise",
+        "regulation", "policy", "governance", "court", "lawsuit", "antitrust",
+        "education", "healthcare", "privacy", "fraud", "copyright",
+        "energy", "power", "electricity", "infrastructure"
+    ]
+
+    return any(t in text for t in ai_terms) and any(t in text for t in impact_terms)
+
 
 # -----------------------------
 # Source connectors
