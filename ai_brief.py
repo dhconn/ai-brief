@@ -875,13 +875,36 @@ def main() -> None:
     ]
     print(f"[info] {len(unseen)} of {len(articles)} items are new")
 
-    # 3. Score and Filter
-    scored = [score_article(a) for a in unseen]
-    scored = [a for a in scored if is_ai_core(a) or is_ai_adjacent(a)]
-    scored = [a for a in scored if a.total_score >= 6]
+    for a in unseen:
+        if "iran" in a.title.lower() or "trump" in a.title.lower():
+            print("[debug-target]", a.title)
+            print("core:", is_ai_core(a))
+            print("adjacent:", is_ai_adjacent(a))
+            print("desc:", a.description)
+            print("hint:", a.content_hint)
 
+    # 3. Score and Filter
+    scored_all = [score_article(a) for a in unseen]
+    print(f"[debug] {len(scored_all)} items after scoring")
+
+    core_items = [a for a in scored_all if is_ai_core(a)]
+    print(f"[debug] {len(core_items)} items pass is_ai_core")
+
+    adj_items = [a for a in scored_all if is_ai_adjacent(a)]
+    print(f"[debug] {len(adj_items)} items pass is_ai_adjacent")
+
+    relevance_items = [a for a in scored_all if is_ai_core(a) or is_ai_adjacent(a)]
+    print(f"[debug] {len(relevance_items)} items pass core/adjacent gate")
+
+    scored = [a for a in relevance_items if a.total_score >= 4.5]
     print(f"[info] {len(scored)} items after relevance filtering")
-    
+
+    for a in sorted(relevance_items, key=lambda x: x.total_score, reverse=True)[:15]:
+        print(
+            f"[debug-top] total={a.total_score:.1f} raw={a.raw_score:.1f} "
+            f"core={is_ai_core(a)} adj={is_ai_adjacent(a)} | {a.title}"
+        )
+
     deduped = dedupe_articles(scored)
     print(f"[info] {len(deduped)} items after dedupe")
     diverse_pool = bucket_and_shuffle(deduped, limit=2)
