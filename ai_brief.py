@@ -874,7 +874,7 @@ def main() -> None:
 
     # 3. Score and Filter
     scored = [score_article(a) for a in unseen]
-    scored = [a for a in scored if is_ai_core(a) or a.raw_score >= 4]
+    scored = [a for a in scored if is_ai_core(a) or is_ai_adjacent(a)]
     scored = [a for a in scored if a.total_score >= 6]
 
     print(f"[info] {len(scored)} items after relevance filtering")
