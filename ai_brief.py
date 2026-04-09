@@ -103,8 +103,8 @@ RSS_FEEDS = [
     "https://www.understandingai.org/feed",
     "https://www.noemamag.com/feed/",
     "https://www.newyorker.com/feed/news",
-    "https://www.newyorker.com/feed/magazine/rss",
     "https://www.theatlantic.com/feed/all/",
+    "https://politepaul.com/fd/f8S2T7h1hmqN.xml",
 ]
 
 KEYWORD_WEIGHTS = {
@@ -123,7 +123,6 @@ KEYWORD_WEIGHTS = {
     "agents": 3,
     "agentic": 4,
     "inference": 3,
-    "model": 1,
 
     # economy / work / business
     "jobs": 5,
@@ -199,10 +198,10 @@ HIGH_SIGNAL_DOMAINS = {
     "economist.com": 3,
     "bloomberg.com": 3,
     "wsj.com": 3,
-    "nytimes.com": 2,
-    "technologyreview.com": -3,
-    "arstechnica.com": 2,
-    "understandingai.org": 2,
+    "nytimes.com": 1,
+    "technologyreview.com": -2,
+    "arstechnica.com": 3,
+    "understandingai.org": 3,
     "noemamag.com": 2,
     "mindstream.news": 2,
     "substack.com": 1,
@@ -474,7 +473,7 @@ def is_ai_adjacent(article: Article) -> bool:
         "artificial intelligence", " ai ", "generative ai", "genai",
         "llm", "llms", "large language model", "large language models",
         "machine learning", "openai", "anthropic", "chatgpt", "google ai",
-        "model", "models", "chip", "chips", "gpu", "gpus",
+        "chip", "chips", "gpu", "gpus",
         "semiconductor", "semiconductors",
         "datacenter", "data center",
         "inference", "training"
