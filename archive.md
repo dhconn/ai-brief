@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-10 | [https://www.theatlantic.com/technology/2026/04/ai-agents-school-education/686754/?utm_source=feed](https://www.theatlantic.com/technology/2026/04/ai-agents-school-education/686754/?utm_source=feed) |
+| 2026-04-10 | [https://www.understandingai.org/p/bernie-sanders-has-a-plan-to-stop](https://www.understandingai.org/p/bernie-sanders-has-a-plan-to-stop) |
+| 2026-04-10 | [https://www.theatlantic.com/books/2026/04/ghostwriting-good-ai-cant-replace/686729/?utm_source=feed](https://www.theatlantic.com/books/2026/04/ghostwriting-good-ai-cant-replace/686729/?utm_source=feed) |
+| 2026-04-10 | [https://www.understandingai.org/p/why-anthropic-believes-its-latest](https://www.understandingai.org/p/why-anthropic-believes-its-latest) |
+| 2026-04-10 | [https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/](https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/) |
 | 2026-04-09 | [https://www.nytimes.com/2026/04/08/technology/anthropic-pentagon-risk-circuit-court.html](https://www.nytimes.com/2026/04/08/technology/anthropic-pentagon-risk-circuit-court.html) |
 | 2026-04-09 | [https://www.nytimes.com/2026/04/09/style/gen-z-ai-gallup-study.html](https://www.nytimes.com/2026/04/09/style/gen-z-ai-gallup-study.html) |
 | 2026-04-08 | [https://www.technologyreview.com/2026/04/07/1135208/the-download-ai-impact-jobs-data-centres-space/](https://www.technologyreview.com/2026/04/07/1135208/the-download-ai-impact-jobs-data-centres-space/) |
