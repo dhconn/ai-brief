@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-11 | [https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html](https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html) |
+| 2026-04-11 | [https://mindstream.news/p/one-of-the-uk-s-biggest-ai-projects-just-stalled](https://mindstream.news/p/one-of-the-uk-s-biggest-ai-projects-just-stalled) |
 | 2026-04-10 | [https://www.theatlantic.com/technology/2026/04/ai-agents-school-education/686754/?utm_source=feed](https://www.theatlantic.com/technology/2026/04/ai-agents-school-education/686754/?utm_source=feed) |
 | 2026-04-10 | [https://www.understandingai.org/p/bernie-sanders-has-a-plan-to-stop](https://www.understandingai.org/p/bernie-sanders-has-a-plan-to-stop) |
 | 2026-04-10 | [https://www.theatlantic.com/books/2026/04/ghostwriting-good-ai-cant-replace/686729/?utm_source=feed](https://www.theatlantic.com/books/2026/04/ghostwriting-good-ai-cant-replace/686729/?utm_source=feed) |
