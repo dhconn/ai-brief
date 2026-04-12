@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-12 | [https://www.theatlantic.com/ideas/2026/04/college-enrollment-demographic-cliff/686750/?utm_source=feed](https://www.theatlantic.com/ideas/2026/04/college-enrollment-demographic-cliff/686750/?utm_source=feed) |
 | 2026-04-11 | [https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html](https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html) |
 | 2026-04-11 | [https://mindstream.news/p/one-of-the-uk-s-biggest-ai-projects-just-stalled](https://mindstream.news/p/one-of-the-uk-s-biggest-ai-projects-just-stalled) |
 | 2026-04-10 | [https://www.theatlantic.com/technology/2026/04/ai-agents-school-education/686754/?utm_source=feed](https://www.theatlantic.com/technology/2026/04/ai-agents-school-education/686754/?utm_source=feed) |
