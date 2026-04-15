@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-15 | [https://www.technologyreview.com/2026/04/15/1135530/building-trust-in-the-ai-era-with-privacy-led-ux/](https://www.technologyreview.com/2026/04/15/1135530/building-trust-in-the-ai-era-with-privacy-led-ux/) |
+| 2026-04-15 | [https://www.nytimes.com/2026/04/15/technology/personaltech/recipes-cooking-ai.html](https://www.nytimes.com/2026/04/15/technology/personaltech/recipes-cooking-ai.html) |
+| 2026-04-15 | [https://mindstream.news/p/this-might-be-the-weirdest-workplace-ai-story-yet](https://mindstream.news/p/this-might-be-the-weirdest-workplace-ai-story-yet) |
 | 2026-04-14 | [https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/](https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/) |
 | 2026-04-13 | [https://www.newyorker.com/podcast/the-new-yorker-radio-hour/sam-altmans-trust-issues-at-openai](https://www.newyorker.com/podcast/the-new-yorker-radio-hour/sam-altmans-trust-issues-at-openai) |
 | 2026-04-12 | [https://www.theatlantic.com/ideas/2026/04/college-enrollment-demographic-cliff/686750/?utm_source=feed](https://www.theatlantic.com/ideas/2026/04/college-enrollment-demographic-cliff/686750/?utm_source=feed) |
