@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-16 | [https://www.nytimes.com/2026/04/15/us/allbirds-shoes-ai-pivot.html](https://www.nytimes.com/2026/04/15/us/allbirds-shoes-ai-pivot.html) |
+| 2026-04-16 | [https://www.nytimes.com/2026/04/15/business/ai-jobs-human-work.html](https://www.nytimes.com/2026/04/15/business/ai-jobs-human-work.html) |
+| 2026-04-16 | [https://www.nytimes.com/2026/04/15/technology/how-jagged-intelligence-can-reframe-the-ai-debate.html](https://www.nytimes.com/2026/04/15/technology/how-jagged-intelligence-can-reframe-the-ai-debate.html) |
 | 2026-04-15 | [https://www.technologyreview.com/2026/04/15/1135530/building-trust-in-the-ai-era-with-privacy-led-ux/](https://www.technologyreview.com/2026/04/15/1135530/building-trust-in-the-ai-era-with-privacy-led-ux/) |
 | 2026-04-15 | [https://www.nytimes.com/2026/04/15/technology/personaltech/recipes-cooking-ai.html](https://www.nytimes.com/2026/04/15/technology/personaltech/recipes-cooking-ai.html) |
 | 2026-04-15 | [https://mindstream.news/p/this-might-be-the-weirdest-workplace-ai-story-yet](https://mindstream.news/p/this-might-be-the-weirdest-workplace-ai-story-yet) |
