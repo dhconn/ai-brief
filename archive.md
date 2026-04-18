@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-18 | [https://www.nytimes.com/2026/04/17/technology/white-house-anthropic-artificial-intelligence.html](https://www.nytimes.com/2026/04/17/technology/white-house-anthropic-artificial-intelligence.html) |
 | 2026-04-17 | [https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/](https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/) |
 | 2026-04-17 | [https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/](https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/) |
 | 2026-04-17 | [https://www.nytimes.com/2026/04/15/business/snap-layoffs-snapchat.html](https://www.nytimes.com/2026/04/15/business/snap-layoffs-snapchat.html) |
