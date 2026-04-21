@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-21 | [https://www.understandingai.org/p/meta-is-back-in-the-llm-game-after](https://www.understandingai.org/p/meta-is-back-in-the-llm-game-after) |
+| 2026-04-21 | [https://mindstream.news/p/drug-development-gets-an-ai-speed-boost](https://mindstream.news/p/drug-development-gets-an-ai-speed-boost) |
+| 2026-04-21 | [https://mindstream.news/p/so-long-sneakers-allbirds-is-an-ai-company-now](https://mindstream.news/p/so-long-sneakers-allbirds-is-an-ai-company-now) |
+| 2026-04-21 | [https://mindstream.news/p/10-questions-for-ai-leaders-sean-blanchfield](https://mindstream.news/p/10-questions-for-ai-leaders-sean-blanchfield) |
 | 2026-04-20 | [https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/](https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/) |
 | 2026-04-18 | [https://www.nytimes.com/2026/04/17/technology/white-house-anthropic-artificial-intelligence.html](https://www.nytimes.com/2026/04/17/technology/white-house-anthropic-artificial-intelligence.html) |
 | 2026-04-17 | [https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/](https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/) |
