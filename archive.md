@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-23 | [https://www.nytimes.com/2026/04/22/technology/anthropic-code-leak-copyright.html](https://www.nytimes.com/2026/04/22/technology/anthropic-code-leak-copyright.html) |
+| 2026-04-23 | [https://www.nytimes.com/2026/04/22/technology/anthropics-mythos-ai.html](https://www.nytimes.com/2026/04/22/technology/anthropics-mythos-ai.html) |
 | 2026-04-22 | [https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/](https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/) |
 | 2026-04-22 | [https://www.nytimes.com/2026/04/21/business/spacex-cursor-deal.html](https://www.nytimes.com/2026/04/21/business/spacex-cursor-deal.html) |
 | 2026-04-22 | [https://mindstream.news/p/this-is-bigger-than-ai-can-make-slides](https://mindstream.news/p/this-is-bigger-than-ai-can-make-slides) |
