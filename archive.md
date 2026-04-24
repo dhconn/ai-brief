@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-24 | [https://www.nytimes.com/2026/04/24/business/cohere-aleph-alpha-ai-merger.html](https://www.nytimes.com/2026/04/24/business/cohere-aleph-alpha-ai-merger.html) |
+| 2026-04-24 | [https://www.nytimes.com/2026/04/23/technology/meta-layoffs.html](https://www.nytimes.com/2026/04/23/technology/meta-layoffs.html) |
+| 2026-04-24 | [https://www.nytimes.com/2026/04/24/technology/elon-musk-spacex-loans.html](https://www.nytimes.com/2026/04/24/technology/elon-musk-spacex-loans.html) |
+| 2026-04-24 | [https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/](https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/) |
 | 2026-04-23 | [https://www.nytimes.com/2026/04/22/technology/anthropic-code-leak-copyright.html](https://www.nytimes.com/2026/04/22/technology/anthropic-code-leak-copyright.html) |
 | 2026-04-23 | [https://www.nytimes.com/2026/04/22/technology/anthropics-mythos-ai.html](https://www.nytimes.com/2026/04/22/technology/anthropics-mythos-ai.html) |
 | 2026-04-22 | [https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/](https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/) |
