@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-25 | [https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/](https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/) |
+| 2026-04-25 | [https://www.nytimes.com/2026/04/24/technology/google-anthropic-investment-artificial-intelligence.html](https://www.nytimes.com/2026/04/24/technology/google-anthropic-investment-artificial-intelligence.html) |
+| 2026-04-25 | [https://www.nytimes.com/2026/04/23/technology/elon-musk-sam-altman-openai-trial.html](https://www.nytimes.com/2026/04/23/technology/elon-musk-sam-altman-openai-trial.html) |
+| 2026-04-25 | [https://www.nytimes.com/2026/04/23/technology/openai-new-model.html](https://www.nytimes.com/2026/04/23/technology/openai-new-model.html) |
 | 2026-04-24 | [https://www.nytimes.com/2026/04/24/business/cohere-aleph-alpha-ai-merger.html](https://www.nytimes.com/2026/04/24/business/cohere-aleph-alpha-ai-merger.html) |
 | 2026-04-24 | [https://www.nytimes.com/2026/04/23/technology/meta-layoffs.html](https://www.nytimes.com/2026/04/23/technology/meta-layoffs.html) |
 | 2026-04-24 | [https://www.nytimes.com/2026/04/24/technology/elon-musk-spacex-loans.html](https://www.nytimes.com/2026/04/24/technology/elon-musk-spacex-loans.html) |
