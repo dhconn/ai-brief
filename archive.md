@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-27 | [https://www.theatlantic.com/technology/2026/04/ai-nationalization-trump-hegseth-anthropic-openai/686943/?utm_source=feed](https://www.theatlantic.com/technology/2026/04/ai-nationalization-trump-hegseth-anthropic-openai/686943/?utm_source=feed) |
 | 2026-04-25 | [https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/](https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/) |
 | 2026-04-25 | [https://www.nytimes.com/2026/04/24/technology/google-anthropic-investment-artificial-intelligence.html](https://www.nytimes.com/2026/04/24/technology/google-anthropic-investment-artificial-intelligence.html) |
 | 2026-04-25 | [https://www.nytimes.com/2026/04/23/technology/elon-musk-sam-altman-openai-trial.html](https://www.nytimes.com/2026/04/23/technology/elon-musk-sam-altman-openai-trial.html) |
