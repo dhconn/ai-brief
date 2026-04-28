@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-28 | [https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/](https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/) |
+| 2026-04-28 | [https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/](https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/) |
+| 2026-04-28 | [https://www.nytimes.com/2026/04/28/technology/elon-musk-sam-altman-trial.html](https://www.nytimes.com/2026/04/28/technology/elon-musk-sam-altman-trial.html) |
+| 2026-04-28 | [https://www.nytimes.com/2026/04/27/technology/altman-musk-openai-ai-oakland.html](https://www.nytimes.com/2026/04/27/technology/altman-musk-openai-ai-oakland.html) |
 | 2026-04-27 | [https://www.theatlantic.com/technology/2026/04/ai-nationalization-trump-hegseth-anthropic-openai/686943/?utm_source=feed](https://www.theatlantic.com/technology/2026/04/ai-nationalization-trump-hegseth-anthropic-openai/686943/?utm_source=feed) |
 | 2026-04-25 | [https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/](https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/) |
 | 2026-04-25 | [https://www.nytimes.com/2026/04/24/technology/google-anthropic-investment-artificial-intelligence.html](https://www.nytimes.com/2026/04/24/technology/google-anthropic-investment-artificial-intelligence.html) |
