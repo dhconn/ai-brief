@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-29 | [https://www.nytimes.com/2026/04/29/technology/ai-artificial-intelligence-ad-boom.html](https://www.nytimes.com/2026/04/29/technology/ai-artificial-intelligence-ad-boom.html) |
+| 2026-04-29 | [https://www.nytimes.com/2026/04/28/technology/key-players-openai-trial.html](https://www.nytimes.com/2026/04/28/technology/key-players-openai-trial.html) |
+| 2026-04-29 | [https://www.technologyreview.com/2026/04/29/1136659/plan-nuclear-waste/](https://www.technologyreview.com/2026/04/29/1136659/plan-nuclear-waste/) |
 | 2026-04-28 | [https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/](https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/) |
 | 2026-04-28 | [https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/](https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/) |
 | 2026-04-28 | [https://www.nytimes.com/2026/04/28/technology/elon-musk-sam-altman-trial.html](https://www.nytimes.com/2026/04/28/technology/elon-musk-sam-altman-trial.html) |
