@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-04-30 | [https://www.nytimes.com/live/2026/04/29/technology/openai-trial-sam-altman-elon-musk/even-without-openai-elon-musk-has-made-ai-a-big-part-of-his-business-empire](https://www.nytimes.com/live/2026/04/29/technology/openai-trial-sam-altman-elon-musk/even-without-openai-elon-musk-has-made-ai-a-big-part-of-his-business-empire) |
 | 2026-04-29 | [https://www.nytimes.com/2026/04/29/technology/ai-artificial-intelligence-ad-boom.html](https://www.nytimes.com/2026/04/29/technology/ai-artificial-intelligence-ad-boom.html) |
 | 2026-04-29 | [https://www.nytimes.com/2026/04/28/technology/key-players-openai-trial.html](https://www.nytimes.com/2026/04/28/technology/key-players-openai-trial.html) |
 | 2026-04-29 | [https://www.technologyreview.com/2026/04/29/1136659/plan-nuclear-waste/](https://www.technologyreview.com/2026/04/29/1136659/plan-nuclear-waste/) |
