@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-01 | [https://www.theatlantic.com/ideas/2026/04/creative-labor-ai-copyright/687000/?utm_source=feed](https://www.theatlantic.com/ideas/2026/04/creative-labor-ai-copyright/687000/?utm_source=feed) |
+| 2026-05-01 | [https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/](https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/) |
+| 2026-05-01 | [https://www.nytimes.com/2026/05/01/podcasts/hardfork-openai-doctors-talkie.html](https://www.nytimes.com/2026/05/01/podcasts/hardfork-openai-doctors-talkie.html) |
+| 2026-05-01 | [https://www.theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022/?utm_source=feed](https://www.theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022/?utm_source=feed) |
+| 2026-05-01 | [https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/](https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/) |
 | 2026-04-30 | [https://www.nytimes.com/live/2026/04/29/technology/openai-trial-sam-altman-elon-musk/even-without-openai-elon-musk-has-made-ai-a-big-part-of-his-business-empire](https://www.nytimes.com/live/2026/04/29/technology/openai-trial-sam-altman-elon-musk/even-without-openai-elon-musk-has-made-ai-a-big-part-of-his-business-empire) |
 | 2026-04-29 | [https://www.nytimes.com/2026/04/29/technology/ai-artificial-intelligence-ad-boom.html](https://www.nytimes.com/2026/04/29/technology/ai-artificial-intelligence-ad-boom.html) |
 | 2026-04-29 | [https://www.nytimes.com/2026/04/28/technology/key-players-openai-trial.html](https://www.nytimes.com/2026/04/28/technology/key-players-openai-trial.html) |
