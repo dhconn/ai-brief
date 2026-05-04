@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-04 | [https://www.newyorker.com/news/the-financial-page/the-ai-industry-is-booming-when-will-it-actually-make-money](https://www.newyorker.com/news/the-financial-page/the-ai-industry-is-booming-when-will-it-actually-make-money) |
 | 2026-05-02 | [https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/](https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/) |
 | 2026-05-02 | [https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/](https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/) |
 | 2026-05-01 | [https://www.theatlantic.com/ideas/2026/04/creative-labor-ai-copyright/687000/?utm_source=feed](https://www.theatlantic.com/ideas/2026/04/creative-labor-ai-copyright/687000/?utm_source=feed) |
