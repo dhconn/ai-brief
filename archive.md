@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-05 | [https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/](https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/) |
+| 2026-05-05 | [https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/](https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/) |
+| 2026-05-05 | [https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html](https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html) |
 | 2026-05-04 | [https://www.newyorker.com/news/the-financial-page/the-ai-industry-is-booming-when-will-it-actually-make-money](https://www.newyorker.com/news/the-financial-page/the-ai-industry-is-booming-when-will-it-actually-make-money) |
 | 2026-05-02 | [https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/](https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/) |
 | 2026-05-02 | [https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/](https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/) |
