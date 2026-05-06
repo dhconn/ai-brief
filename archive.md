@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-06 | [https://www.nytimes.com/2026/05/05/technology/coinbase-layoffs-ai.html](https://www.nytimes.com/2026/05/05/technology/coinbase-layoffs-ai.html) |
+| 2026-05-06 | [https://www.nytimes.com/2026/05/05/technology/apple-intelligence-lawsuit-settlement.html](https://www.nytimes.com/2026/05/05/technology/apple-intelligence-lawsuit-settlement.html) |
 | 2026-05-05 | [https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/](https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/) |
 | 2026-05-05 | [https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/](https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/) |
 | 2026-05-05 | [https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html](https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html) |
