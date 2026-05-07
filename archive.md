@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-07 | [https://www.understandingai.org/p/i-dont-think-we-are-close-to-ai-scientists](https://www.understandingai.org/p/i-dont-think-we-are-close-to-ai-scientists) |
+| 2026-05-07 | [https://www.newyorker.com/news/our-local-correspondents/how-a-congressional-primary-became-a-proxy-battle-over-ai](https://www.newyorker.com/news/our-local-correspondents/how-a-congressional-primary-became-a-proxy-battle-over-ai) |
+| 2026-05-07 | [https://www.nytimes.com/2026/05/06/technology/anthropic-ceo-ai-growth.html](https://www.nytimes.com/2026/05/06/technology/anthropic-ceo-ai-growth.html) |
 | 2026-05-06 | [https://www.nytimes.com/2026/05/05/technology/coinbase-layoffs-ai.html](https://www.nytimes.com/2026/05/05/technology/coinbase-layoffs-ai.html) |
 | 2026-05-06 | [https://www.nytimes.com/2026/05/05/technology/apple-intelligence-lawsuit-settlement.html](https://www.nytimes.com/2026/05/05/technology/apple-intelligence-lawsuit-settlement.html) |
 | 2026-05-05 | [https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/](https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/) |
