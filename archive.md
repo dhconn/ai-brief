@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-09 | [https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html](https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html) |
 | 2026-05-08 | [https://www.nytimes.com/2026/05/07/business/spacex-chips-terafab.html](https://www.nytimes.com/2026/05/07/business/spacex-chips-terafab.html) |
 | 2026-05-07 | [https://www.understandingai.org/p/i-dont-think-we-are-close-to-ai-scientists](https://www.understandingai.org/p/i-dont-think-we-are-close-to-ai-scientists) |
 | 2026-05-07 | [https://www.newyorker.com/news/our-local-correspondents/how-a-congressional-primary-became-a-proxy-battle-over-ai](https://www.newyorker.com/news/our-local-correspondents/how-a-congressional-primary-became-a-proxy-battle-over-ai) |
