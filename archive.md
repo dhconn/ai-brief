@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-11 | [https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/](https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/) |
+| 2026-05-11 | [https://www.theatlantic.com/politics/2026/05/stephen-miller-trump-ice-immigration/687103/?utm_source=feed](https://www.theatlantic.com/politics/2026/05/stephen-miller-trump-ice-immigration/687103/?utm_source=feed) |
 | 2026-05-09 | [https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html](https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html) |
 | 2026-05-08 | [https://www.nytimes.com/2026/05/07/business/spacex-chips-terafab.html](https://www.nytimes.com/2026/05/07/business/spacex-chips-terafab.html) |
 | 2026-05-07 | [https://www.understandingai.org/p/i-dont-think-we-are-close-to-ai-scientists](https://www.understandingai.org/p/i-dont-think-we-are-close-to-ai-scientists) |
