@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-12 | [https://www.nytimes.com/2026/05/12/technology/chatgpt-lawsuit-wrongful-death.html](https://www.nytimes.com/2026/05/12/technology/chatgpt-lawsuit-wrongful-death.html) |
+| 2026-05-12 | [https://www.nytimes.com/2026/05/12/technology/amp-startup.html](https://www.nytimes.com/2026/05/12/technology/amp-startup.html) |
+| 2026-05-12 | [https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html](https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html) |
+| 2026-05-12 | [https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/](https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/) |
 | 2026-05-11 | [https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/](https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/) |
 | 2026-05-11 | [https://www.theatlantic.com/politics/2026/05/stephen-miller-trump-ice-immigration/687103/?utm_source=feed](https://www.theatlantic.com/politics/2026/05/stephen-miller-trump-ice-immigration/687103/?utm_source=feed) |
 | 2026-05-09 | [https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html](https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html) |
