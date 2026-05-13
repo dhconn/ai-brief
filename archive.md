@@ -2,6 +2,14 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-13 | [https://www.nytimes.com/2026/05/13/technology/notable-researchers-join-4-billion-effort-to-build-self-improving-ai.html](https://www.nytimes.com/2026/05/13/technology/notable-researchers-join-4-billion-effort-to-build-self-improving-ai.html) |
+| 2026-05-13 | [https://mindstream.news/p/turning-ai-use-into-an-office-competition](https://mindstream.news/p/turning-ai-use-into-an-office-competition) |
+| 2026-05-13 | [https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/?utm_source=feed](https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/?utm_source=feed) |
+| 2026-05-13 | [https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html](https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html) |
+| 2026-05-13 | [https://www.understandingai.org/p/a-big-lesson-of-my-china-visit-compute](https://www.understandingai.org/p/a-big-lesson-of-my-china-visit-compute) |
+| 2026-05-13 | [https://www.nytimes.com/2026/05/12/us/politics/trump-china-summit-nvidia-jensen-huang.html](https://www.nytimes.com/2026/05/12/us/politics/trump-china-summit-nvidia-jensen-huang.html) |
+| 2026-05-13 | [https://mindstream.news/p/ai-is-helping-chemists-plan-new-molecules](https://mindstream.news/p/ai-is-helping-chemists-plan-new-molecules) |
+| 2026-05-13 | [https://mindstream.news/p/the-next-ai-app-might-answer-out-loud](https://mindstream.news/p/the-next-ai-app-might-answer-out-loud) |
 | 2026-05-12 | [https://www.nytimes.com/2026/05/12/technology/chatgpt-lawsuit-wrongful-death.html](https://www.nytimes.com/2026/05/12/technology/chatgpt-lawsuit-wrongful-death.html) |
 | 2026-05-12 | [https://www.nytimes.com/2026/05/12/technology/amp-startup.html](https://www.nytimes.com/2026/05/12/technology/amp-startup.html) |
 | 2026-05-12 | [https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html](https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html) |
