@@ -2,6 +2,13 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-14 | [https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/](https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/) |
+| 2026-05-14 | [https://www.nytimes.com/2026/05/13/business/energy-environment/fervo-geothermal-energy-ipo.html](https://www.nytimes.com/2026/05/13/business/energy-environment/fervo-geothermal-energy-ipo.html) |
+| 2026-05-14 | [https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151/?utm_source=feed](https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151/?utm_source=feed) |
+| 2026-05-14 | [https://www.nytimes.com/2026/05/11/technology/satya-nadella-openai-sam-altman.html](https://www.nytimes.com/2026/05/11/technology/satya-nadella-openai-sam-altman.html) |
+| 2026-05-14 | [https://www.nytimes.com/2026/05/12/technology/anthropic-funding-950-billion-valuation.html](https://www.nytimes.com/2026/05/12/technology/anthropic-funding-950-billion-valuation.html) |
+| 2026-05-14 | [https://mindstream.news/p/ai-has-made-cheating-harder-to-ignore](https://mindstream.news/p/ai-has-made-cheating-harder-to-ignore) |
+| 2026-05-14 | [https://mindstream.news/p/whatsapp-s-ai-just-got-incognito-mode](https://mindstream.news/p/whatsapp-s-ai-just-got-incognito-mode) |
 | 2026-05-13 | [https://www.nytimes.com/2026/05/13/technology/notable-researchers-join-4-billion-effort-to-build-self-improving-ai.html](https://www.nytimes.com/2026/05/13/technology/notable-researchers-join-4-billion-effort-to-build-self-improving-ai.html) |
 | 2026-05-13 | [https://mindstream.news/p/turning-ai-use-into-an-office-competition](https://mindstream.news/p/turning-ai-use-into-an-office-competition) |
 | 2026-05-13 | [https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/?utm_source=feed](https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/?utm_source=feed) |
