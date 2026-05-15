@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-15 | [https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/](https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/) |
+| 2026-05-15 | [https://www.nytimes.com/2026/05/14/technology/cerebras-ipo-ai.html](https://www.nytimes.com/2026/05/14/technology/cerebras-ipo-ai.html) |
+| 2026-05-15 | [https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/](https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/) |
+| 2026-05-15 | [https://www.nytimes.com/2026/05/14/technology/openai-apple-legal-action.html](https://www.nytimes.com/2026/05/14/technology/openai-apple-legal-action.html) |
+| 2026-05-15 | [https://www.nytimes.com/2026/05/15/business/nvidia-china-chips.html](https://www.nytimes.com/2026/05/15/business/nvidia-china-chips.html) |
 | 2026-05-14 | [https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/](https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/) |
 | 2026-05-14 | [https://www.nytimes.com/2026/05/13/business/energy-environment/fervo-geothermal-energy-ipo.html](https://www.nytimes.com/2026/05/13/business/energy-environment/fervo-geothermal-energy-ipo.html) |
 | 2026-05-14 | [https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151/?utm_source=feed](https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151/?utm_source=feed) |
