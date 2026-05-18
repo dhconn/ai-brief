@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-18 | [https://mindstream.news/p/bumble-s-ai-plan-is-sending-mixed-signals](https://mindstream.news/p/bumble-s-ai-plan-is-sending-mixed-signals) |
+| 2026-05-18 | [https://mindstream.news/p/the-ai-smartphone-race-has-a-new-frontrunner](https://mindstream.news/p/the-ai-smartphone-race-has-a-new-frontrunner) |
 | 2026-05-16 | [https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/) |
 | 2026-05-16 | [https://www.nytimes.com/2026/05/15/technology/openai-weightsgg-voice-cloning.html](https://www.nytimes.com/2026/05/15/technology/openai-weightsgg-voice-cloning.html) |
 | 2026-05-15 | [https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/](https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/) |
