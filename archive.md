@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-19 | [https://www.newyorker.com/news/fault-lines/the-enrollment-cliff-is-here-which-schools-will-survive-it](https://www.newyorker.com/news/fault-lines/the-enrollment-cliff-is-here-which-schools-will-survive-it) |
+| 2026-05-19 | [https://www.nytimes.com/2026/05/19/technology/openai-musk-legal-challenges.html](https://www.nytimes.com/2026/05/19/technology/openai-musk-legal-challenges.html) |
+| 2026-05-19 | [https://www.nytimes.com/2026/05/18/technology/elon-musk-openai-trial.html](https://www.nytimes.com/2026/05/18/technology/elon-musk-openai-trial.html) |
+| 2026-05-19 | [https://www.nytimes.com/2026/05/18/technology/elon-musk-lawsuit-openai-sam-altman.html](https://www.nytimes.com/2026/05/18/technology/elon-musk-lawsuit-openai-sam-altman.html) |
+| 2026-05-19 | [https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/](https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/) |
 | 2026-05-18 | [https://mindstream.news/p/bumble-s-ai-plan-is-sending-mixed-signals](https://mindstream.news/p/bumble-s-ai-plan-is-sending-mixed-signals) |
 | 2026-05-18 | [https://mindstream.news/p/the-ai-smartphone-race-has-a-new-frontrunner](https://mindstream.news/p/the-ai-smartphone-race-has-a-new-frontrunner) |
 | 2026-05-16 | [https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/) |
