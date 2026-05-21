@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-21 | [https://www.nytimes.com/2026/05/20/technology/meta-layoffs-ai-song.html](https://www.nytimes.com/2026/05/20/technology/meta-layoffs-ai-song.html) |
+| 2026-05-21 | [https://mindstream.news/p/ai-tools-need-better-receipts](https://mindstream.news/p/ai-tools-need-better-receipts) |
 | 2026-05-20 | [https://www.nytimes.com/2026/05/19/business/energy-environment/nextera-dominion-electricity-rates-data-centers.html](https://www.nytimes.com/2026/05/19/business/energy-environment/nextera-dominion-electricity-rates-data-centers.html) |
 | 2026-05-20 | [https://www.nytimes.com/2026/05/18/technology/openai-trial-elon-musk-sam-altman.html](https://www.nytimes.com/2026/05/18/technology/openai-trial-elon-musk-sam-altman.html) |
 | 2026-05-19 | [https://www.newyorker.com/news/fault-lines/the-enrollment-cliff-is-here-which-schools-will-survive-it](https://www.newyorker.com/news/fault-lines/the-enrollment-cliff-is-here-which-schools-will-survive-it) |
