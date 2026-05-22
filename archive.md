@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-22 | [https://www.nytimes.com/2026/05/21/technology/newsom-ai-executive-order-california.html](https://www.nytimes.com/2026/05/21/technology/newsom-ai-executive-order-california.html) |
+| 2026-05-22 | [https://www.theatlantic.com/podcasts/2026/05/higher-education-college-crisis/687233/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/05/higher-education-college-crisis/687233/?utm_source=feed) |
+| 2026-05-22 | [https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/](https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/) |
+| 2026-05-22 | [https://mindstream.news/p/nvidia-wants-a-bigger-slice-of-the-ai-chip-pie](https://mindstream.news/p/nvidia-wants-a-bigger-slice-of-the-ai-chip-pie) |
+| 2026-05-22 | [https://www.nytimes.com/2026/05/21/business/china-nvidia-chip-trump-ai.html](https://www.nytimes.com/2026/05/21/business/china-nvidia-chip-trump-ai.html) |
 | 2026-05-21 | [https://www.nytimes.com/2026/05/20/technology/meta-layoffs-ai-song.html](https://www.nytimes.com/2026/05/20/technology/meta-layoffs-ai-song.html) |
 | 2026-05-21 | [https://mindstream.news/p/ai-tools-need-better-receipts](https://mindstream.news/p/ai-tools-need-better-receipts) |
 | 2026-05-20 | [https://www.nytimes.com/2026/05/19/business/energy-environment/nextera-dominion-electricity-rates-data-centers.html](https://www.nytimes.com/2026/05/19/business/energy-environment/nextera-dominion-electricity-rates-data-centers.html) |
