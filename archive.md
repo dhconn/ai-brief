@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-24 | [https://www.nytimes.com/2026/05/24/technology/one-job-that-is-growing-in-the-ai-era-cybersecurity-experts.html](https://www.nytimes.com/2026/05/24/technology/one-job-that-is-growing-in-the-ai-era-cybersecurity-experts.html) |
 | 2026-05-23 | [https://www.nytimes.com/2026/05/22/podcasts/sundar-pichai-understands-why-people-are-anxious-about-ai.html](https://www.nytimes.com/2026/05/22/podcasts/sundar-pichai-understands-why-people-are-anxious-about-ai.html) |
 | 2026-05-22 | [https://www.nytimes.com/2026/05/21/technology/newsom-ai-executive-order-california.html](https://www.nytimes.com/2026/05/21/technology/newsom-ai-executive-order-california.html) |
 | 2026-05-22 | [https://www.theatlantic.com/podcasts/2026/05/higher-education-college-crisis/687233/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/05/higher-education-college-crisis/687233/?utm_source=feed) |
