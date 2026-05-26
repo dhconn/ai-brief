@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-26 | [https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/](https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/) |
+| 2026-05-26 | [https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/](https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/) |
+| 2026-05-26 | [https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/](https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/) |
+| 2026-05-26 | [https://www.nytimes.com/2026/05/25/technology/pope-ai-silicon-valley.html](https://www.nytimes.com/2026/05/25/technology/pope-ai-silicon-valley.html) |
 | 2026-05-24 | [https://www.nytimes.com/2026/05/24/technology/one-job-that-is-growing-in-the-ai-era-cybersecurity-experts.html](https://www.nytimes.com/2026/05/24/technology/one-job-that-is-growing-in-the-ai-era-cybersecurity-experts.html) |
 | 2026-05-23 | [https://www.nytimes.com/2026/05/22/podcasts/sundar-pichai-understands-why-people-are-anxious-about-ai.html](https://www.nytimes.com/2026/05/22/podcasts/sundar-pichai-understands-why-people-are-anxious-about-ai.html) |
 | 2026-05-22 | [https://www.nytimes.com/2026/05/21/technology/newsom-ai-executive-order-california.html](https://www.nytimes.com/2026/05/21/technology/newsom-ai-executive-order-california.html) |
