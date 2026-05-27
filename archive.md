@@ -2,6 +2,13 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-27 | [https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/](https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/) |
+| 2026-05-27 | [https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/](https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/) |
+| 2026-05-27 | [https://www.theatlantic.com/culture/2026/05/how-popes-ai-encyclical-defends-humanism/687323/?utm_source=feed](https://www.theatlantic.com/culture/2026/05/how-popes-ai-encyclical-defends-humanism/687323/?utm_source=feed) |
+| 2026-05-27 | [https://www.newyorker.com/news/the-lede/what-pope-leo-xiv-said-about-ai](https://www.newyorker.com/news/the-lede/what-pope-leo-xiv-said-about-ai) |
+| 2026-05-27 | [https://www.nytimes.com/2026/05/26/technology/pope-leo-ai-religion.html](https://www.nytimes.com/2026/05/26/technology/pope-leo-ai-religion.html) |
+| 2026-05-27 | [https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/](https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/) |
+| 2026-05-27 | [https://mindstream.news/p/spotify-is-trying-to-put-ai-music-in-a-paid-little-box](https://mindstream.news/p/spotify-is-trying-to-put-ai-music-in-a-paid-little-box) |
 | 2026-05-26 | [https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/](https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/) |
 | 2026-05-26 | [https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/](https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/) |
 | 2026-05-26 | [https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/](https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/) |
