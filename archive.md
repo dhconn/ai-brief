@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-28 | [https://www.understandingai.org/p/openais-milestone-math-breakthrough](https://www.understandingai.org/p/openais-milestone-math-breakthrough) |
 | 2026-05-27 | [https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/](https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/) |
 | 2026-05-27 | [https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/](https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/) |
 | 2026-05-27 | [https://www.theatlantic.com/culture/2026/05/how-popes-ai-encyclical-defends-humanism/687323/?utm_source=feed](https://www.theatlantic.com/culture/2026/05/how-popes-ai-encyclical-defends-humanism/687323/?utm_source=feed) |
