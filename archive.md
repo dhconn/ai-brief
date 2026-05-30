@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-30 | [https://www.nytimes.com/2026/05/30/us/politics/anthropic-openai-super-pacs-midterms.html](https://www.nytimes.com/2026/05/30/us/politics/anthropic-openai-super-pacs-midterms.html) |
 | 2026-05-29 | [https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/](https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/) |
 | 2026-05-29 | [https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/](https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/) |
 | 2026-05-29 | [https://mindstream.news/p/this-is-where-ai-gets-oily](https://mindstream.news/p/this-is-where-ai-gets-oily) |
