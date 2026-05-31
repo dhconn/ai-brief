@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-05-31 | [https://www.nytimes.com/2026/05/31/business/air-taxis-joby-helicopters.html](https://www.nytimes.com/2026/05/31/business/air-taxis-joby-helicopters.html) |
+| 2026-05-31 | [https://mindstream.news/p/youtube-is-tightening-its-ai-disclosure-rules](https://mindstream.news/p/youtube-is-tightening-its-ai-disclosure-rules) |
+| 2026-05-31 | [https://mindstream.news/p/ai-chipmakers-ride-the-data-centre-boom](https://mindstream.news/p/ai-chipmakers-ride-the-data-centre-boom) |
 | 2026-05-30 | [https://www.nytimes.com/2026/05/30/us/politics/anthropic-openai-super-pacs-midterms.html](https://www.nytimes.com/2026/05/30/us/politics/anthropic-openai-super-pacs-midterms.html) |
 | 2026-05-29 | [https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/](https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/) |
 | 2026-05-29 | [https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/](https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/) |
