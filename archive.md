@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-01 | [https://www.nytimes.com/2026/06/01/technology/ai-tech-job-cuts.html](https://www.nytimes.com/2026/06/01/technology/ai-tech-job-cuts.html) |
+| 2026-06-01 | [https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html](https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html) |
+| 2026-06-01 | [https://www.nytimes.com/2026/06/01/technology/nvidia-chips-personal-computers.html](https://www.nytimes.com/2026/06/01/technology/nvidia-chips-personal-computers.html) |
+| 2026-06-01 | [https://mindstream.news/p/anthropic-closes-in-on-a-1-trillion-valuation](https://mindstream.news/p/anthropic-closes-in-on-a-1-trillion-valuation) |
+| 2026-06-01 | [https://mindstream.news/p/this-hollywood-protagonist-is-mapping-ai-moves](https://mindstream.news/p/this-hollywood-protagonist-is-mapping-ai-moves) |
 | 2026-05-31 | [https://www.nytimes.com/2026/05/31/business/air-taxis-joby-helicopters.html](https://www.nytimes.com/2026/05/31/business/air-taxis-joby-helicopters.html) |
 | 2026-05-31 | [https://mindstream.news/p/youtube-is-tightening-its-ai-disclosure-rules](https://mindstream.news/p/youtube-is-tightening-its-ai-disclosure-rules) |
 | 2026-05-31 | [https://mindstream.news/p/ai-chipmakers-ride-the-data-centre-boom](https://mindstream.news/p/ai-chipmakers-ride-the-data-centre-boom) |
