@@ -2,6 +2,14 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-02 | [https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/](https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/) |
+| 2026-06-02 | [https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/](https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/) |
+| 2026-06-02 | [https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/](https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/) |
+| 2026-06-02 | [https://mindstream.news/p/the-ai-chip-we-didn-t-see-coming](https://mindstream.news/p/the-ai-chip-we-didn-t-see-coming) |
+| 2026-06-02 | [https://www.nytimes.com/2026/06/01/technology/florida-sues-openai-chatgpt-safety.html](https://www.nytimes.com/2026/06/01/technology/florida-sues-openai-chatgpt-safety.html) |
+| 2026-06-02 | [https://mindstream.news/p/the-us-is-closing-another-ai-chip-loophole](https://mindstream.news/p/the-us-is-closing-another-ai-chip-loophole) |
+| 2026-06-02 | [https://www.nytimes.com/2026/06/01/us/politics/china-ai-predicting-dissent.html](https://www.nytimes.com/2026/06/01/us/politics/china-ai-predicting-dissent.html) |
+| 2026-06-02 | [https://mindstream.news/p/10-questions-for-ai-leaders-aja-frost](https://mindstream.news/p/10-questions-for-ai-leaders-aja-frost) |
 | 2026-06-01 | [https://www.nytimes.com/2026/06/01/technology/ai-tech-job-cuts.html](https://www.nytimes.com/2026/06/01/technology/ai-tech-job-cuts.html) |
 | 2026-06-01 | [https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html](https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html) |
 | 2026-06-01 | [https://www.nytimes.com/2026/06/01/technology/nvidia-chips-personal-computers.html](https://www.nytimes.com/2026/06/01/technology/nvidia-chips-personal-computers.html) |
