@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-03 | [https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html](https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html) |
+| 2026-06-03 | [https://www.theatlantic.com/ideas/2026/06/ai-job-market-hiring/687403/?utm_source=feed](https://www.theatlantic.com/ideas/2026/06/ai-job-market-hiring/687403/?utm_source=feed) |
+| 2026-06-03 | [https://www.nytimes.com/2026/06/03/technology/european-union-tech-sovereignty.html](https://www.nytimes.com/2026/06/03/technology/european-union-tech-sovereignty.html) |
 | 2026-06-02 | [https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/](https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/) |
 | 2026-06-02 | [https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/](https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/) |
 | 2026-06-02 | [https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/](https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/) |
