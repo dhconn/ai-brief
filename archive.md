@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-04 | [https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/](https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/) |
+| 2026-06-04 | [https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/](https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/) |
+| 2026-06-04 | [https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/](https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/) |
+| 2026-06-04 | [https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/?utm_source=feed](https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/?utm_source=feed) |
+| 2026-06-04 | [https://mindstream.news/p/scorsese-is-so-pro-ai](https://mindstream.news/p/scorsese-is-so-pro-ai) |
 | 2026-06-03 | [https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html](https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html) |
 | 2026-06-03 | [https://www.theatlantic.com/ideas/2026/06/ai-job-market-hiring/687403/?utm_source=feed](https://www.theatlantic.com/ideas/2026/06/ai-job-market-hiring/687403/?utm_source=feed) |
 | 2026-06-03 | [https://www.nytimes.com/2026/06/03/technology/european-union-tech-sovereignty.html](https://www.nytimes.com/2026/06/03/technology/european-union-tech-sovereignty.html) |
