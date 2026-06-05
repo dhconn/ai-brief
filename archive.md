@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-05 | [https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/](https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/) |
+| 2026-06-05 | [https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/](https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/) |
+| 2026-06-05 | [https://mindstream.news/p/ai-breakfast-beans](https://mindstream.news/p/ai-breakfast-beans) |
 | 2026-06-04 | [https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/](https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/) |
 | 2026-06-04 | [https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/](https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/) |
 | 2026-06-04 | [https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/](https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/) |
