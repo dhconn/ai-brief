@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-06 | [https://www.nytimes.com/2026/06/04/world/canada/canada-national-ai-strategy.html](https://www.nytimes.com/2026/06/04/world/canada/canada-national-ai-strategy.html) |
 | 2026-06-05 | [https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/](https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/) |
 | 2026-06-05 | [https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/](https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/) |
 | 2026-06-05 | [https://mindstream.news/p/ai-breakfast-beans](https://mindstream.news/p/ai-breakfast-beans) |
