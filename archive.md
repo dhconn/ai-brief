@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-08 | [https://www.nytimes.com/2026/06/08/technology/apple-ai-artificial-intelligence-wwdc.html](https://www.nytimes.com/2026/06/08/technology/apple-ai-artificial-intelligence-wwdc.html) |
+| 2026-06-08 | [https://mindstream.news/p/the-common-cause-that-united-ai-rivals](https://mindstream.news/p/the-common-cause-that-united-ai-rivals) |
 | 2026-06-07 | [https://mindstream.news/p/10-questions-for-ai-leaders-forest-key](https://mindstream.news/p/10-questions-for-ai-leaders-forest-key) |
 | 2026-06-06 | [https://www.nytimes.com/2026/06/04/world/canada/canada-national-ai-strategy.html](https://www.nytimes.com/2026/06/04/world/canada/canada-national-ai-strategy.html) |
 | 2026-06-05 | [https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/](https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/) |
