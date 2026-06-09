@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-09 | [https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/](https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/) |
+| 2026-06-09 | [https://www.nytimes.com/2026/06/08/technology/apple-ai-siri.html](https://www.nytimes.com/2026/06/08/technology/apple-ai-siri.html) |
+| 2026-06-09 | [https://www.nytimes.com/2026/06/08/business/ai-medicine-doctors.html](https://www.nytimes.com/2026/06/08/business/ai-medicine-doctors.html) |
+| 2026-06-09 | [https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/](https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/) |
+| 2026-06-09 | [https://mindstream.news/p/chatgpt-is-eating-the-app-drawer](https://mindstream.news/p/chatgpt-is-eating-the-app-drawer) |
+| 2026-06-09 | [https://www.nytimes.com/2026/06/09/business/apple-siri-ai-europe.html](https://www.nytimes.com/2026/06/09/business/apple-siri-ai-europe.html) |
 | 2026-06-08 | [https://www.nytimes.com/2026/06/08/technology/apple-ai-artificial-intelligence-wwdc.html](https://www.nytimes.com/2026/06/08/technology/apple-ai-artificial-intelligence-wwdc.html) |
 | 2026-06-08 | [https://mindstream.news/p/the-common-cause-that-united-ai-rivals](https://mindstream.news/p/the-common-cause-that-united-ai-rivals) |
 | 2026-06-07 | [https://mindstream.news/p/10-questions-for-ai-leaders-forest-key](https://mindstream.news/p/10-questions-for-ai-leaders-forest-key) |
