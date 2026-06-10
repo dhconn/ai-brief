@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-10 | [https://www.nytimes.com/2026/06/09/business/energy-environment/general-motors-storage-batteries-electric-vehicles.html](https://www.nytimes.com/2026/06/09/business/energy-environment/general-motors-storage-batteries-electric-vehicles.html) |
+| 2026-06-10 | [https://www.nytimes.com/2026/06/09/technology/instagram-hack-ai-bug.html](https://www.nytimes.com/2026/06/09/technology/instagram-hack-ai-bug.html) |
+| 2026-06-10 | [https://www.noemamag.com/the-next-us-presidential-election-will-be-about-ai](https://www.noemamag.com/the-next-us-presidential-election-will-be-about-ai) |
+| 2026-06-10 | [https://www.nytimes.com/2026/06/08/technology/openai-ipo.html](https://www.nytimes.com/2026/06/08/technology/openai-ipo.html) |
 | 2026-06-09 | [https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/](https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/) |
 | 2026-06-09 | [https://www.nytimes.com/2026/06/08/technology/apple-ai-siri.html](https://www.nytimes.com/2026/06/08/technology/apple-ai-siri.html) |
 | 2026-06-09 | [https://www.nytimes.com/2026/06/08/business/ai-medicine-doctors.html](https://www.nytimes.com/2026/06/08/business/ai-medicine-doctors.html) |
