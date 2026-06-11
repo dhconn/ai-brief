@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-11 | [https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/) |
+| 2026-06-11 | [https://www.nytimes.com/2026/06/10/technology/microsoft-satya-nadella-artificial-intelligence.html](https://www.nytimes.com/2026/06/10/technology/microsoft-satya-nadella-artificial-intelligence.html) |
 | 2026-06-10 | [https://www.nytimes.com/2026/06/09/business/energy-environment/general-motors-storage-batteries-electric-vehicles.html](https://www.nytimes.com/2026/06/09/business/energy-environment/general-motors-storage-batteries-electric-vehicles.html) |
 | 2026-06-10 | [https://www.nytimes.com/2026/06/09/technology/instagram-hack-ai-bug.html](https://www.nytimes.com/2026/06/09/technology/instagram-hack-ai-bug.html) |
 | 2026-06-10 | [https://www.noemamag.com/the-next-us-presidential-election-will-be-about-ai](https://www.noemamag.com/the-next-us-presidential-election-will-be-about-ai) |
