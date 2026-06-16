@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-16 | [https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/](https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/) |
+| 2026-06-16 | [https://www.nytimes.com/2026/06/16/business/spacex-cursor-aquisition-ipo.html](https://www.nytimes.com/2026/06/16/business/spacex-cursor-aquisition-ipo.html) |
+| 2026-06-16 | [https://mindstream.news/p/anthropic-s-too-powerful-model-meets-the-off-switch](https://mindstream.news/p/anthropic-s-too-powerful-model-meets-the-off-switch) |
+| 2026-06-16 | [https://www.nytimes.com/2026/06/16/technology/taiwan-south-korea-ai-chips.html](https://www.nytimes.com/2026/06/16/technology/taiwan-south-korea-ai-chips.html) |
+| 2026-06-16 | [https://www.understandingai.org/p/the-maga-power-struggle-that-could](https://www.understandingai.org/p/the-maga-power-struggle-that-could) |
+| 2026-06-16 | [https://www.noemamag.com/ai-drones-eric-schmidt-on-the-biggest-revolution-in-the-history-of-warfare](https://www.noemamag.com/ai-drones-eric-schmidt-on-the-biggest-revolution-in-the-history-of-warfare) |
 | 2026-06-15 | [https://mindstream.news/p/a-german-court-ruling-could-reshape-ai-search-engines-forever](https://mindstream.news/p/a-german-court-ruling-could-reshape-ai-search-engines-forever) |
 | 2026-06-13 | [https://www.nytimes.com/2026/06/12/technology/spacex-ipo-elon-musk.html](https://www.nytimes.com/2026/06/12/technology/spacex-ipo-elon-musk.html) |
 | 2026-06-12 | [https://www.theatlantic.com/economy/2026/06/ai-job-displacement-questions/687503/?utm_source=feed](https://www.theatlantic.com/economy/2026/06/ai-job-displacement-questions/687503/?utm_source=feed) |
