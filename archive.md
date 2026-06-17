@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-17 | [https://www.nytimes.com/2026/06/16/climate/xai-musk-mississippi-grok-turbine-lawsuit-naacp.html](https://www.nytimes.com/2026/06/16/climate/xai-musk-mississippi-grok-turbine-lawsuit-naacp.html) |
+| 2026-06-17 | [https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html](https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html) |
+| 2026-06-17 | [https://www.theatlantic.com/health/2026/06/ai-healthcare-uber-moment/687567/?utm_source=feed](https://www.theatlantic.com/health/2026/06/ai-healthcare-uber-moment/687567/?utm_source=feed) |
+| 2026-06-17 | [https://www.nytimes.com/2026/06/17/us/data-centers-noise-pollution.html](https://www.nytimes.com/2026/06/17/us/data-centers-noise-pollution.html) |
 | 2026-06-16 | [https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/](https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/) |
 | 2026-06-16 | [https://www.nytimes.com/2026/06/16/business/spacex-cursor-aquisition-ipo.html](https://www.nytimes.com/2026/06/16/business/spacex-cursor-aquisition-ipo.html) |
 | 2026-06-16 | [https://mindstream.news/p/anthropic-s-too-powerful-model-meets-the-off-switch](https://mindstream.news/p/anthropic-s-too-powerful-model-meets-the-off-switch) |
