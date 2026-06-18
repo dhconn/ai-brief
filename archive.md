@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-18 | [https://www.nytimes.com/2026/06/18/technology/ai-super-pac-guardrails-alliance.html](https://www.nytimes.com/2026/06/18/technology/ai-super-pac-guardrails-alliance.html) |
 | 2026-06-17 | [https://www.nytimes.com/2026/06/16/climate/xai-musk-mississippi-grok-turbine-lawsuit-naacp.html](https://www.nytimes.com/2026/06/16/climate/xai-musk-mississippi-grok-turbine-lawsuit-naacp.html) |
 | 2026-06-17 | [https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html](https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html) |
 | 2026-06-17 | [https://www.theatlantic.com/health/2026/06/ai-healthcare-uber-moment/687567/?utm_source=feed](https://www.theatlantic.com/health/2026/06/ai-healthcare-uber-moment/687567/?utm_source=feed) |
