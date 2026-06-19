@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-19 | [https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/](https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/) |
+| 2026-06-19 | [https://mindstream.news/p/london-got-a-front-row-seat-to-ai-agents](https://mindstream.news/p/london-got-a-front-row-seat-to-ai-agents) |
+| 2026-06-19 | [https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/](https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/) |
+| 2026-06-19 | [https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/?utm_source=feed](https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/?utm_source=feed) |
+| 2026-06-19 | [https://www.nytimes.com/2026/06/18/technology/ai-token-minimizing.html](https://www.nytimes.com/2026/06/18/technology/ai-token-minimizing.html) |
+| 2026-06-19 | [https://mindstream.news/p/carbon-removal-gets-an-ai-name](https://mindstream.news/p/carbon-removal-gets-an-ai-name) |
 | 2026-06-18 | [https://www.nytimes.com/2026/06/18/technology/ai-super-pac-guardrails-alliance.html](https://www.nytimes.com/2026/06/18/technology/ai-super-pac-guardrails-alliance.html) |
 | 2026-06-17 | [https://www.nytimes.com/2026/06/16/climate/xai-musk-mississippi-grok-turbine-lawsuit-naacp.html](https://www.nytimes.com/2026/06/16/climate/xai-musk-mississippi-grok-turbine-lawsuit-naacp.html) |
 | 2026-06-17 | [https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html](https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html) |
