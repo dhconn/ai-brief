@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-20 | [https://www.nytimes.com/2026/06/20/business/toyota-africa-electric-vehicles-lawsuit.html](https://www.nytimes.com/2026/06/20/business/toyota-africa-electric-vehicles-lawsuit.html) |
+| 2026-06-20 | [https://www.theatlantic.com/culture/2026/06/toy-story-5-review-pixar-movie/687643/?utm_source=feed](https://www.theatlantic.com/culture/2026/06/toy-story-5-review-pixar-movie/687643/?utm_source=feed) |
 | 2026-06-19 | [https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/](https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/) |
 | 2026-06-19 | [https://mindstream.news/p/london-got-a-front-row-seat-to-ai-agents](https://mindstream.news/p/london-got-a-front-row-seat-to-ai-agents) |
 | 2026-06-19 | [https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/](https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/) |
