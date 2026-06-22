@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-22 | [https://mindstream.news/p/ai-just-diagnosed-the-undiagnosable](https://mindstream.news/p/ai-just-diagnosed-the-undiagnosable) |
+| 2026-06-22 | [https://mindstream.news/p/meet-the-ai-tour-guides-of-the-2026-world-cup](https://mindstream.news/p/meet-the-ai-tour-guides-of-the-2026-world-cup) |
 | 2026-06-20 | [https://www.nytimes.com/2026/06/20/business/toyota-africa-electric-vehicles-lawsuit.html](https://www.nytimes.com/2026/06/20/business/toyota-africa-electric-vehicles-lawsuit.html) |
 | 2026-06-20 | [https://www.theatlantic.com/culture/2026/06/toy-story-5-review-pixar-movie/687643/?utm_source=feed](https://www.theatlantic.com/culture/2026/06/toy-story-5-review-pixar-movie/687643/?utm_source=feed) |
 | 2026-06-19 | [https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/](https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/) |
