@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-23 | [https://mindstream.news/p/ai-made-it-50m-so-now-this-bank-would-like-more-ai](https://mindstream.news/p/ai-made-it-50m-so-now-this-bank-would-like-more-ai) |
 | 2026-06-22 | [https://mindstream.news/p/ai-just-diagnosed-the-undiagnosable](https://mindstream.news/p/ai-just-diagnosed-the-undiagnosable) |
 | 2026-06-22 | [https://mindstream.news/p/meet-the-ai-tour-guides-of-the-2026-world-cup](https://mindstream.news/p/meet-the-ai-tour-guides-of-the-2026-world-cup) |
 | 2026-06-20 | [https://www.nytimes.com/2026/06/20/business/toyota-africa-electric-vehicles-lawsuit.html](https://www.nytimes.com/2026/06/20/business/toyota-africa-electric-vehicles-lawsuit.html) |
