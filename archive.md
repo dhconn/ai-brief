@@ -2,6 +2,16 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-24 | [https://www.nytimes.com/2026/06/24/business/energy-environment/ai-data-centers-tesla.html](https://www.nytimes.com/2026/06/24/business/energy-environment/ai-data-centers-tesla.html) |
+| 2026-06-24 | [https://www.theatlantic.com/newsletters/2026/06/ai-pac-elections-midterm-money/687676/?utm_source=feed](https://www.theatlantic.com/newsletters/2026/06/ai-pac-elections-midterm-money/687676/?utm_source=feed) |
+| 2026-06-24 | [https://mindstream.news/p/ai-law-firm-helps-win-english-court-case](https://mindstream.news/p/ai-law-firm-helps-win-english-court-case) |
+| 2026-06-24 | [https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/](https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/) |
+| 2026-06-24 | [https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/](https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/) |
+| 2026-06-24 | [https://www.theatlantic.com/national-security/2026/06/claude-anthropic-ai-warfare-orders/687581/?utm_source=feed](https://www.theatlantic.com/national-security/2026/06/claude-anthropic-ai-warfare-orders/687581/?utm_source=feed) |
+| 2026-06-24 | [https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/](https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/) |
+| 2026-06-24 | [https://mindstream.news/p/openai-is-sending-ai-to-chase-bugs-before-hackers-do](https://mindstream.news/p/openai-is-sending-ai-to-chase-bugs-before-hackers-do) |
+| 2026-06-24 | [https://mindstream.news/p/10-questions-for-ai-leaders-angie-o-dowd](https://mindstream.news/p/10-questions-for-ai-leaders-angie-o-dowd) |
+| 2026-06-24 | [https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html](https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html) |
 | 2026-06-23 | [https://mindstream.news/p/ai-made-it-50m-so-now-this-bank-would-like-more-ai](https://mindstream.news/p/ai-made-it-50m-so-now-this-bank-would-like-more-ai) |
 | 2026-06-22 | [https://mindstream.news/p/ai-just-diagnosed-the-undiagnosable](https://mindstream.news/p/ai-just-diagnosed-the-undiagnosable) |
 | 2026-06-22 | [https://mindstream.news/p/meet-the-ai-tour-guides-of-the-2026-world-cup](https://mindstream.news/p/meet-the-ai-tour-guides-of-the-2026-world-cup) |
