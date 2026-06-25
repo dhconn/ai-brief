@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-25 | [https://www.nytimes.com/2026/06/24/technology/openai-broadcom-chip-jalapeno.html](https://www.nytimes.com/2026/06/24/technology/openai-broadcom-chip-jalapeno.html) |
+| 2026-06-25 | [https://www.nytimes.com/2026/06/25/technology/ibm-technology-tinier-chips.html](https://www.nytimes.com/2026/06/25/technology/ibm-technology-tinier-chips.html) |
+| 2026-06-25 | [https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/](https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/) |
 | 2026-06-24 | [https://www.nytimes.com/2026/06/24/business/energy-environment/ai-data-centers-tesla.html](https://www.nytimes.com/2026/06/24/business/energy-environment/ai-data-centers-tesla.html) |
 | 2026-06-24 | [https://www.theatlantic.com/newsletters/2026/06/ai-pac-elections-midterm-money/687676/?utm_source=feed](https://www.theatlantic.com/newsletters/2026/06/ai-pac-elections-midterm-money/687676/?utm_source=feed) |
 | 2026-06-24 | [https://mindstream.news/p/ai-law-firm-helps-win-english-court-case](https://mindstream.news/p/ai-law-firm-helps-win-english-court-case) |
