@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-26 | [https://www.nytimes.com/2026/06/25/technology/times-lawsuit-openai-microsoft.html](https://www.nytimes.com/2026/06/25/technology/times-lawsuit-openai-microsoft.html) |
+| 2026-06-26 | [https://www.nytimes.com/2026/06/26/technology/ai-advanced-chip-packaging-tsmc.html](https://www.nytimes.com/2026/06/26/technology/ai-advanced-chip-packaging-tsmc.html) |
+| 2026-06-26 | [https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/](https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/) |
+| 2026-06-26 | [https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/](https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/) |
+| 2026-06-26 | [https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html](https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html) |
+| 2026-06-26 | [https://mindstream.news/p/ai-in-one-workplace](https://mindstream.news/p/ai-in-one-workplace) |
 | 2026-06-25 | [https://www.nytimes.com/2026/06/24/technology/openai-broadcom-chip-jalapeno.html](https://www.nytimes.com/2026/06/24/technology/openai-broadcom-chip-jalapeno.html) |
 | 2026-06-25 | [https://www.nytimes.com/2026/06/25/technology/ibm-technology-tinier-chips.html](https://www.nytimes.com/2026/06/25/technology/ibm-technology-tinier-chips.html) |
 | 2026-06-25 | [https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/](https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/) |
