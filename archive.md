@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-27 | [https://www.nytimes.com/2026/06/26/technology/anthropic-mythos-government-restrictions.html](https://www.nytimes.com/2026/06/26/technology/anthropic-mythos-government-restrictions.html) |
+| 2026-06-27 | [https://www.theatlantic.com/culture/2026/06/supergirl-movie-2026-review/687712/?utm_source=feed](https://www.theatlantic.com/culture/2026/06/supergirl-movie-2026-review/687712/?utm_source=feed) |
 | 2026-06-26 | [https://www.nytimes.com/2026/06/25/technology/times-lawsuit-openai-microsoft.html](https://www.nytimes.com/2026/06/25/technology/times-lawsuit-openai-microsoft.html) |
 | 2026-06-26 | [https://www.nytimes.com/2026/06/26/technology/ai-advanced-chip-packaging-tsmc.html](https://www.nytimes.com/2026/06/26/technology/ai-advanced-chip-packaging-tsmc.html) |
 | 2026-06-26 | [https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/](https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/) |
