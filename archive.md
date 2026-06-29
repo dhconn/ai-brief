@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-29 | [https://www.understandingai.org/p/the-us-now-has-a-de-facto-model-licensing](https://www.understandingai.org/p/the-us-now-has-a-de-facto-model-licensing) |
 | 2026-06-27 | [https://www.nytimes.com/2026/06/26/technology/anthropic-mythos-government-restrictions.html](https://www.nytimes.com/2026/06/26/technology/anthropic-mythos-government-restrictions.html) |
 | 2026-06-27 | [https://www.theatlantic.com/culture/2026/06/supergirl-movie-2026-review/687712/?utm_source=feed](https://www.theatlantic.com/culture/2026/06/supergirl-movie-2026-review/687712/?utm_source=feed) |
 | 2026-06-26 | [https://www.nytimes.com/2026/06/25/technology/times-lawsuit-openai-microsoft.html](https://www.nytimes.com/2026/06/25/technology/times-lawsuit-openai-microsoft.html) |
