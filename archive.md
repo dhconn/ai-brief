@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-06-30 | [https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/](https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/) |
+| 2026-06-30 | [https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/](https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/) |
+| 2026-06-30 | [https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/](https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/) |
+| 2026-06-30 | [https://www.nytimes.com/2026/06/29/business/artificial-intelligence-workplace-consequences.html](https://www.nytimes.com/2026/06/29/business/artificial-intelligence-workplace-consequences.html) |
+| 2026-06-30 | [https://mindstream.news/p/washington-has-a-new-ai-headache](https://mindstream.news/p/washington-has-a-new-ai-headache) |
 | 2026-06-29 | [https://www.understandingai.org/p/the-us-now-has-a-de-facto-model-licensing](https://www.understandingai.org/p/the-us-now-has-a-de-facto-model-licensing) |
 | 2026-06-27 | [https://www.nytimes.com/2026/06/26/technology/anthropic-mythos-government-restrictions.html](https://www.nytimes.com/2026/06/26/technology/anthropic-mythos-government-restrictions.html) |
 | 2026-06-27 | [https://www.theatlantic.com/culture/2026/06/supergirl-movie-2026-review/687712/?utm_source=feed](https://www.theatlantic.com/culture/2026/06/supergirl-movie-2026-review/687712/?utm_source=feed) |
