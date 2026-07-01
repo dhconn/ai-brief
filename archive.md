@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-01 | [https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/](https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/) |
+| 2026-07-01 | [https://mindstream.news/p/ai-quality-checks-needed-adult-supervision](https://mindstream.news/p/ai-quality-checks-needed-adult-supervision) |
+| 2026-07-01 | [https://www.nytimes.com/2026/06/30/technology/us-lifts-restrictions-anthropic.html](https://www.nytimes.com/2026/06/30/technology/us-lifts-restrictions-anthropic.html) |
+| 2026-07-01 | [https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/](https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/) |
 | 2026-06-30 | [https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/](https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/) |
 | 2026-06-30 | [https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/](https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/) |
 | 2026-06-30 | [https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/](https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/) |
