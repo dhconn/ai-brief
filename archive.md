@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-02 | [https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/](https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/) |
+| 2026-07-02 | [https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/](https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/) |
+| 2026-07-02 | [https://www.theatlantic.com/economy/2026/07/universal-basic-capital-ai/687759/?utm_source=feed](https://www.theatlantic.com/economy/2026/07/universal-basic-capital-ai/687759/?utm_source=feed) |
 | 2026-07-01 | [https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/](https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/) |
 | 2026-07-01 | [https://mindstream.news/p/ai-quality-checks-needed-adult-supervision](https://mindstream.news/p/ai-quality-checks-needed-adult-supervision) |
 | 2026-07-01 | [https://www.nytimes.com/2026/06/30/technology/us-lifts-restrictions-anthropic.html](https://www.nytimes.com/2026/06/30/technology/us-lifts-restrictions-anthropic.html) |
