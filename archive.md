@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-06 | [https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html](https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html) |
+| 2026-07-06 | [https://mindstream.news/p/the-paper-trail-behind-anthropic-s-pentagon-breakup](https://mindstream.news/p/the-paper-trail-behind-anthropic-s-pentagon-breakup) |
 | 2026-07-03 | [https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/](https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/) |
 | 2026-07-03 | [https://www.nytimes.com/2026/07/02/business/energy-environment/electric-grid-data-centers-pjm.html](https://www.nytimes.com/2026/07/02/business/energy-environment/electric-grid-data-centers-pjm.html) |
 | 2026-07-02 | [https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/](https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/) |
