@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-08 | [https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/](https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/) |
+| 2026-07-08 | [https://www.theatlantic.com/culture/2026/07/animation-industry-ai-hollywood-job-cuts/687830/?utm_source=feed](https://www.theatlantic.com/culture/2026/07/animation-industry-ai-hollywood-job-cuts/687830/?utm_source=feed) |
+| 2026-07-08 | [https://www.theatlantic.com/international/2026/07/xi-jinping-censorship-ai-training/687696/?utm_source=feed](https://www.theatlantic.com/international/2026/07/xi-jinping-censorship-ai-training/687696/?utm_source=feed) |
+| 2026-07-08 | [https://www.nytimes.com/2026/07/07/technology/meta-ai-muse-image.html](https://www.nytimes.com/2026/07/07/technology/meta-ai-muse-image.html) |
+| 2026-07-08 | [https://www.theatlantic.com/technology/2026/07/glm-5-2-china-cheap-ai-agents/687828/?utm_source=feed](https://www.theatlantic.com/technology/2026/07/glm-5-2-china-cheap-ai-agents/687828/?utm_source=feed) |
 | 2026-07-07 | [https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/](https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/) |
 | 2026-07-06 | [https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html](https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html) |
 | 2026-07-06 | [https://mindstream.news/p/the-paper-trail-behind-anthropic-s-pentagon-breakup](https://mindstream.news/p/the-paper-trail-behind-anthropic-s-pentagon-breakup) |
