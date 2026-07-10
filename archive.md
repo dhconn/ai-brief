@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-10 | [https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/](https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/) |
+| 2026-07-10 | [https://www.nytimes.com/2026/07/09/technology/openai-sol-ai.html](https://www.nytimes.com/2026/07/09/technology/openai-sol-ai.html) |
+| 2026-07-10 | [https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/](https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/) |
+| 2026-07-10 | [https://www.theatlantic.com/technology/2026/07/silicon-valley-plan-ai-jobs-layoffs/687863/?utm_source=feed](https://www.theatlantic.com/technology/2026/07/silicon-valley-plan-ai-jobs-layoffs/687863/?utm_source=feed) |
+| 2026-07-10 | [https://www.nytimes.com/2026/07/09/technology/new-york-times-openai.html](https://www.nytimes.com/2026/07/09/technology/new-york-times-openai.html) |
 | 2026-07-09 | [https://www.noemamag.com/ais-greatest-gift-to-humanity](https://www.noemamag.com/ais-greatest-gift-to-humanity) |
 | 2026-07-08 | [https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/](https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/) |
 | 2026-07-08 | [https://www.theatlantic.com/culture/2026/07/animation-industry-ai-hollywood-job-cuts/687830/?utm_source=feed](https://www.theatlantic.com/culture/2026/07/animation-industry-ai-hollywood-job-cuts/687830/?utm_source=feed) |
