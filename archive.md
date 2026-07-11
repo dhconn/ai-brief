@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-11 | [https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html](https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html) |
+| 2026-07-11 | [https://www.understandingai.org/p/an-openai-model-crushed-top-human](https://www.understandingai.org/p/an-openai-model-crushed-top-human) |
+| 2026-07-11 | [https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power](https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power) |
 | 2026-07-10 | [https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/](https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/) |
 | 2026-07-10 | [https://www.nytimes.com/2026/07/09/technology/openai-sol-ai.html](https://www.nytimes.com/2026/07/09/technology/openai-sol-ai.html) |
 | 2026-07-10 | [https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/](https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/) |
