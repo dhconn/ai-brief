@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-13 | [https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/?utm_source=feed](https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/?utm_source=feed) |
+| 2026-07-13 | [https://mindstream.news/p/spotify-wrapped-but-for-your-ai-habits](https://mindstream.news/p/spotify-wrapped-but-for-your-ai-habits) |
 | 2026-07-11 | [https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html](https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html) |
 | 2026-07-11 | [https://www.understandingai.org/p/an-openai-model-crushed-top-human](https://www.understandingai.org/p/an-openai-model-crushed-top-human) |
 | 2026-07-11 | [https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power](https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power) |
