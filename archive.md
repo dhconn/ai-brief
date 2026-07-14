@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-14 | [https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html](https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html) |
+| 2026-07-14 | [https://www.theatlantic.com/press-releases/2026/07/atlantic-introduces-new-game-lemony-snicket/687886/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/07/atlantic-introduces-new-game-lemony-snicket/687886/?utm_source=feed) |
 | 2026-07-13 | [https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/?utm_source=feed](https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/?utm_source=feed) |
 | 2026-07-13 | [https://mindstream.news/p/spotify-wrapped-but-for-your-ai-habits](https://mindstream.news/p/spotify-wrapped-but-for-your-ai-habits) |
 | 2026-07-11 | [https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html](https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html) |
