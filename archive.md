@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-15 | [https://www.nytimes.com/2026/07/14/business/energy-environment/pjm-electricity-prices-data-centers.html](https://www.nytimes.com/2026/07/14/business/energy-environment/pjm-electricity-prices-data-centers.html) |
+| 2026-07-15 | [https://mindstream.news/p/are-businesses-training-their-rivals](https://mindstream.news/p/are-businesses-training-their-rivals) |
+| 2026-07-15 | [https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/?utm_source=feed](https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/?utm_source=feed) |
 | 2026-07-14 | [https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html](https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html) |
 | 2026-07-14 | [https://www.theatlantic.com/press-releases/2026/07/atlantic-introduces-new-game-lemony-snicket/687886/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/07/atlantic-introduces-new-game-lemony-snicket/687886/?utm_source=feed) |
 | 2026-07-13 | [https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/?utm_source=feed](https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/?utm_source=feed) |
