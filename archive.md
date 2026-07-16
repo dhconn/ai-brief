@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-16 | [https://www.nytimes.com/2026/07/16/world/europe/digital-autonomy-ai.html](https://www.nytimes.com/2026/07/16/world/europe/digital-autonomy-ai.html) |
+| 2026-07-16 | [https://mindstream.news/p/ai-on-the-ward](https://mindstream.news/p/ai-on-the-ward) |
+| 2026-07-16 | [https://mindstream.news/p/chatgpt-grew-ears](https://mindstream.news/p/chatgpt-grew-ears) |
+| 2026-07-16 | [https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/](https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/) |
 | 2026-07-15 | [https://www.nytimes.com/2026/07/14/business/energy-environment/pjm-electricity-prices-data-centers.html](https://www.nytimes.com/2026/07/14/business/energy-environment/pjm-electricity-prices-data-centers.html) |
 | 2026-07-15 | [https://mindstream.news/p/are-businesses-training-their-rivals](https://mindstream.news/p/are-businesses-training-their-rivals) |
 | 2026-07-15 | [https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/?utm_source=feed](https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/?utm_source=feed) |
