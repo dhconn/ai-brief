@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-20 | [https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/](https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/) |
+| 2026-07-20 | [https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/](https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/) |
+| 2026-07-20 | [https://www.nytimes.com/2026/07/20/technology/china-us-ai-race.html](https://www.nytimes.com/2026/07/20/technology/china-us-ai-race.html) |
+| 2026-07-20 | [https://mindstream.news/p/ai-companies-are-spending-big-on-the-midterms](https://mindstream.news/p/ai-companies-are-spending-big-on-the-midterms) |
 | 2026-07-18 | [https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html](https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html) |
 | 2026-07-18 | [https://www.nytimes.com/2026/07/17/business/china-ai-moonshot-kimi.html](https://www.nytimes.com/2026/07/17/business/china-ai-moonshot-kimi.html) |
 | 2026-07-17 | [https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/](https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/) |
