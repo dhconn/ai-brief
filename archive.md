@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-21 | [https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/](https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/) |
+| 2026-07-21 | [https://www.nytimes.com/2026/07/20/technology/google-ai-open-web.html](https://www.nytimes.com/2026/07/20/technology/google-ai-open-web.html) |
+| 2026-07-21 | [https://www.nytimes.com/2026/07/20/technology/apple-app-store-vibecoding.html](https://www.nytimes.com/2026/07/20/technology/apple-app-store-vibecoding.html) |
+| 2026-07-21 | [https://mindstream.news/p/china-s-ai-firms-turn-up-the-heat](https://mindstream.news/p/china-s-ai-firms-turn-up-the-heat) |
 | 2026-07-20 | [https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/](https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/) |
 | 2026-07-20 | [https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/](https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/) |
 | 2026-07-20 | [https://www.nytimes.com/2026/07/20/technology/china-us-ai-race.html](https://www.nytimes.com/2026/07/20/technology/china-us-ai-race.html) |
