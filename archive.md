@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-22 | [https://www.theatlantic.com/ideas/2026/07/ai-economy-stock-market/688004/?utm_source=feed](https://www.theatlantic.com/ideas/2026/07/ai-economy-stock-market/688004/?utm_source=feed) |
+| 2026-07-22 | [https://www.nytimes.com/2026/07/21/technology/google-ai-cybersecurity-gemini.html](https://www.nytimes.com/2026/07/21/technology/google-ai-cybersecurity-gemini.html) |
 | 2026-07-21 | [https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/](https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/) |
 | 2026-07-21 | [https://www.nytimes.com/2026/07/20/technology/google-ai-open-web.html](https://www.nytimes.com/2026/07/20/technology/google-ai-open-web.html) |
 | 2026-07-21 | [https://www.nytimes.com/2026/07/20/technology/apple-app-store-vibecoding.html](https://www.nytimes.com/2026/07/20/technology/apple-app-store-vibecoding.html) |
