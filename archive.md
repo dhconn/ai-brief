@@ -2,6 +2,14 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-23 | [https://www.theatlantic.com/press-releases/2026/07/atlantic-announces-speakers-2026-atlantic-festival/688020/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/07/atlantic-announces-speakers-2026-atlantic-festival/688020/?utm_source=feed) |
+| 2026-07-23 | [https://www.nytimes.com/2026/07/22/technology/alphabet-google-earnings-profit.html](https://www.nytimes.com/2026/07/22/technology/alphabet-google-earnings-profit.html) |
+| 2026-07-23 | [https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/](https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/) |
+| 2026-07-23 | [https://mindstream.news/p/openai-s-agent-went-rogue-and-hacked-a-startup](https://mindstream.news/p/openai-s-agent-went-rogue-and-hacked-a-startup) |
+| 2026-07-23 | [https://www.nytimes.com/2026/07/23/technology/personaltech/chatgpt-gemini-prompts-privacy.html](https://www.nytimes.com/2026/07/23/technology/personaltech/chatgpt-gemini-prompts-privacy.html) |
+| 2026-07-23 | [https://www.newyorker.com/news/global-notes/marco-rubio-takes-aim-at-globalists-and-the-left](https://www.newyorker.com/news/global-notes/marco-rubio-takes-aim-at-globalists-and-the-left) |
+| 2026-07-23 | [https://mindstream.news/p/america-is-opening-its-data-vaults-to-ai](https://mindstream.news/p/america-is-opening-its-data-vaults-to-ai) |
+| 2026-07-23 | [https://mindstream.news/p/10-questions-for-ai-leaders-amir-netz](https://mindstream.news/p/10-questions-for-ai-leaders-amir-netz) |
 | 2026-07-22 | [https://www.theatlantic.com/ideas/2026/07/ai-economy-stock-market/688004/?utm_source=feed](https://www.theatlantic.com/ideas/2026/07/ai-economy-stock-market/688004/?utm_source=feed) |
 | 2026-07-22 | [https://www.nytimes.com/2026/07/21/technology/google-ai-cybersecurity-gemini.html](https://www.nytimes.com/2026/07/21/technology/google-ai-cybersecurity-gemini.html) |
 | 2026-07-21 | [https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/](https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/) |
