@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-24 | [https://www.nytimes.com/2026/07/23/business/china-ai-soft-power.html](https://www.nytimes.com/2026/07/23/business/china-ai-soft-power.html) |
 | 2026-07-23 | [https://www.theatlantic.com/press-releases/2026/07/atlantic-announces-speakers-2026-atlantic-festival/688020/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/07/atlantic-announces-speakers-2026-atlantic-festival/688020/?utm_source=feed) |
 | 2026-07-23 | [https://www.nytimes.com/2026/07/22/technology/alphabet-google-earnings-profit.html](https://www.nytimes.com/2026/07/22/technology/alphabet-google-earnings-profit.html) |
 | 2026-07-23 | [https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/](https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/) |
