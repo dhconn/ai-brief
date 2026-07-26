@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-26 | [https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html](https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html) |
 | 2026-07-25 | [https://mindstream.news/p/ai-ate-all-the-cash](https://mindstream.news/p/ai-ate-all-the-cash) |
 | 2026-07-24 | [https://www.nytimes.com/2026/07/23/business/china-ai-soft-power.html](https://www.nytimes.com/2026/07/23/business/china-ai-soft-power.html) |
 | 2026-07-23 | [https://www.theatlantic.com/press-releases/2026/07/atlantic-announces-speakers-2026-atlantic-festival/688020/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/07/atlantic-announces-speakers-2026-atlantic-festival/688020/?utm_source=feed) |
