@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-27 | [https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/](https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/) |
+| 2026-07-27 | [https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/](https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/) |
+| 2026-07-27 | [https://mindstream.news/p/the-ai-music-era-is-coming-maybe](https://mindstream.news/p/the-ai-music-era-is-coming-maybe) |
 | 2026-07-26 | [https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html](https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html) |
 | 2026-07-25 | [https://mindstream.news/p/ai-ate-all-the-cash](https://mindstream.news/p/ai-ate-all-the-cash) |
 | 2026-07-24 | [https://www.nytimes.com/2026/07/23/business/china-ai-soft-power.html](https://www.nytimes.com/2026/07/23/business/china-ai-soft-power.html) |
