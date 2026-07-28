@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-28 | [https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html](https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html) |
+| 2026-07-28 | [https://www.theatlantic.com/ideas/2026/07/ai-automation-productivity-workers/688083/?utm_source=feed](https://www.theatlantic.com/ideas/2026/07/ai-automation-productivity-workers/688083/?utm_source=feed) |
+| 2026-07-28 | [https://www.nytimes.com/2026/07/27/technology/apple-valuation.html](https://www.nytimes.com/2026/07/27/technology/apple-valuation.html) |
+| 2026-07-28 | [https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html](https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html) |
+| 2026-07-28 | [https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/](https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/) |
+| 2026-07-28 | [https://www.theatlantic.com/technology/2026/07/daggermouth-novel-bestseller-ai/688067/?utm_source=feed](https://www.theatlantic.com/technology/2026/07/daggermouth-novel-bestseller-ai/688067/?utm_source=feed) |
 | 2026-07-27 | [https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/](https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/) |
 | 2026-07-27 | [https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/](https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/) |
 | 2026-07-27 | [https://mindstream.news/p/the-ai-music-era-is-coming-maybe](https://mindstream.news/p/the-ai-music-era-is-coming-maybe) |
