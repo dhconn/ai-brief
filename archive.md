@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-29 | [https://www.nytimes.com/2026/07/28/technology/open-weight-ai.html](https://www.nytimes.com/2026/07/28/technology/open-weight-ai.html) |
+| 2026-07-29 | [https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html](https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html) |
+| 2026-07-29 | [https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/](https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/) |
+| 2026-07-29 | [https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/](https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/) |
 | 2026-07-28 | [https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html](https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html) |
 | 2026-07-28 | [https://www.theatlantic.com/ideas/2026/07/ai-automation-productivity-workers/688083/?utm_source=feed](https://www.theatlantic.com/ideas/2026/07/ai-automation-productivity-workers/688083/?utm_source=feed) |
 | 2026-07-28 | [https://www.nytimes.com/2026/07/27/technology/apple-valuation.html](https://www.nytimes.com/2026/07/27/technology/apple-valuation.html) |
