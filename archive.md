@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-30 | [https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/](https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/) |
+| 2026-07-30 | [https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html](https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html) |
+| 2026-07-30 | [https://www.nytimes.com/2026/07/29/technology/meta-profit-ai.html](https://www.nytimes.com/2026/07/29/technology/meta-profit-ai.html) |
+| 2026-07-30 | [https://www.nytimes.com/2026/07/29/technology/microsoft-quarterly-earnings-report.html](https://www.nytimes.com/2026/07/29/technology/microsoft-quarterly-earnings-report.html) |
+| 2026-07-30 | [https://mindstream.news/p/ai-search-eats-the-clicks](https://mindstream.news/p/ai-search-eats-the-clicks) |
 | 2026-07-29 | [https://www.nytimes.com/2026/07/28/technology/open-weight-ai.html](https://www.nytimes.com/2026/07/28/technology/open-weight-ai.html) |
 | 2026-07-29 | [https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html](https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html) |
 | 2026-07-29 | [https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/](https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/) |
