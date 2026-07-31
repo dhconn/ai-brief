@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-07-31 | [https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/](https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/) |
+| 2026-07-31 | [https://www.nytimes.com/2026/07/30/technology/amazon-google-ai-data-center-spending.html](https://www.nytimes.com/2026/07/30/technology/amazon-google-ai-data-center-spending.html) |
+| 2026-07-31 | [https://www.theatlantic.com/newsletters/2026/07/white-collar-workers-office-ai/688121/?utm_source=feed](https://www.theatlantic.com/newsletters/2026/07/white-collar-workers-office-ai/688121/?utm_source=feed) |
+| 2026-07-31 | [https://www.nytimes.com/2026/07/30/technology/anthropic-ai-hack.html](https://www.nytimes.com/2026/07/30/technology/anthropic-ai-hack.html) |
+| 2026-07-31 | [https://www.nytimes.com/2026/07/30/technology/apple-earnings.html](https://www.nytimes.com/2026/07/30/technology/apple-earnings.html) |
+| 2026-07-31 | [https://mindstream.news/p/us-might-start-putting-limits-on-ai-after-breaches](https://mindstream.news/p/us-might-start-putting-limits-on-ai-after-breaches) |
 | 2026-07-30 | [https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/](https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/) |
 | 2026-07-30 | [https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html](https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html) |
 | 2026-07-30 | [https://www.nytimes.com/2026/07/29/technology/meta-profit-ai.html](https://www.nytimes.com/2026/07/29/technology/meta-profit-ai.html) |
