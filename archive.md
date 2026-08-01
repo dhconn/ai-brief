@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-01 | [https://www.nytimes.com/2026/07/30/technology/ai-bubble-venture-capital.html](https://www.nytimes.com/2026/07/30/technology/ai-bubble-venture-capital.html) |
+| 2026-08-01 | [https://www.nytimes.com/2026/07/31/magazine/takeaways-larry-ellison-oracle-ai.html](https://www.nytimes.com/2026/07/31/magazine/takeaways-larry-ellison-oracle-ai.html) |
 | 2026-07-31 | [https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/](https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/) |
 | 2026-07-31 | [https://www.nytimes.com/2026/07/30/technology/amazon-google-ai-data-center-spending.html](https://www.nytimes.com/2026/07/30/technology/amazon-google-ai-data-center-spending.html) |
 | 2026-07-31 | [https://www.theatlantic.com/newsletters/2026/07/white-collar-workers-office-ai/688121/?utm_source=feed](https://www.theatlantic.com/newsletters/2026/07/white-collar-workers-office-ai/688121/?utm_source=feed) |
