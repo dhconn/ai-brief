@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-03 | [https://www.theatlantic.com/podcasts/2026/08/how-ai-could-make-people-more-anxious/688109/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/08/how-ai-could-make-people-more-anxious/688109/?utm_source=feed) |
+| 2026-08-03 | [https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/](https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/) |
+| 2026-08-03 | [https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/](https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/) |
+| 2026-08-03 | [https://mindstream.news/p/10-questions-for-ai-leaders-mehran-gul](https://mindstream.news/p/10-questions-for-ai-leaders-mehran-gul) |
 | 2026-08-01 | [https://www.nytimes.com/2026/07/30/technology/ai-bubble-venture-capital.html](https://www.nytimes.com/2026/07/30/technology/ai-bubble-venture-capital.html) |
 | 2026-08-01 | [https://www.nytimes.com/2026/07/31/magazine/takeaways-larry-ellison-oracle-ai.html](https://www.nytimes.com/2026/07/31/magazine/takeaways-larry-ellison-oracle-ai.html) |
 | 2026-07-31 | [https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/](https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/) |
