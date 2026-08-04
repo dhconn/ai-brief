@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-04 | [https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html](https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html) |
 | 2026-08-03 | [https://www.theatlantic.com/podcasts/2026/08/how-ai-could-make-people-more-anxious/688109/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/08/how-ai-could-make-people-more-anxious/688109/?utm_source=feed) |
 | 2026-08-03 | [https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/](https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/) |
 | 2026-08-03 | [https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/](https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/) |
