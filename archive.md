@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-05 | [https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html](https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html) |
+| 2026-08-05 | [https://www.noemamag.com/how-to-give-everyday-people-a-say-in-ai-governance](https://www.noemamag.com/how-to-give-everyday-people-a-say-in-ai-governance) |
 | 2026-08-04 | [https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html](https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html) |
 | 2026-08-03 | [https://www.theatlantic.com/podcasts/2026/08/how-ai-could-make-people-more-anxious/688109/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/08/how-ai-could-make-people-more-anxious/688109/?utm_source=feed) |
 | 2026-08-03 | [https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/](https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/) |
