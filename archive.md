@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-06 | [https://www.nytimes.com/2026/08/05/technology/ai-china-africa.html](https://www.nytimes.com/2026/08/05/technology/ai-china-africa.html) |
+| 2026-08-06 | [https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html](https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html) |
+| 2026-08-06 | [https://www.nytimes.com/2026/08/05/technology/google-ai-leadership.html](https://www.nytimes.com/2026/08/05/technology/google-ai-leadership.html) |
 | 2026-08-05 | [https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html](https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html) |
 | 2026-08-05 | [https://www.noemamag.com/how-to-give-everyday-people-a-say-in-ai-governance](https://www.noemamag.com/how-to-give-everyday-people-a-say-in-ai-governance) |
 | 2026-08-04 | [https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html](https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html) |
