@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-08 | [https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html](https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html) |
+| 2026-08-08 | [https://www.theatlantic.com/technology/2026/08/ultra-processed-childhood-ai/688217/?utm_source=feed](https://www.theatlantic.com/technology/2026/08/ultra-processed-childhood-ai/688217/?utm_source=feed) |
 | 2026-08-06 | [https://www.nytimes.com/2026/08/05/technology/ai-china-africa.html](https://www.nytimes.com/2026/08/05/technology/ai-china-africa.html) |
 | 2026-08-06 | [https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html](https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html) |
 | 2026-08-06 | [https://www.nytimes.com/2026/08/05/technology/google-ai-leadership.html](https://www.nytimes.com/2026/08/05/technology/google-ai-leadership.html) |
