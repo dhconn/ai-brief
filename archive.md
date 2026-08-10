@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-10 | [https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/](https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/) |
+| 2026-08-10 | [https://www.nytimes.com/2026/08/10/technology/memory-chip-shortage-ai.html](https://www.nytimes.com/2026/08/10/technology/memory-chip-shortage-ai.html) |
+| 2026-08-10 | [https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/](https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/) |
 | 2026-08-08 | [https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html](https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html) |
 | 2026-08-08 | [https://www.theatlantic.com/technology/2026/08/ultra-processed-childhood-ai/688217/?utm_source=feed](https://www.theatlantic.com/technology/2026/08/ultra-processed-childhood-ai/688217/?utm_source=feed) |
 | 2026-08-06 | [https://www.nytimes.com/2026/08/05/technology/ai-china-africa.html](https://www.nytimes.com/2026/08/05/technology/ai-china-africa.html) |
