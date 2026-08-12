@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-12 | [https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/](https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/) |
+| 2026-08-12 | [https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html](https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html) |
+| 2026-08-12 | [https://mindstream.news/p/home-is-where-the-ai-is](https://mindstream.news/p/home-is-where-the-ai-is) |
 | 2026-08-11 | [https://www.nytimes.com/2026/08/11/technology/his-start-ups-goal-ai-that-is-trainable-and-not-controlled-by-a-big-company.html](https://www.nytimes.com/2026/08/11/technology/his-start-ups-goal-ai-that-is-trainable-and-not-controlled-by-a-big-company.html) |
 | 2026-08-11 | [https://mindstream.news/p/california-wants-ai-out-of-the-therapist-s-chair](https://mindstream.news/p/california-wants-ai-out-of-the-therapist-s-chair) |
 | 2026-08-11 | [https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/](https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/) |
