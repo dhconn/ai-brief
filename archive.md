@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-13 | [https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/](https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/) |
+| 2026-08-13 | [https://www.nytimes.com/2026/08/12/business/dealbook/thrive-holdings-ai-funding.html](https://www.nytimes.com/2026/08/12/business/dealbook/thrive-holdings-ai-funding.html) |
+| 2026-08-13 | [https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/](https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/) |
+| 2026-08-13 | [https://mindstream.news/p/ai-found-a-nasty-zoom-vulnerability](https://mindstream.news/p/ai-found-a-nasty-zoom-vulnerability) |
+| 2026-08-13 | [https://www.nytimes.com/2026/08/12/us/land-speed-record-utah-andy-green.html](https://www.nytimes.com/2026/08/12/us/land-speed-record-utah-andy-green.html) |
 | 2026-08-12 | [https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/](https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/) |
 | 2026-08-12 | [https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html](https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html) |
 | 2026-08-12 | [https://mindstream.news/p/home-is-where-the-ai-is](https://mindstream.news/p/home-is-where-the-ai-is) |
