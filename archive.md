@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-15 | [https://www.newyorker.com/culture/the-new-yorker-interview/bernie-sanders-takes-on-data-centers](https://www.newyorker.com/culture/the-new-yorker-interview/bernie-sanders-takes-on-data-centers) |
+| 2026-08-15 | [https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/](https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/) |
 | 2026-08-14 | [https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/](https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/) |
 | 2026-08-14 | [https://www.nytimes.com/2026/08/13/technology/openai-executive-departure-denise-dresser.html](https://www.nytimes.com/2026/08/13/technology/openai-executive-departure-denise-dresser.html) |
 | 2026-08-13 | [https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/](https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/) |
