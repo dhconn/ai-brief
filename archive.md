@@ -2,6 +2,13 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-18 | [https://www.theatlantic.com/politics/2026/08/trump-name-on-everything/688090/?utm_source=feed](https://www.theatlantic.com/politics/2026/08/trump-name-on-everything/688090/?utm_source=feed) |
+| 2026-08-18 | [https://www.nytimes.com/2026/08/18/technology/chatgpt-for-teens-openai.html](https://www.nytimes.com/2026/08/18/technology/chatgpt-for-teens-openai.html) |
+| 2026-08-18 | [https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/](https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/) |
+| 2026-08-18 | [https://www.nytimes.com/2026/08/16/business/ai-data-centers.html](https://www.nytimes.com/2026/08/16/business/ai-data-centers.html) |
+| 2026-08-18 | [https://mindstream.news/p/ai-agents-started-a-turf-war](https://mindstream.news/p/ai-agents-started-a-turf-war) |
+| 2026-08-18 | [https://www.nytimes.com/2026/08/17/technology/ai-slop.html](https://www.nytimes.com/2026/08/17/technology/ai-slop.html) |
+| 2026-08-18 | [https://mindstream.news/p/openai-s-cro-is-the-12th-executive-to-leave-this-year](https://mindstream.news/p/openai-s-cro-is-the-12th-executive-to-leave-this-year) |
 | 2026-08-15 | [https://www.newyorker.com/culture/the-new-yorker-interview/bernie-sanders-takes-on-data-centers](https://www.newyorker.com/culture/the-new-yorker-interview/bernie-sanders-takes-on-data-centers) |
 | 2026-08-15 | [https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/](https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/) |
 | 2026-08-14 | [https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/](https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/) |
