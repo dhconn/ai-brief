@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-20 | [https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html](https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html) |
+| 2026-08-20 | [https://www.nytimes.com/2026/08/19/technology/personaltech/google-pixel-11-review.html](https://www.nytimes.com/2026/08/19/technology/personaltech/google-pixel-11-review.html) |
+| 2026-08-20 | [https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/](https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/) |
+| 2026-08-20 | [https://mindstream.news/p/teens-are-getting-a-different-chatgpt](https://mindstream.news/p/teens-are-getting-a-different-chatgpt) |
+| 2026-08-20 | [https://www.nytimes.com/2026/08/19/technology/data-centers-backlash-loudoun-virginia.html](https://www.nytimes.com/2026/08/19/technology/data-centers-backlash-loudoun-virginia.html) |
 | 2026-08-19 | [https://mindstream.news/p/openai-turns-up-the-speed](https://mindstream.news/p/openai-turns-up-the-speed) |
 | 2026-08-19 | [https://www.nytimes.com/2026/08/17/technology/nvidia-ohio-data-center-openai.html](https://www.nytimes.com/2026/08/17/technology/nvidia-ohio-data-center-openai.html) |
 | 2026-08-18 | [https://www.theatlantic.com/politics/2026/08/trump-name-on-everything/688090/?utm_source=feed](https://www.theatlantic.com/politics/2026/08/trump-name-on-everything/688090/?utm_source=feed) |
