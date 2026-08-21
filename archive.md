@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-21 | [https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/](https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/) |
+| 2026-08-21 | [https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/](https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/) |
+| 2026-08-21 | [https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/](https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/) |
+| 2026-08-21 | [https://www.nytimes.com/2026/08/21/podcasts/openais-two-week-pause-jill-lepore-on-the-threat-of-the-artificial-state-train-of-thought.html](https://www.nytimes.com/2026/08/21/podcasts/openais-two-week-pause-jill-lepore-on-the-threat-of-the-artificial-state-train-of-thought.html) |
 | 2026-08-20 | [https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html](https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html) |
 | 2026-08-20 | [https://www.nytimes.com/2026/08/19/technology/personaltech/google-pixel-11-review.html](https://www.nytimes.com/2026/08/19/technology/personaltech/google-pixel-11-review.html) |
 | 2026-08-20 | [https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/](https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/) |
