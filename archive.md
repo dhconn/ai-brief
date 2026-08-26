@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-26 | [https://mindstream.news/p/just-unplug-it-is-not-an-ai-safety-strategy](https://mindstream.news/p/just-unplug-it-is-not-an-ai-safety-strategy) |
+| 2026-08-26 | [https://www.nytimes.com/2026/08/25/climate/epa-data-centers-public-comment.html](https://www.nytimes.com/2026/08/25/climate/epa-data-centers-public-comment.html) |
 | 2026-08-25 | [https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/](https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/) |
 | 2026-08-25 | [https://mindstream.news/p/more-businesses-are-opting-for-openai-over-anthropic](https://mindstream.news/p/more-businesses-are-opting-for-openai-over-anthropic) |
 | 2026-08-25 | [https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/](https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/) |
