@@ -2,6 +2,13 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-27 | [https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/](https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/) |
+| 2026-08-27 | [https://www.theatlantic.com/podcasts/2026/08/bill-gates-dangers-ai/688418/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/08/bill-gates-dangers-ai/688418/?utm_source=feed) |
+| 2026-08-27 | [https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/](https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/) |
+| 2026-08-27 | [https://mindstream.news/p/ceos-are-changing-the-ai-layoff-script](https://mindstream.news/p/ceos-are-changing-the-ai-layoff-script) |
+| 2026-08-27 | [https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/](https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/) |
+| 2026-08-27 | [https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/](https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/) |
+| 2026-08-27 | [https://www.theatlantic.com/ideas/2026/08/ai-nonproliferation-usa-china/688421/?utm_source=feed](https://www.theatlantic.com/ideas/2026/08/ai-nonproliferation-usa-china/688421/?utm_source=feed) |
 | 2026-08-26 | [https://mindstream.news/p/just-unplug-it-is-not-an-ai-safety-strategy](https://mindstream.news/p/just-unplug-it-is-not-an-ai-safety-strategy) |
 | 2026-08-26 | [https://www.nytimes.com/2026/08/25/climate/epa-data-centers-public-comment.html](https://www.nytimes.com/2026/08/25/climate/epa-data-centers-public-comment.html) |
 | 2026-08-25 | [https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/](https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/) |
