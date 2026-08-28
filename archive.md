@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-28 | [https://mindstream.news/p/google-s-ai-naming-problem](https://mindstream.news/p/google-s-ai-naming-problem) |
+| 2026-08-28 | [https://www.nytimes.com/2026/08/28/podcasts/hardfork-meta-settlement.html](https://www.nytimes.com/2026/08/28/podcasts/hardfork-meta-settlement.html) |
+| 2026-08-28 | [https://www.theatlantic.com/technology/2026/08/wall-street-journal-ai-op-ed/688433/?utm_source=feed](https://www.theatlantic.com/technology/2026/08/wall-street-journal-ai-op-ed/688433/?utm_source=feed) |
 | 2026-08-27 | [https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/](https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/) |
 | 2026-08-27 | [https://www.theatlantic.com/podcasts/2026/08/bill-gates-dangers-ai/688418/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/08/bill-gates-dangers-ai/688418/?utm_source=feed) |
 | 2026-08-27 | [https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/](https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/) |
