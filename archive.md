@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-30 | [https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/](https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/) |
 | 2026-08-28 | [https://mindstream.news/p/google-s-ai-naming-problem](https://mindstream.news/p/google-s-ai-naming-problem) |
 | 2026-08-28 | [https://www.nytimes.com/2026/08/28/podcasts/hardfork-meta-settlement.html](https://www.nytimes.com/2026/08/28/podcasts/hardfork-meta-settlement.html) |
 | 2026-08-28 | [https://www.theatlantic.com/technology/2026/08/wall-street-journal-ai-op-ed/688433/?utm_source=feed](https://www.theatlantic.com/technology/2026/08/wall-street-journal-ai-op-ed/688433/?utm_source=feed) |
