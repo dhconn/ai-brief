@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-08-31 | [https://mindstream.news/p/the-world-s-first-brain-tumor-removal-with-an-ai-assist](https://mindstream.news/p/the-world-s-first-brain-tumor-removal-with-an-ai-assist) |
+| 2026-08-31 | [https://mindstream.news/p/zuck-tried-to-replace-over-half-his-staff-with-ai-it-backfired](https://mindstream.news/p/zuck-tried-to-replace-over-half-his-staff-with-ai-it-backfired) |
 | 2026-08-30 | [https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/](https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/) |
 | 2026-08-28 | [https://mindstream.news/p/google-s-ai-naming-problem](https://mindstream.news/p/google-s-ai-naming-problem) |
 | 2026-08-28 | [https://www.nytimes.com/2026/08/28/podcasts/hardfork-meta-settlement.html](https://www.nytimes.com/2026/08/28/podcasts/hardfork-meta-settlement.html) |
