@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-01 | [https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/](https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/) |
+| 2026-09-01 | [https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/](https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/) |
 | 2026-08-31 | [https://mindstream.news/p/the-world-s-first-brain-tumor-removal-with-an-ai-assist](https://mindstream.news/p/the-world-s-first-brain-tumor-removal-with-an-ai-assist) |
 | 2026-08-31 | [https://mindstream.news/p/zuck-tried-to-replace-over-half-his-staff-with-ai-it-backfired](https://mindstream.news/p/zuck-tried-to-replace-over-half-his-staff-with-ai-it-backfired) |
 | 2026-08-30 | [https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/](https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/) |
