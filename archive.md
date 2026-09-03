@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-03 | [https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/](https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/) |
+| 2026-09-03 | [https://www.nytimes.com/2026/09/02/technology/justice-department-openai-copyright-suit.html](https://www.nytimes.com/2026/09/02/technology/justice-department-openai-copyright-suit.html) |
+| 2026-09-03 | [https://www.understandingai.org/p/how-google-taught-llms-to-control](https://www.understandingai.org/p/how-google-taught-llms-to-control) |
 | 2026-09-02 | [https://mindstream.news/p/chatgpt-and-grok-are-reporting-for-duty](https://mindstream.news/p/chatgpt-and-grok-are-reporting-for-duty) |
 | 2026-09-01 | [https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/](https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/) |
 | 2026-09-01 | [https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/](https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/) |
