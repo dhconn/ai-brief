@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-04 | [https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hacking.html](https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hacking.html) |
+| 2026-09-04 | [https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hack.html](https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hack.html) |
+| 2026-09-04 | [https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/](https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/) |
 | 2026-09-03 | [https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/](https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/) |
 | 2026-09-03 | [https://www.nytimes.com/2026/09/02/technology/justice-department-openai-copyright-suit.html](https://www.nytimes.com/2026/09/02/technology/justice-department-openai-copyright-suit.html) |
 | 2026-09-03 | [https://www.understandingai.org/p/how-google-taught-llms-to-control](https://www.understandingai.org/p/how-google-taught-llms-to-control) |
