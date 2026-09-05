@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-05 | [https://www.nytimes.com/2026/09/04/technology/openai-microsoft-new-york-times-lawsuit.html](https://www.nytimes.com/2026/09/04/technology/openai-microsoft-new-york-times-lawsuit.html) |
+| 2026-09-05 | [https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/](https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/) |
+| 2026-09-05 | [https://www.nytimes.com/2026/09/05/books/anthropic-settlement-ai-copyright-books.html](https://www.nytimes.com/2026/09/05/books/anthropic-settlement-ai-copyright-books.html) |
+| 2026-09-05 | [https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/](https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/) |
+| 2026-09-05 | [https://www.nytimes.com/2026/09/04/world/canada/openai-lawsuits-tumbler-ridge-shooting.html](https://www.nytimes.com/2026/09/04/world/canada/openai-lawsuits-tumbler-ridge-shooting.html) |
+| 2026-09-05 | [https://www.theatlantic.com/ideas/2026/09/universities-prohibiting-ai-classroom/688509/?utm_source=feed](https://www.theatlantic.com/ideas/2026/09/universities-prohibiting-ai-classroom/688509/?utm_source=feed) |
 | 2026-09-04 | [https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hacking.html](https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hacking.html) |
 | 2026-09-04 | [https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hack.html](https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hack.html) |
 | 2026-09-04 | [https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/](https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/) |
