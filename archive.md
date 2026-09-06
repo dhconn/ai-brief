@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-06 | [https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html](https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html) |
 | 2026-09-05 | [https://www.nytimes.com/2026/09/04/technology/openai-microsoft-new-york-times-lawsuit.html](https://www.nytimes.com/2026/09/04/technology/openai-microsoft-new-york-times-lawsuit.html) |
 | 2026-09-05 | [https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/](https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/) |
 | 2026-09-05 | [https://www.nytimes.com/2026/09/05/books/anthropic-settlement-ai-copyright-books.html](https://www.nytimes.com/2026/09/05/books/anthropic-settlement-ai-copyright-books.html) |
