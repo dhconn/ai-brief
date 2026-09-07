@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-07 | [https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html](https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html) |
+| 2026-09-07 | [https://www.newyorker.com/news/the-financial-page/has-the-ai-job-apocalypse-been-postponed](https://www.newyorker.com/news/the-financial-page/has-the-ai-job-apocalypse-been-postponed) |
+| 2026-09-07 | [https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/](https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/) |
 | 2026-09-06 | [https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html](https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html) |
 | 2026-09-05 | [https://www.nytimes.com/2026/09/04/technology/openai-microsoft-new-york-times-lawsuit.html](https://www.nytimes.com/2026/09/04/technology/openai-microsoft-new-york-times-lawsuit.html) |
 | 2026-09-05 | [https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/](https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/) |
