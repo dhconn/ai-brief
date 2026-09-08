@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-08 | [https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html](https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html) |
+| 2026-09-08 | [https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/](https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/) |
 | 2026-09-07 | [https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html](https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html) |
 | 2026-09-07 | [https://www.newyorker.com/news/the-financial-page/has-the-ai-job-apocalypse-been-postponed](https://www.newyorker.com/news/the-financial-page/has-the-ai-job-apocalypse-been-postponed) |
 | 2026-09-07 | [https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/](https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/) |
