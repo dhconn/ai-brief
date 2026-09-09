@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-09 | [https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html](https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html) |
+| 2026-09-09 | [https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/](https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/) |
+| 2026-09-09 | [https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/](https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/) |
+| 2026-09-09 | [https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/](https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/) |
 | 2026-09-08 | [https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html](https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html) |
 | 2026-09-08 | [https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/](https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/) |
 | 2026-09-07 | [https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html](https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html) |
