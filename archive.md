@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-10 | [https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html](https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html) |
+| 2026-09-10 | [https://www.nytimes.com/2026/09/09/technology/apple-iphone-duo-foldable-phone.html](https://www.nytimes.com/2026/09/09/technology/apple-iphone-duo-foldable-phone.html) |
+| 2026-09-10 | [https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/](https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/) |
+| 2026-09-10 | [https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/](https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/) |
+| 2026-09-10 | [https://www.noemamag.com/whose-ai-will-rule-the-world](https://www.noemamag.com/whose-ai-will-rule-the-world) |
 | 2026-09-09 | [https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html](https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html) |
 | 2026-09-09 | [https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/](https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/) |
 | 2026-09-09 | [https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/](https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/) |
