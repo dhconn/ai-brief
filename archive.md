@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-11 | [https://www.theatlantic.com/ideas/2026/09/meta-settlement-social-media-addiction-youth/688567/?utm_source=feed](https://www.theatlantic.com/ideas/2026/09/meta-settlement-social-media-addiction-youth/688567/?utm_source=feed) |
+| 2026-09-11 | [https://www.theatlantic.com/ideas/2026/09/ai-destroy-world-apocalypse/688575/?utm_source=feed](https://www.theatlantic.com/ideas/2026/09/ai-destroy-world-apocalypse/688575/?utm_source=feed) |
 | 2026-09-10 | [https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html](https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html) |
 | 2026-09-10 | [https://www.nytimes.com/2026/09/09/technology/apple-iphone-duo-foldable-phone.html](https://www.nytimes.com/2026/09/09/technology/apple-iphone-duo-foldable-phone.html) |
 | 2026-09-10 | [https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/](https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/) |
