@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-12 | [https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html](https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html) |
+| 2026-09-12 | [https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html](https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html) |
 | 2026-09-11 | [https://www.theatlantic.com/ideas/2026/09/meta-settlement-social-media-addiction-youth/688567/?utm_source=feed](https://www.theatlantic.com/ideas/2026/09/meta-settlement-social-media-addiction-youth/688567/?utm_source=feed) |
 | 2026-09-11 | [https://www.theatlantic.com/ideas/2026/09/ai-destroy-world-apocalypse/688575/?utm_source=feed](https://www.theatlantic.com/ideas/2026/09/ai-destroy-world-apocalypse/688575/?utm_source=feed) |
 | 2026-09-10 | [https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html](https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html) |
