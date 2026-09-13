@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-13 | [https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html](https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html) |
+| 2026-09-13 | [https://www.theatlantic.com/technology/2026/09/dario-amodei-slow-down-ai-save-humanity/688610/?utm_source=feed](https://www.theatlantic.com/technology/2026/09/dario-amodei-slow-down-ai-save-humanity/688610/?utm_source=feed) |
+| 2026-09-13 | [https://www.theatlantic.com/national/2026/09/remembering-9-11-washington-week/688609/?utm_source=feed](https://www.theatlantic.com/national/2026/09/remembering-9-11-washington-week/688609/?utm_source=feed) |
 | 2026-09-12 | [https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html](https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html) |
 | 2026-09-12 | [https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html](https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html) |
 | 2026-09-11 | [https://www.theatlantic.com/ideas/2026/09/meta-settlement-social-media-addiction-youth/688567/?utm_source=feed](https://www.theatlantic.com/ideas/2026/09/meta-settlement-social-media-addiction-youth/688567/?utm_source=feed) |
