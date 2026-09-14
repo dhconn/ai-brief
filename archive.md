@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-14 | [https://www.theatlantic.com/press-releases/2026/09/atlantic-launches-new-podcast-david-brooks/688601/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/09/atlantic-launches-new-podcast-david-brooks/688601/?utm_source=feed) |
+| 2026-09-14 | [https://www.nytimes.com/2026/09/13/technology/silicon-valley-ai-slowdown.html](https://www.nytimes.com/2026/09/13/technology/silicon-valley-ai-slowdown.html) |
+| 2026-09-14 | [https://www.nytimes.com/2026/09/13/technology/anthropic-ceo-slower-ai-development.html](https://www.nytimes.com/2026/09/13/technology/anthropic-ceo-slower-ai-development.html) |
+| 2026-09-14 | [https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/](https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/) |
+| 2026-09-14 | [https://www.nytimes.com/2026/09/14/business/amazon-21-air-miami-airport-crash.html](https://www.nytimes.com/2026/09/14/business/amazon-21-air-miami-airport-crash.html) |
 | 2026-09-13 | [https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html](https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html) |
 | 2026-09-13 | [https://www.theatlantic.com/technology/2026/09/dario-amodei-slow-down-ai-save-humanity/688610/?utm_source=feed](https://www.theatlantic.com/technology/2026/09/dario-amodei-slow-down-ai-save-humanity/688610/?utm_source=feed) |
 | 2026-09-13 | [https://www.theatlantic.com/national/2026/09/remembering-9-11-washington-week/688609/?utm_source=feed](https://www.theatlantic.com/national/2026/09/remembering-9-11-washington-week/688609/?utm_source=feed) |
