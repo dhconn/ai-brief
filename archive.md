@@ -2,6 +2,13 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-15 | [https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/](https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/) |
+| 2026-09-15 | [https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/](https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/) |
+| 2026-09-15 | [https://www.nytimes.com/2026/09/15/us/politics/ai-safety-2028-election-democrats.html](https://www.nytimes.com/2026/09/15/us/politics/ai-safety-2028-election-democrats.html) |
+| 2026-09-15 | [https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/](https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/) |
+| 2026-09-15 | [https://www.nytimes.com/2026/09/15/technology/bill-gates-ai-foundation-funding.html](https://www.nytimes.com/2026/09/15/technology/bill-gates-ai-foundation-funding.html) |
+| 2026-09-15 | [https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/](https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/) |
+| 2026-09-15 | [https://www.theatlantic.com/politics/2026/09/trump-ai-policy-anthropic/688620/?utm_source=feed](https://www.theatlantic.com/politics/2026/09/trump-ai-policy-anthropic/688620/?utm_source=feed) |
 | 2026-09-14 | [https://www.theatlantic.com/press-releases/2026/09/atlantic-launches-new-podcast-david-brooks/688601/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/09/atlantic-launches-new-podcast-david-brooks/688601/?utm_source=feed) |
 | 2026-09-14 | [https://www.nytimes.com/2026/09/13/technology/silicon-valley-ai-slowdown.html](https://www.nytimes.com/2026/09/13/technology/silicon-valley-ai-slowdown.html) |
 | 2026-09-14 | [https://www.nytimes.com/2026/09/13/technology/anthropic-ceo-slower-ai-development.html](https://www.nytimes.com/2026/09/13/technology/anthropic-ceo-slower-ai-development.html) |
