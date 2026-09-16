@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-16 | [https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/](https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/) |
+| 2026-09-16 | [https://www.nytimes.com/2026/09/15/us/steve-bannon-bernie-sanders-ai.html](https://www.nytimes.com/2026/09/15/us/steve-bannon-bernie-sanders-ai.html) |
 | 2026-09-15 | [https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/](https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/) |
 | 2026-09-15 | [https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/](https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/) |
 | 2026-09-15 | [https://www.nytimes.com/2026/09/15/us/politics/ai-safety-2028-election-democrats.html](https://www.nytimes.com/2026/09/15/us/politics/ai-safety-2028-election-democrats.html) |
