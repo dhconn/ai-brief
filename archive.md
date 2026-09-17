@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-17 | [https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html](https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html) |
+| 2026-09-17 | [https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html](https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html) |
 | 2026-09-16 | [https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/](https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/) |
 | 2026-09-16 | [https://www.nytimes.com/2026/09/15/us/steve-bannon-bernie-sanders-ai.html](https://www.nytimes.com/2026/09/15/us/steve-bannon-bernie-sanders-ai.html) |
 | 2026-09-15 | [https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/](https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/) |
