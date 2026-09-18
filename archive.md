@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-18 | [https://www.nytimes.com/2026/09/17/technology/microsoft-openai-publishing-industry.html](https://www.nytimes.com/2026/09/17/technology/microsoft-openai-publishing-industry.html) |
+| 2026-09-18 | [https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/](https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/) |
 | 2026-09-17 | [https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html](https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html) |
 | 2026-09-17 | [https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html](https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html) |
 | 2026-09-16 | [https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/](https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/) |

@@ -2749,5 +2749,15 @@
     "url": "https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html",
     "title": "How Anthropic CEO Dario Amodei\u2019s Writings Help Explain A.I. Fears",
     "seen_at": "2026-09-17T15:25:19.740914+00:00"
+  },
+  {
+    "url": "https://www.nytimes.com/2026/09/17/technology/microsoft-openai-publishing-industry.html",
+    "title": "Microsoft and OpenAI Workers Worry About \u2018Largest Theft of Labor\u2019 in History",
+    "seen_at": "2026-09-18T14:42:32.028174+00:00"
+  },
+  {
+    "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+    "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+    "seen_at": "2026-09-18T14:42:32.028174+00:00"
   }
 ]
