@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-21 | [https://www.nytimes.com/2026/09/20/business/china-ai-economy.html](https://www.nytimes.com/2026/09/20/business/china-ai-economy.html) |
+| 2026-09-21 | [https://www.nytimes.com/2026/09/21/technology/agi-house-ai-culture.html](https://www.nytimes.com/2026/09/21/technology/agi-house-ai-culture.html) |
+| 2026-09-21 | [https://www.theatlantic.com/ideas/2026/09/ai-regulation-anti-monopoly-challenge/688707/?utm_source=feed](https://www.theatlantic.com/ideas/2026/09/ai-regulation-anti-monopoly-challenge/688707/?utm_source=feed) |
 | 2026-09-19 | [https://www.nytimes.com/2026/09/18/technology/google-gemini-ai.html](https://www.nytimes.com/2026/09/18/technology/google-gemini-ai.html) |
 | 2026-09-19 | [https://www.newyorker.com/magazine/2026/09/28/israels-qatargate-scandal](https://www.newyorker.com/magazine/2026/09/28/israels-qatargate-scandal) |
 | 2026-09-18 | [https://www.nytimes.com/2026/09/17/technology/microsoft-openai-publishing-industry.html](https://www.nytimes.com/2026/09/17/technology/microsoft-openai-publishing-industry.html) |
