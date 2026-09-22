@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-22 | [https://www.nytimes.com/2026/09/22/technology/ai-hacks-list.html](https://www.nytimes.com/2026/09/22/technology/ai-hacks-list.html) |
+| 2026-09-22 | [https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/](https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/) |
 | 2026-09-21 | [https://www.nytimes.com/2026/09/20/business/china-ai-economy.html](https://www.nytimes.com/2026/09/20/business/china-ai-economy.html) |
 | 2026-09-21 | [https://www.nytimes.com/2026/09/21/technology/agi-house-ai-culture.html](https://www.nytimes.com/2026/09/21/technology/agi-house-ai-culture.html) |
 | 2026-09-21 | [https://www.theatlantic.com/ideas/2026/09/ai-regulation-anti-monopoly-challenge/688707/?utm_source=feed](https://www.theatlantic.com/ideas/2026/09/ai-regulation-anti-monopoly-challenge/688707/?utm_source=feed) |
