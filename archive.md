@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-23 | [https://www.nytimes.com/2026/09/22/business/trump-natalie-harp-photo-ai.html](https://www.nytimes.com/2026/09/22/business/trump-natalie-harp-photo-ai.html) |
+| 2026-09-23 | [https://www.noemamag.com/let-the-people-decide-the-pace-of-frontier-ai](https://www.noemamag.com/let-the-people-decide-the-pace-of-frontier-ai) |
 | 2026-09-22 | [https://www.nytimes.com/2026/09/22/technology/ai-hacks-list.html](https://www.nytimes.com/2026/09/22/technology/ai-hacks-list.html) |
 | 2026-09-22 | [https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/](https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/) |
 | 2026-09-21 | [https://www.nytimes.com/2026/09/20/business/china-ai-economy.html](https://www.nytimes.com/2026/09/20/business/china-ai-economy.html) |
