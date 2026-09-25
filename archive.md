@@ -2,6 +2,14 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-25 | [https://www.nytimes.com/2026/09/23/technology/meta-ai-smart-glasses-conference.html](https://www.nytimes.com/2026/09/23/technology/meta-ai-smart-glasses-conference.html) |
+| 2026-09-25 | [https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/](https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/) |
+| 2026-09-25 | [https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/](https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/) |
+| 2026-09-25 | [https://www.nytimes.com/2026/09/24/technology/google-suncatcher-ai-data-center-space.html](https://www.nytimes.com/2026/09/24/technology/google-suncatcher-ai-data-center-space.html) |
+| 2026-09-25 | [https://www.nytimes.com/2026/09/23/nyregion/data-center-pollution-new-jersey.html](https://www.nytimes.com/2026/09/23/nyregion/data-center-pollution-new-jersey.html) |
+| 2026-09-25 | [https://www.theatlantic.com/technology/2026/09/trump-admin-ai-copyright-lawsuits/688751/?utm_source=feed](https://www.theatlantic.com/technology/2026/09/trump-admin-ai-copyright-lawsuits/688751/?utm_source=feed) |
+| 2026-09-25 | [https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/](https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/) |
+| 2026-09-25 | [https://www.theatlantic.com/podcasts/2026/09/what-the-godfather-of-ai-thinks-we-should-do/688748/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/09/what-the-godfather-of-ai-thinks-we-should-do/688748/?utm_source=feed) |
 | 2026-09-23 | [https://www.nytimes.com/2026/09/22/business/trump-natalie-harp-photo-ai.html](https://www.nytimes.com/2026/09/22/business/trump-natalie-harp-photo-ai.html) |
 | 2026-09-23 | [https://www.noemamag.com/let-the-people-decide-the-pace-of-frontier-ai](https://www.noemamag.com/let-the-people-decide-the-pace-of-frontier-ai) |
 | 2026-09-22 | [https://www.nytimes.com/2026/09/22/technology/ai-hacks-list.html](https://www.nytimes.com/2026/09/22/technology/ai-hacks-list.html) |
