@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-26 | [https://www.nytimes.com/2026/09/25/technology/openai-hugging-face-hack.html](https://www.nytimes.com/2026/09/25/technology/openai-hugging-face-hack.html) |
+| 2026-09-26 | [https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html](https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html) |
+| 2026-09-26 | [https://www.nytimes.com/2026/09/25/technology/anthropic-trump-ruling.html](https://www.nytimes.com/2026/09/25/technology/anthropic-trump-ruling.html) |
+| 2026-09-26 | [https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/](https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/) |
 | 2026-09-25 | [https://www.nytimes.com/2026/09/23/technology/meta-ai-smart-glasses-conference.html](https://www.nytimes.com/2026/09/23/technology/meta-ai-smart-glasses-conference.html) |
 | 2026-09-25 | [https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/](https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/) |
 | 2026-09-25 | [https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/](https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/) |
