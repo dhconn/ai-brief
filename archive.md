@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-27 | [https://www.theatlantic.com/podcasts/2026/09/what-meaning-mystical-experience/688782/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/09/what-meaning-mystical-experience/688782/?utm_source=feed) |
+| 2026-09-27 | [https://www.nytimes.com/2026/09/27/technology/ai-government-regulation.html](https://www.nytimes.com/2026/09/27/technology/ai-government-regulation.html) |
+| 2026-09-27 | [https://www.nytimes.com/2026/09/24/technology/data-centers-in-space-science.html](https://www.nytimes.com/2026/09/24/technology/data-centers-in-space-science.html) |
 | 2026-09-26 | [https://www.nytimes.com/2026/09/25/technology/openai-hugging-face-hack.html](https://www.nytimes.com/2026/09/25/technology/openai-hugging-face-hack.html) |
 | 2026-09-26 | [https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html](https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html) |
 | 2026-09-26 | [https://www.nytimes.com/2026/09/25/technology/anthropic-trump-ruling.html](https://www.nytimes.com/2026/09/25/technology/anthropic-trump-ruling.html) |
