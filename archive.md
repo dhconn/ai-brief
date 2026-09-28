@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-28 | [https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/](https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/) |
+| 2026-09-28 | [https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/](https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/) |
+| 2026-09-28 | [https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/](https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/) |
 | 2026-09-27 | [https://www.theatlantic.com/podcasts/2026/09/what-meaning-mystical-experience/688782/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/09/what-meaning-mystical-experience/688782/?utm_source=feed) |
 | 2026-09-27 | [https://www.nytimes.com/2026/09/27/technology/ai-government-regulation.html](https://www.nytimes.com/2026/09/27/technology/ai-government-regulation.html) |
 | 2026-09-27 | [https://www.nytimes.com/2026/09/24/technology/data-centers-in-space-science.html](https://www.nytimes.com/2026/09/24/technology/data-centers-in-space-science.html) |
