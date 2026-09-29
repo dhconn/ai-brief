@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-29 | [https://www.theatlantic.com/technology/2026/09/openai-v-anthropic-inside-biggest-rivalry-tech/688819/?utm_source=feed](https://www.theatlantic.com/technology/2026/09/openai-v-anthropic-inside-biggest-rivalry-tech/688819/?utm_source=feed) |
+| 2026-09-29 | [https://www.noemamag.com/noemas-ai-reading-list](https://www.noemamag.com/noemas-ai-reading-list) |
+| 2026-09-29 | [https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html](https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html) |
 | 2026-09-28 | [https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/](https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/) |
 | 2026-09-28 | [https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/](https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/) |
 | 2026-09-28 | [https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/](https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/) |
