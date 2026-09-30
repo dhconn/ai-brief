@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-09-30 | [https://www.nytimes.com/2026/09/30/business/china-ai-deepseek-huawei.html](https://www.nytimes.com/2026/09/30/business/china-ai-deepseek-huawei.html) |
+| 2026-09-30 | [https://www.nytimes.com/2026/09/29/technology/openai-dots-ai-agents.html](https://www.nytimes.com/2026/09/29/technology/openai-dots-ai-agents.html) |
+| 2026-09-30 | [https://www.nytimes.com/2026/09/29/us/politics/ai-trump-meta-microsoft-openai.html](https://www.nytimes.com/2026/09/29/us/politics/ai-trump-meta-microsoft-openai.html) |
+| 2026-09-30 | [https://www.theatlantic.com/technology/2026/09/why-do-ai-agents-sound-so-frustrated/688828/?utm_source=feed](https://www.theatlantic.com/technology/2026/09/why-do-ai-agents-sound-so-frustrated/688828/?utm_source=feed) |
+| 2026-09-30 | [https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/](https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/) |
+| 2026-09-30 | [https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/](https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/) |
 | 2026-09-29 | [https://www.theatlantic.com/technology/2026/09/openai-v-anthropic-inside-biggest-rivalry-tech/688819/?utm_source=feed](https://www.theatlantic.com/technology/2026/09/openai-v-anthropic-inside-biggest-rivalry-tech/688819/?utm_source=feed) |
 | 2026-09-29 | [https://www.noemamag.com/noemas-ai-reading-list](https://www.noemamag.com/noemas-ai-reading-list) |
 | 2026-09-29 | [https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html](https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html) |
