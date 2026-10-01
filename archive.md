@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-01 | [https://www.nytimes.com/2026/10/01/technology/ai-rogue-agents-liability.html](https://www.nytimes.com/2026/10/01/technology/ai-rogue-agents-liability.html) |
+| 2026-10-01 | [https://www.nytimes.com/2026/09/30/business/media/google-hollywood-krya-sedgwick.html](https://www.nytimes.com/2026/09/30/business/media/google-hollywood-krya-sedgwick.html) |
+| 2026-10-01 | [https://www.nytimes.com/2026/10/01/climate/data-center-pollution-study-pennsylvania.html](https://www.nytimes.com/2026/10/01/climate/data-center-pollution-study-pennsylvania.html) |
 | 2026-09-30 | [https://www.nytimes.com/2026/09/30/business/china-ai-deepseek-huawei.html](https://www.nytimes.com/2026/09/30/business/china-ai-deepseek-huawei.html) |
 | 2026-09-30 | [https://www.nytimes.com/2026/09/29/technology/openai-dots-ai-agents.html](https://www.nytimes.com/2026/09/29/technology/openai-dots-ai-agents.html) |
 | 2026-09-30 | [https://www.nytimes.com/2026/09/29/us/politics/ai-trump-meta-microsoft-openai.html](https://www.nytimes.com/2026/09/29/us/politics/ai-trump-meta-microsoft-openai.html) |
