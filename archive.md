@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-02 | [https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/](https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/) |
+| 2026-10-02 | [https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/](https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/) |
+| 2026-10-02 | [https://www.nytimes.com/2026/10/02/technology/amazon-data-centers-funding.html](https://www.nytimes.com/2026/10/02/technology/amazon-data-centers-funding.html) |
+| 2026-10-02 | [https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/](https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/) |
 | 2026-10-01 | [https://www.nytimes.com/2026/10/01/technology/ai-rogue-agents-liability.html](https://www.nytimes.com/2026/10/01/technology/ai-rogue-agents-liability.html) |
 | 2026-10-01 | [https://www.nytimes.com/2026/09/30/business/media/google-hollywood-krya-sedgwick.html](https://www.nytimes.com/2026/09/30/business/media/google-hollywood-krya-sedgwick.html) |
 | 2026-10-01 | [https://www.nytimes.com/2026/10/01/climate/data-center-pollution-study-pennsylvania.html](https://www.nytimes.com/2026/10/01/climate/data-center-pollution-study-pennsylvania.html) |
