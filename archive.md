@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-03 | [https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/](https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/) |
+| 2026-10-03 | [https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?utm_source=feed](https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?utm_source=feed) |
 | 2026-10-02 | [https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/](https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/) |
 | 2026-10-02 | [https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/](https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/) |
 | 2026-10-02 | [https://www.nytimes.com/2026/10/02/technology/amazon-data-centers-funding.html](https://www.nytimes.com/2026/10/02/technology/amazon-data-centers-funding.html) |
