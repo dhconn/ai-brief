@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-04 | [https://www.newyorker.com/magazine/2026/10/12/ice-is-everywhere-and-acting-with-impunity](https://www.newyorker.com/magazine/2026/10/12/ice-is-everywhere-and-acting-with-impunity) |
+| 2026-10-04 | [https://www.theatlantic.com/podcasts/2026/10/should-we-ban-ai-for-kids/688864/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/10/should-we-ban-ai-for-kids/688864/?utm_source=feed) |
 | 2026-10-03 | [https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/](https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/) |
 | 2026-10-03 | [https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?utm_source=feed](https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?utm_source=feed) |
 | 2026-10-02 | [https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/](https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/) |
