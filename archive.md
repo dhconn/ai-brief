@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-06 | [https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/](https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/) |
+| 2026-10-06 | [https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/](https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/) |
+| 2026-10-06 | [https://www.nytimes.com/2026/10/06/science/china-ai-research-recruitment.html](https://www.nytimes.com/2026/10/06/science/china-ai-research-recruitment.html) |
+| 2026-10-06 | [https://www.understandingai.org/p/why-agent-swarms-could-be-the-next](https://www.understandingai.org/p/why-agent-swarms-could-be-the-next) |
 | 2026-10-04 | [https://www.newyorker.com/magazine/2026/10/12/ice-is-everywhere-and-acting-with-impunity](https://www.newyorker.com/magazine/2026/10/12/ice-is-everywhere-and-acting-with-impunity) |
 | 2026-10-04 | [https://www.theatlantic.com/podcasts/2026/10/should-we-ban-ai-for-kids/688864/?utm_source=feed](https://www.theatlantic.com/podcasts/2026/10/should-we-ban-ai-for-kids/688864/?utm_source=feed) |
 | 2026-10-03 | [https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/](https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/) |
