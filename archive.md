@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-07 | [https://www.nytimes.com/2026/10/07/technology/personaltech/chatgpt-teens-openai.html](https://www.nytimes.com/2026/10/07/technology/personaltech/chatgpt-teens-openai.html) |
 | 2026-10-06 | [https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/](https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/) |
 | 2026-10-06 | [https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/](https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/) |
 | 2026-10-06 | [https://www.nytimes.com/2026/10/06/science/china-ai-research-recruitment.html](https://www.nytimes.com/2026/10/06/science/china-ai-research-recruitment.html) |
