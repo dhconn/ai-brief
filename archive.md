@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-08 | [https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/](https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/) |
+| 2026-10-08 | [https://www.understandingai.org/p/understanding-jev-the-new-model-everyone](https://www.understandingai.org/p/understanding-jev-the-new-model-everyone) |
+| 2026-10-08 | [https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/](https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/) |
 | 2026-10-07 | [https://www.nytimes.com/2026/10/07/technology/personaltech/chatgpt-teens-openai.html](https://www.nytimes.com/2026/10/07/technology/personaltech/chatgpt-teens-openai.html) |
 | 2026-10-06 | [https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/](https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/) |
 | 2026-10-06 | [https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/](https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/) |
