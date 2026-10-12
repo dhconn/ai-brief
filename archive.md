@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-12 | [https://www.theatlantic.com/family/2026/10/ai-family-text/688962/?utm_source=feed](https://www.theatlantic.com/family/2026/10/ai-family-text/688962/?utm_source=feed) |
 | 2026-10-10 | [https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html](https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html) |
 | 2026-10-09 | [https://www.nytimes.com/2026/10/08/technology/ai-chatbots-urgent-care.html](https://www.nytimes.com/2026/10/08/technology/ai-chatbots-urgent-care.html) |
 | 2026-10-09 | [https://www.theatlantic.com/politics/2026/10/ai-elections-midterms-disruptions/688891/?utm_source=feed](https://www.theatlantic.com/politics/2026/10/ai-elections-midterms-disruptions/688891/?utm_source=feed) |
