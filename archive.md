@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-14 | [https://www.nytimes.com/2026/10/14/technology/ai-agents-communication-tech-dinner-party.html](https://www.nytimes.com/2026/10/14/technology/ai-agents-communication-tech-dinner-party.html) |
+| 2026-10-14 | [https://www.nytimes.com/2026/10/14/technology/meta-senators-tax-avoidance.html](https://www.nytimes.com/2026/10/14/technology/meta-senators-tax-avoidance.html) |
+| 2026-10-14 | [https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/](https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/) |
 | 2026-10-13 | [https://www.nytimes.com/2026/10/13/technology/apple-homeview-tablet.html](https://www.nytimes.com/2026/10/13/technology/apple-homeview-tablet.html) |
 | 2026-10-13 | [https://www.noemamag.com/an-inside-look-at-how-to-tame-unstoppable-ai](https://www.noemamag.com/an-inside-look-at-how-to-tame-unstoppable-ai) |
 | 2026-10-12 | [https://www.theatlantic.com/family/2026/10/ai-family-text/688962/?utm_source=feed](https://www.theatlantic.com/family/2026/10/ai-family-text/688962/?utm_source=feed) |
