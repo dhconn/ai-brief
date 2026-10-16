@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-16 | [https://www.theatlantic.com/technology/2026/10/ai-agent-chaos-e-commerce/689010/?utm_source=feed](https://www.theatlantic.com/technology/2026/10/ai-agent-chaos-e-commerce/689010/?utm_source=feed) |
 | 2026-10-15 | [https://www.theatlantic.com/ideas/2026/10/ai-new-job-creation/689000/?utm_source=feed](https://www.theatlantic.com/ideas/2026/10/ai-new-job-creation/689000/?utm_source=feed) |
 | 2026-10-15 | [https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html](https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html) |
 | 2026-10-14 | [https://www.nytimes.com/2026/10/14/technology/ai-agents-communication-tech-dinner-party.html](https://www.nytimes.com/2026/10/14/technology/ai-agents-communication-tech-dinner-party.html) |
