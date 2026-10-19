@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-19 | [https://www.newyorker.com/magazine/2026/10/26/computer-chips-are-the-most-magnificent-things-weve-ever-made](https://www.newyorker.com/magazine/2026/10/26/computer-chips-are-the-most-magnificent-things-weve-ever-made) |
+| 2026-10-19 | [https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/](https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/) |
+| 2026-10-19 | [https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/](https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/) |
+| 2026-10-19 | [https://www.understandingai.org/p/ai-is-ushering-in-an-age-personal](https://www.understandingai.org/p/ai-is-ushering-in-an-age-personal) |
 | 2026-10-16 | [https://www.theatlantic.com/technology/2026/10/ai-agent-chaos-e-commerce/689010/?utm_source=feed](https://www.theatlantic.com/technology/2026/10/ai-agent-chaos-e-commerce/689010/?utm_source=feed) |
 | 2026-10-15 | [https://www.theatlantic.com/ideas/2026/10/ai-new-job-creation/689000/?utm_source=feed](https://www.theatlantic.com/ideas/2026/10/ai-new-job-creation/689000/?utm_source=feed) |
 | 2026-10-15 | [https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html](https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html) |
