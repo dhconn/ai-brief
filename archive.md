@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-20 | [https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/](https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/) |
+| 2026-10-20 | [https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/](https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/) |
+| 2026-10-20 | [https://www.nytimes.com/2026/10/19/technology/saudis-aided-family-openai-engineer.html](https://www.nytimes.com/2026/10/19/technology/saudis-aided-family-openai-engineer.html) |
+| 2026-10-20 | [https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/](https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/) |
 | 2026-10-19 | [https://www.newyorker.com/magazine/2026/10/26/computer-chips-are-the-most-magnificent-things-weve-ever-made](https://www.newyorker.com/magazine/2026/10/26/computer-chips-are-the-most-magnificent-things-weve-ever-made) |
 | 2026-10-19 | [https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/](https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/) |
 | 2026-10-19 | [https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/](https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/) |
