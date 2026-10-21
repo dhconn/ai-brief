@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-21 | [https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html](https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html) |
+| 2026-10-21 | [https://www.nytimes.com/2026/10/21/business/elon-musk-spacex-tesla-merger.html](https://www.nytimes.com/2026/10/21/business/elon-musk-spacex-tesla-merger.html) |
+| 2026-10-21 | [https://www.theatlantic.com/press-releases/2026/10/atlantics-list-50-unforgettable-love-stories/689099/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/10/atlantics-list-50-unforgettable-love-stories/689099/?utm_source=feed) |
+| 2026-10-21 | [https://www.theatlantic.com/technology/2026/10/year-world-turned-data-centers/689081/?utm_source=feed](https://www.theatlantic.com/technology/2026/10/year-world-turned-data-centers/689081/?utm_source=feed) |
 | 2026-10-20 | [https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/](https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/) |
 | 2026-10-20 | [https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/](https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/) |
 | 2026-10-20 | [https://www.nytimes.com/2026/10/19/technology/saudis-aided-family-openai-engineer.html](https://www.nytimes.com/2026/10/19/technology/saudis-aided-family-openai-engineer.html) |
