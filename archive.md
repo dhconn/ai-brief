@@ -2,6 +2,13 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-22 | [https://www.nytimes.com/2026/10/22/technology/ai-data-centers-paint.html](https://www.nytimes.com/2026/10/22/technology/ai-data-centers-paint.html) |
+| 2026-10-22 | [https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/](https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/) |
+| 2026-10-22 | [https://www.nytimes.com/2026/10/22/business/media/ai-disinfo-chatbots-elections.html](https://www.nytimes.com/2026/10/22/business/media/ai-disinfo-chatbots-elections.html) |
+| 2026-10-22 | [https://www.newyorker.com/news/the-new-yorker-interview/gina-hinojosa-thinks-texas-is-different-this-time](https://www.newyorker.com/news/the-new-yorker-interview/gina-hinojosa-thinks-texas-is-different-this-time) |
+| 2026-10-22 | [https://www.nytimes.com/2026/10/21/business/gm-ai-electric-vehicles-china.html](https://www.nytimes.com/2026/10/21/business/gm-ai-electric-vehicles-china.html) |
+| 2026-10-22 | [https://www.theatlantic.com/technology/2026/10/ai-midterm-election-voters-chatbots/689103/?utm_source=feed](https://www.theatlantic.com/technology/2026/10/ai-midterm-election-voters-chatbots/689103/?utm_source=feed) |
+| 2026-10-22 | [https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/](https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/) |
 | 2026-10-21 | [https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html](https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html) |
 | 2026-10-21 | [https://www.nytimes.com/2026/10/21/business/elon-musk-spacex-tesla-merger.html](https://www.nytimes.com/2026/10/21/business/elon-musk-spacex-tesla-merger.html) |
 | 2026-10-21 | [https://www.theatlantic.com/press-releases/2026/10/atlantics-list-50-unforgettable-love-stories/689099/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/10/atlantics-list-50-unforgettable-love-stories/689099/?utm_source=feed) |
