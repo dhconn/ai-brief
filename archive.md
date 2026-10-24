@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-24 | [https://www.nytimes.com/2026/10/23/business/energy-environment/ohio-election-gas-prices.html](https://www.nytimes.com/2026/10/23/business/energy-environment/ohio-election-gas-prices.html) |
 | 2026-10-23 | [https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/](https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/) |
 | 2026-10-23 | [https://www.nytimes.com/2026/10/21/technology/anthropic-ai-agent-claude-duet.html](https://www.nytimes.com/2026/10/21/technology/anthropic-ai-agent-claude-duet.html) |
 | 2026-10-22 | [https://www.nytimes.com/2026/10/22/technology/ai-data-centers-paint.html](https://www.nytimes.com/2026/10/22/technology/ai-data-centers-paint.html) |
