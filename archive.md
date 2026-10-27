@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-27 | [https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html](https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html) |
+| 2026-10-27 | [https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html](https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html) |
+| 2026-10-27 | [https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html](https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html) |
+| 2026-10-27 | [https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/](https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/) |
 | 2026-10-26 | [https://www.nytimes.com/2026/10/25/technology/personaltech/openai-dots-meta-muse-killer-tasks.html](https://www.nytimes.com/2026/10/25/technology/personaltech/openai-dots-meta-muse-killer-tasks.html) |
 | 2026-10-26 | [https://www.nytimes.com/2026/10/26/us/politics/darline-graham-data-centers-south-carolina.html](https://www.nytimes.com/2026/10/26/us/politics/darline-graham-data-centers-south-carolina.html) |
 | 2026-10-26 | [https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html](https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html) |
