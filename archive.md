@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-28 | [https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html](https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html) |
 | 2026-10-27 | [https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html](https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html) |
 | 2026-10-27 | [https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html](https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html) |
 | 2026-10-27 | [https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html](https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html) |
