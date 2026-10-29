@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-29 | [https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/](https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/) |
+| 2026-10-29 | [https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/](https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/) |
+| 2026-10-29 | [https://www.theatlantic.com/culture/2026/10/political-donation-emails-needy/689205/?utm_source=feed](https://www.theatlantic.com/culture/2026/10/political-donation-emails-needy/689205/?utm_source=feed) |
+| 2026-10-29 | [https://www.nytimes.com/2026/10/28/technology/microsoft-earnings-ai.html](https://www.nytimes.com/2026/10/28/technology/microsoft-earnings-ai.html) |
+| 2026-10-29 | [https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/) |
 | 2026-10-28 | [https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html](https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html) |
 | 2026-10-27 | [https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html](https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html) |
 | 2026-10-27 | [https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html](https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html) |
