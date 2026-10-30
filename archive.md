@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-30 | [https://www.nytimes.com/video/technology/100000011221955/ai-lasers-mosquitoes.html](https://www.nytimes.com/video/technology/100000011221955/ai-lasers-mosquitoes.html) |
+| 2026-10-30 | [https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html](https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html) |
+| 2026-10-30 | [https://www.nytimes.com/2026/10/29/technology/intel-earnings.html](https://www.nytimes.com/2026/10/29/technology/intel-earnings.html) |
 | 2026-10-29 | [https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/](https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/) |
 | 2026-10-29 | [https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/](https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/) |
 | 2026-10-29 | [https://www.theatlantic.com/culture/2026/10/political-donation-emails-needy/689205/?utm_source=feed](https://www.theatlantic.com/culture/2026/10/political-donation-emails-needy/689205/?utm_source=feed) |
