@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-10-31 | [https://www.nytimes.com/2026/10/30/technology/house-democrats-openai-copyright-lawsuit.html](https://www.nytimes.com/2026/10/30/technology/house-democrats-openai-copyright-lawsuit.html) |
+| 2026-10-31 | [https://www.theatlantic.com/ideas/2026/10/ai-data-centers-crowding/689239/?utm_source=feed](https://www.theatlantic.com/ideas/2026/10/ai-data-centers-crowding/689239/?utm_source=feed) |
+| 2026-10-31 | [https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html](https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html) |
 | 2026-10-30 | [https://www.nytimes.com/video/technology/100000011221955/ai-lasers-mosquitoes.html](https://www.nytimes.com/video/technology/100000011221955/ai-lasers-mosquitoes.html) |
 | 2026-10-30 | [https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html](https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html) |
 | 2026-10-30 | [https://www.nytimes.com/2026/10/29/technology/intel-earnings.html](https://www.nytimes.com/2026/10/29/technology/intel-earnings.html) |
