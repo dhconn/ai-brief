@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-02 | [https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/](https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/) |
+| 2026-11-02 | [https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html](https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html) |
+| 2026-11-02 | [https://www.theatlantic.com/technology/2026/11/ai-data-center-spending-economy/689237/?utm_source=feed](https://www.theatlantic.com/technology/2026/11/ai-data-center-spending-economy/689237/?utm_source=feed) |
 | 2026-10-31 | [https://www.nytimes.com/2026/10/30/technology/house-democrats-openai-copyright-lawsuit.html](https://www.nytimes.com/2026/10/30/technology/house-democrats-openai-copyright-lawsuit.html) |
 | 2026-10-31 | [https://www.theatlantic.com/ideas/2026/10/ai-data-centers-crowding/689239/?utm_source=feed](https://www.theatlantic.com/ideas/2026/10/ai-data-centers-crowding/689239/?utm_source=feed) |
 | 2026-10-31 | [https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html](https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html) |
