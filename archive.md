@@ -2,6 +2,10 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-03 | [https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html](https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html) |
+| 2026-11-03 | [https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/](https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/) |
+| 2026-11-03 | [https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/](https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/) |
+| 2026-11-03 | [https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/](https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/) |
 | 2026-11-02 | [https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/](https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/) |
 | 2026-11-02 | [https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html](https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html) |
 | 2026-11-02 | [https://www.theatlantic.com/technology/2026/11/ai-data-center-spending-economy/689237/?utm_source=feed](https://www.theatlantic.com/technology/2026/11/ai-data-center-spending-economy/689237/?utm_source=feed) |
