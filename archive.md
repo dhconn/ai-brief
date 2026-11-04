@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-04 | [https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/](https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/) |
 | 2026-11-03 | [https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html](https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html) |
 | 2026-11-03 | [https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/](https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/) |
 | 2026-11-03 | [https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/](https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/) |
