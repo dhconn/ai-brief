@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-05 | [https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/](https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/) |
+| 2026-11-05 | [https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html](https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html) |
+| 2026-11-05 | [https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html](https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html) |
+| 2026-11-05 | [https://www.nytimes.com/2026/11/05/technology/personaltech/amazon-kindle-colorsoft-review.html](https://www.nytimes.com/2026/11/05/technology/personaltech/amazon-kindle-colorsoft-review.html) |
+| 2026-11-05 | [https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/](https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/) |
+| 2026-11-05 | [https://www.theatlantic.com/technology/2026/11/google-schools-ai-search/689298/?utm_source=feed](https://www.theatlantic.com/technology/2026/11/google-schools-ai-search/689298/?utm_source=feed) |
 | 2026-11-04 | [https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/](https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/) |
 | 2026-11-03 | [https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html](https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html) |
 | 2026-11-03 | [https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/](https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/) |
