@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-06 | [https://www.nytimes.com/2026/11/05/technology/openai-data-centers-midterms.html](https://www.nytimes.com/2026/11/05/technology/openai-data-centers-midterms.html) |
+| 2026-11-06 | [https://www.nytimes.com/2026/11/06/technology/microsoft-buyouts.html](https://www.nytimes.com/2026/11/06/technology/microsoft-buyouts.html) |
 | 2026-11-05 | [https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/](https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/) |
 | 2026-11-05 | [https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html](https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html) |
 | 2026-11-05 | [https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html](https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html) |
