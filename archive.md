@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-09 | [https://www.theatlantic.com/press-releases/2026/11/atlantics-december-cover-the-geo-located-generation/689333/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/11/atlantics-december-cover-the-geo-located-generation/689333/?utm_source=feed) |
+| 2026-11-09 | [https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/](https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/) |
+| 2026-11-09 | [https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/](https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/) |
+| 2026-11-09 | [https://www.theatlantic.com/science/2026/11/electric-vehicle-battery-reuse/689326/?utm_source=feed](https://www.theatlantic.com/science/2026/11/electric-vehicle-battery-reuse/689326/?utm_source=feed) |
+| 2026-11-09 | [https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/](https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/) |
 | 2026-11-07 | [https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/](https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/) |
 | 2026-11-07 | [https://www.nytimes.com/2026/11/06/us/faa-floppy-disks-atc-2028.html](https://www.nytimes.com/2026/11/06/us/faa-floppy-disks-atc-2028.html) |
 | 2026-11-06 | [https://www.nytimes.com/2026/11/05/technology/openai-data-centers-midterms.html](https://www.nytimes.com/2026/11/05/technology/openai-data-centers-midterms.html) |
