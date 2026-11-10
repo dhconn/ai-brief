@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-10 | [https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-valuation-share-price.html](https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-valuation-share-price.html) |
+| 2026-11-10 | [https://www.theatlantic.com/magazine/2026/12/hallmark-christmas-movie-actor/689028/?utm_source=feed](https://www.theatlantic.com/magazine/2026/12/hallmark-christmas-movie-actor/689028/?utm_source=feed) |
+| 2026-11-10 | [https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/](https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/) |
+| 2026-11-10 | [https://www.noemamag.com/when-ais-become-unruly-swarms](https://www.noemamag.com/when-ais-become-unruly-swarms) |
+| 2026-11-10 | [https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/](https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/) |
 | 2026-11-09 | [https://www.theatlantic.com/press-releases/2026/11/atlantics-december-cover-the-geo-located-generation/689333/?utm_source=feed](https://www.theatlantic.com/press-releases/2026/11/atlantics-december-cover-the-geo-located-generation/689333/?utm_source=feed) |
 | 2026-11-09 | [https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/](https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/) |
 | 2026-11-09 | [https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/](https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/) |
