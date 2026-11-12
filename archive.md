@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-12 | [https://www.nytimes.com/2026/11/11/business/united-airlines-ai-agents-booking-flights.html](https://www.nytimes.com/2026/11/11/business/united-airlines-ai-agents-booking-flights.html) |
+| 2026-11-12 | [https://www.nytimes.com/2026/11/12/insider/nyt-journalism-ai.html](https://www.nytimes.com/2026/11/12/insider/nyt-journalism-ai.html) |
+| 2026-11-12 | [https://www.nytimes.com/2026/11/12/technology/voters-data-centers-construction.html](https://www.nytimes.com/2026/11/12/technology/voters-data-centers-construction.html) |
 | 2026-11-11 | [https://www.theatlantic.com/newsletters/2026/11/democrats-next-big-ai-challenge/689376/?utm_source=feed](https://www.theatlantic.com/newsletters/2026/11/democrats-next-big-ai-challenge/689376/?utm_source=feed) |
 | 2026-11-11 | [https://www.theatlantic.com/books/2026/11/french-ai-literary-scandal-and-black-writers/689375/?utm_source=feed](https://www.theatlantic.com/books/2026/11/french-ai-literary-scandal-and-black-writers/689375/?utm_source=feed) |
 | 2026-11-10 | [https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-valuation-share-price.html](https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-valuation-share-price.html) |
