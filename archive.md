@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-13 | [https://www.nytimes.com/2026/11/12/technology/huang-ai-policy-washington.html](https://www.nytimes.com/2026/11/12/technology/huang-ai-policy-washington.html) |
+| 2026-11-13 | [https://importai.substack.com/p/import-ai-479-spacewar-low-latency](https://importai.substack.com/p/import-ai-479-spacewar-low-latency) |
+| 2026-11-13 | [https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html](https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html) |
+| 2026-11-13 | [https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html](https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html) |
+| 2026-11-13 | [https://importai.substack.com/p/import-ai-475-swarm-scaling-google](https://importai.substack.com/p/import-ai-475-swarm-scaling-google) |
+| 2026-11-13 | [https://importai.substack.com/p/import-ai-472-deepminds-cheating](https://importai.substack.com/p/import-ai-472-deepminds-cheating) |
 | 2026-11-12 | [https://www.nytimes.com/2026/11/11/business/united-airlines-ai-agents-booking-flights.html](https://www.nytimes.com/2026/11/11/business/united-airlines-ai-agents-booking-flights.html) |
 | 2026-11-12 | [https://www.nytimes.com/2026/11/12/insider/nyt-journalism-ai.html](https://www.nytimes.com/2026/11/12/insider/nyt-journalism-ai.html) |
 | 2026-11-12 | [https://www.nytimes.com/2026/11/12/technology/voters-data-centers-construction.html](https://www.nytimes.com/2026/11/12/technology/voters-data-centers-construction.html) |
