@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-14 | [https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html](https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html) |
 | 2026-11-13 | [https://www.nytimes.com/2026/11/12/technology/huang-ai-policy-washington.html](https://www.nytimes.com/2026/11/12/technology/huang-ai-policy-washington.html) |
 | 2026-11-13 | [https://importai.substack.com/p/import-ai-479-spacewar-low-latency](https://importai.substack.com/p/import-ai-479-spacewar-low-latency) |
 | 2026-11-13 | [https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html](https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html) |
