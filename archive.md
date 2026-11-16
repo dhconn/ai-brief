@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-16 | [https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/](https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/) |
+| 2026-11-16 | [https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html](https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html) |
+| 2026-11-16 | [https://www.nytimes.com/2026/11/16/technology/california-openai-ai-safety.html](https://www.nytimes.com/2026/11/16/technology/california-openai-ai-safety.html) |
+| 2026-11-16 | [https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/](https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/) |
+| 2026-11-16 | [https://www.nytimes.com/2026/11/16/technology/sam-bankman-fried-anthropic.html](https://www.nytimes.com/2026/11/16/technology/sam-bankman-fried-anthropic.html) |
+| 2026-11-16 | [https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/](https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/) |
 | 2026-11-14 | [https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html](https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html) |
 | 2026-11-13 | [https://www.nytimes.com/2026/11/12/technology/huang-ai-policy-washington.html](https://www.nytimes.com/2026/11/12/technology/huang-ai-policy-washington.html) |
 | 2026-11-13 | [https://importai.substack.com/p/import-ai-479-spacewar-low-latency](https://importai.substack.com/p/import-ai-479-spacewar-low-latency) |
