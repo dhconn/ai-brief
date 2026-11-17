@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-17 | [https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/](https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/) |
+| 2026-11-17 | [https://www.understandingai.org/p/i-spoke-to-seven-physics-experts](https://www.understandingai.org/p/i-spoke-to-seven-physics-experts) |
 | 2026-11-16 | [https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/](https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/) |
 | 2026-11-16 | [https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html](https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html) |
 | 2026-11-16 | [https://www.nytimes.com/2026/11/16/technology/california-openai-ai-safety.html](https://www.nytimes.com/2026/11/16/technology/california-openai-ai-safety.html) |
