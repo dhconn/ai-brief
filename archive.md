@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-18 | [https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/](https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/) |
+| 2026-11-18 | [https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html](https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html) |
 | 2026-11-17 | [https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/](https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/) |
 | 2026-11-17 | [https://www.understandingai.org/p/i-spoke-to-seven-physics-experts](https://www.understandingai.org/p/i-spoke-to-seven-physics-experts) |
 | 2026-11-16 | [https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/](https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/) |
