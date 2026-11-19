@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-19 | [https://www.nytimes.com/2026/11/19/business/anthropic-ipo-washington.html](https://www.nytimes.com/2026/11/19/business/anthropic-ipo-washington.html) |
+| 2026-11-19 | [https://www.nytimes.com/2026/11/19/technology/anthropic-2-trillion.html](https://www.nytimes.com/2026/11/19/technology/anthropic-2-trillion.html) |
+| 2026-11-19 | [https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html](https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html) |
 | 2026-11-18 | [https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/](https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/) |
 | 2026-11-18 | [https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html](https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html) |
 | 2026-11-17 | [https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/](https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/) |
