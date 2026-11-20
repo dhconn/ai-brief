@@ -2,6 +2,8 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-20 | [https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html](https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html) |
+| 2026-11-20 | [https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-stock-market.html](https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-stock-market.html) |
 | 2026-11-19 | [https://www.nytimes.com/2026/11/19/business/anthropic-ipo-washington.html](https://www.nytimes.com/2026/11/19/business/anthropic-ipo-washington.html) |
 | 2026-11-19 | [https://www.nytimes.com/2026/11/19/technology/anthropic-2-trillion.html](https://www.nytimes.com/2026/11/19/technology/anthropic-2-trillion.html) |
 | 2026-11-19 | [https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html](https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html) |
