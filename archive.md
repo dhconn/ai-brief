@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-21 | [https://www.newyorker.com/news/the-lede/donald-trumps-crackdown-on-international-students-is-working](https://www.newyorker.com/news/the-lede/donald-trumps-crackdown-on-international-students-is-working) |
+| 2026-11-21 | [https://www.nytimes.com/2026/11/21/science/outages-tech-history.html](https://www.nytimes.com/2026/11/21/science/outages-tech-history.html) |
+| 2026-11-21 | [https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/](https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/) |
 | 2026-11-20 | [https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html](https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html) |
 | 2026-11-20 | [https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-stock-market.html](https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-stock-market.html) |
 | 2026-11-19 | [https://www.nytimes.com/2026/11/19/business/anthropic-ipo-washington.html](https://www.nytimes.com/2026/11/19/business/anthropic-ipo-washington.html) |
