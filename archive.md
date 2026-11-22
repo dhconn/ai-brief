@@ -2,6 +2,7 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-22 | [https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html](https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html) |
 | 2026-11-21 | [https://www.newyorker.com/news/the-lede/donald-trumps-crackdown-on-international-students-is-working](https://www.newyorker.com/news/the-lede/donald-trumps-crackdown-on-international-students-is-working) |
 | 2026-11-21 | [https://www.nytimes.com/2026/11/21/science/outages-tech-history.html](https://www.nytimes.com/2026/11/21/science/outages-tech-history.html) |
 | 2026-11-21 | [https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/](https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/) |
