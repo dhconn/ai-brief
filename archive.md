@@ -2,6 +2,9 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-23 | [https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html](https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html) |
+| 2026-11-23 | [https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html](https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html) |
+| 2026-11-23 | [https://www.understandingai.org/p/the-five-most-important-debates-in](https://www.understandingai.org/p/the-five-most-important-debates-in) |
 | 2026-11-22 | [https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html](https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html) |
 | 2026-11-21 | [https://www.newyorker.com/news/the-lede/donald-trumps-crackdown-on-international-students-is-working](https://www.newyorker.com/news/the-lede/donald-trumps-crackdown-on-international-students-is-working) |
 | 2026-11-21 | [https://www.nytimes.com/2026/11/21/science/outages-tech-history.html](https://www.nytimes.com/2026/11/21/science/outages-tech-history.html) |
