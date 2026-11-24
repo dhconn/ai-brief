@@ -2,6 +2,12 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-24 | [https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/](https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/) |
+| 2026-11-24 | [https://www.theatlantic.com/national-security/2026/11/lutnick-export-control-personal-detail/689562/?utm_source=feed](https://www.theatlantic.com/national-security/2026/11/lutnick-export-control-personal-detail/689562/?utm_source=feed) |
+| 2026-11-24 | [https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/](https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/) |
+| 2026-11-24 | [https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/](https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/) |
+| 2026-11-24 | [https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/](https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/) |
+| 2026-11-24 | [https://www.nytimes.com/2026/11/23/technology/openai-engineer-secret-recordings.html](https://www.nytimes.com/2026/11/23/technology/openai-engineer-secret-recordings.html) |
 | 2026-11-23 | [https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html](https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html) |
 | 2026-11-23 | [https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html](https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html) |
 | 2026-11-23 | [https://www.understandingai.org/p/the-five-most-important-debates-in](https://www.understandingai.org/p/the-five-most-important-debates-in) |
