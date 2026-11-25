@@ -2,6 +2,11 @@
 
 | Date Added | Story URL |
 |:---|:---|
+| 2026-11-25 | [https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/](https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/) |
+| 2026-11-25 | [https://www.theatlantic.com/technology/2026/11/ai-agents-holiday-shopping-muse/689587/?utm_source=feed](https://www.theatlantic.com/technology/2026/11/ai-agents-holiday-shopping-muse/689587/?utm_source=feed) |
+| 2026-11-25 | [https://www.nytimes.com/2026/11/25/technology/thanksgiving-ai-doom-family.html](https://www.nytimes.com/2026/11/25/technology/thanksgiving-ai-doom-family.html) |
+| 2026-11-25 | [https://www.theatlantic.com/ideas/2026/11/nvidia-china-dictators/689577/?utm_source=feed](https://www.theatlantic.com/ideas/2026/11/nvidia-china-dictators/689577/?utm_source=feed) |
+| 2026-11-25 | [https://www.nytimes.com/2026/11/24/us/politics/nvidia-justice-department-todd-blanche.html](https://www.nytimes.com/2026/11/24/us/politics/nvidia-justice-department-todd-blanche.html) |
 | 2026-11-24 | [https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/](https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/) |
 | 2026-11-24 | [https://www.theatlantic.com/national-security/2026/11/lutnick-export-control-personal-detail/689562/?utm_source=feed](https://www.theatlantic.com/national-security/2026/11/lutnick-export-control-personal-detail/689562/?utm_source=feed) |
 | 2026-11-24 | [https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/](https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/) |
